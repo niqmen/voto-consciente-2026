@@ -288,19 +288,43 @@
   ]
 },
   {
-    "id": "p15",
-    "nombre": "Ricardo Belmont",
-    "partido": "Partido Cívico OBRAS",
-    "foto": "",
-    "filtro": "ok",
-    "filtro_nota": "Sin procesos penales activos. DDJJ presentada.",
-    "eliminado": false,
-    "puntajes": { "integ": 55, "econ": 48, "capac": 52, "inst": 48, "segur": 50, "soc": 58 },
-    "encuesta_pct": 1,
-    "encuesta_fuente": "IEP feb 2026",
-    "resumen_html": "<p>Empresario de medios de comunicación y ex alcalde de Lima durante los años 90. Figura conocida por generaciones mayores que busca retornar al espacio político.</p><p><strong>Estado legal:</strong> No registra investigaciones penales activas. Su gestión municipal de los 90s fue objeto de cuestionamientos administrativos que no derivaron en procesos penales formales.</p><p><strong>Contexto:</strong> Candidatura percibida por analistas como testimonial. No logró articular una propuesta diferenciada ni un equipo técnico competitivo. Su nombre reconocible entre electores mayores de 50 años no se traduce en intención de voto significativa en el contexto 2026.</p>",
-    "fuentes": [
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
-    ]
-  }
+  "id": "p15",
+  "nombre": "Ricardo Belmont",
+  "partido": "Partido Cívico OBRAS",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Sin sentencia penal firme vigente. Pero: acusado por 110,000 accionistas de RBC de estafa desde los años 80 — prometió utilidades y trabajo en el canal, acciones perdieron valor durante crisis inflacionaria y nunca pagaron dividendos. Proceso judicial de accionistas activo por más de 30 años por enriquecimiento sin causa. Investigaciones del MP por toma ilegal del canal RBC en 2022 — el PJ revocó la administración que asumió por ilegal. Xenofobia documentada en campaña 2018. Asesor de Pedro Castillo en 2021 (renunció 3 días después). Ingresos declarados al JNE 2026: S/301,514 en aportes de su hermano desde España y donaciones vía Yape — sin ingresos propios declarados.",
+  "eliminado": false,
+  "puntajes": { "integ": 38, "econ": 42, "capac": 48, "inst": 40, "segur": 45, "soc": 50 },
+  "encuesta_pct": 1,
+  "encuesta_fuente": "IEP feb 2026",
+  "resumen_html": "<p>Empresario de medios, conductor de televisión y ex alcalde de Lima (1990-1995). Con 80 años, es el candidato presidencial de mayor edad de estas elecciones — dato que él mismo mencionó en su debate. Tiene décadas de presencia en la política peruana sin lograr llegar a la presidencia.</p><p><strong>⚠ Caso RBC — 110,000 accionistas que se sienten estafados (desde 1986):</strong> En 1986 convocó públicamente a ciudadanos a comprar acciones de su canal de televisión con la promesa de ser parte de 'El Canal del Pueblo', recibir utilidades y tener preferencia de empleo. Unos 70,000-110,000 peruanos invirtieron aproximadamente $2 millones en total. Cuando el canal quebró parcialmente durante la crisis inflacionaria del primer gobierno aprista, Belmont argumentó que las acciones habían perdido su valor. Los accionistas nunca recibieron utilidades ni trabajo. Llevan más de tres décadas en proceso judicial por enriquecimiento sin causa. La Agrupación de Accionistas de RBC agrupa a casi 56,000 personas que aún luchan por una indemnización.</p><p><strong>⚠ Toma ilegal del canal en 2022:</strong> En octubre 2022, Belmont sacó del aire a su hijo Ricardo Belmont Vallarino y a Phillip Butters que administraban la señal, en el contexto de una disputa familiar por el control de RBC. El PJ revocó su administración en enero 2023 por considerar que la toma fue ilegal y perjudicial. La acción generó investigaciones del Ministerio Público.</p><p><strong>Historial político cuestionado:</strong> Fue nombrado asesor presidencial de Pedro Castillo el 18 de octubre de 2021 — renunció 3 días después tras múltiples cuestionamientos. En campaña 2018 realizó discursos xenófobos contra migrantes venezolanos, calificando su presencia como 'un plan para desestabilizar el país'. En 2020 organizó una reunión en playa en desafío a la cuarentena COVID bajo el argumento de oponerse al 'poder gay'.</p><p><strong>DDJJ llamativa:</strong> Para el año fiscal 2024, declaró S/301,514 en ingresos — de los cuales S/168,500 son aportes de su hermano desde España y S/133,014 son donaciones vía Yape y PayPal. No declaró ingresos propios por trabajo ni empresa.</p><p><strong>En el debate dijo:</strong> 'Nosotros en obras pudimos haber metido la pata pero nunca metimos la mano' — reconociendo implícitamente errores de gestión en su alcaldía.</p>",
+  "fuentes": [
+    { "texto": "La Razón — Historia de cómo Belmont levantó RBC con plata del pueblo (oct 2022)", "url": "https://larazon.pe/historia-secreta-de-como-belmont-levanto-un-canal-con-plata-de-pueblo/" },
+    { "texto": "Wikipedia — Ricardo Belmont (historial completo incluyendo accionistas y toma 2022)", "url": "https://es.wikipedia.org/wiki/Ricardo_Belmont" },
+    { "texto": "Infobae — Perfil completo: de alcalde a acusado de estafar accionistas (nov 2024)", "url": "https://www.infobae.com/peru/2024/11/11/ricardo-belmont-de-ser-dueno-de-un-canal-de-television-a-convertirse-en-alcalde-de-lima/" },
+    { "texto": "Infobae — Perfil y hoja de vida para elecciones 2026 (feb 2026)", "url": "https://www.infobae.com/peru/2026/02/04/ricardo-belmont-en-carrera-electoral-perfil-completo-del-candidato-presidencial-del-partido-civico-obras/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p16",
+  "nombre": "Fernando Olivera",
+  "partido": "Frente de la Esperanza",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Investigación preliminar del Equipo Especial Lava Jato (ago 2019) por tráfico de influencias y lavado de activos — intervino a favor de Odebrecht para levantar observaciones de la Contraloría al contrato de la Interoceánica Sur (2005). El propio Olivera admitió públicamente haber intervenido ante el Contralor. En 2023 presentó excepción de improcedencia de acción. Sin sentencia firme. Cartas falsas al Vaticano (2001): admitió ante juez haber llevado cartas apócrifas para desprestigiar al Cardenal Cipriani — caso archivado por insuficiencia de pruebas penales pero hecho admitido.",
+  "eliminado": false,
+  "puntajes": { "integ": 42, "econ": 52, "capac": 58, "inst": 50, "segur": 55, "soc": 52 },
+  "encuesta_pct": 2,
+  "encuesta_fuente": "IEP mar 2026",
+  "resumen_html": "<p>Administrador de empresas y abogado, ex diputado, ex ministro de Justicia, ex embajador en España y ex canciller (por 36 horas) durante el gobierno de Alejandro Toledo. Candidato presidencial recurrente — se postula en 2026 con su partido Frente de la Esperanza bajo el símbolo de la escoba. Conocido por su estilo confrontacional en debates.</p><p><strong>⚠ Investigación Lava Jato — tráfico de influencias y lavado (ago 2019):</strong> El Equipo Especial Lava Jato abrió investigación preliminar contra Olivera por su presunta intervención a favor de Odebrecht para que se adjudique la obra de la Interoceánica Sur durante el gobierno de Toledo. La base del caso es una declaración del propio Olivera en 2005: 'el 4 de agosto, cuando se iba a firmar el contrato, el contralor (Matute) mandó otro oficio diciendo que no se podía porque los contratistas tenían juicios abiertos con el Estado, y de nuevo ¿quién estaba allí para contribuir a resolver el problema? Fernando Olivera'. El exministro admitió ante medios haber intervenido directamente para levantar las observaciones. Los delitos investigados son tráfico de influencias y lavado de activos. En 2023 presentó recurso de excepción de improcedencia de acción. Sin sentencia firme.</p><p><strong>⚠ Cartas falsas al Vaticano (2001) — admitido ante el juez:</strong> Como ministro de Justicia de Toledo, viajó al Vaticano en octubre de 2001 llevando tres cartas apócrifas que buscaban vincular al Cardenal Juan Luis Cipriani y al Nuncio Apostólico con Vladimiro Montesinos. El Cardenal Cipriani confirmó públicamente la falsedad de las cartas. Olivera admitió ante el Segundo Juzgado Penal de Lima haber llevado las misivas. El Arzobispado de Lima declaró que 'hasta el día de hoy no se conoce quiénes fueron los responsables'. El caso fue archivado por insuficiencia de pruebas penales. El Cardenal Cipriani declaró: 'están perdonados, pero la parte legal quedó en nada como tantas cosas en este país'.</p><p><strong>Liberación de senderista por negligencia (2003):</strong> Como embajador en España, gestionó la extradición de Adolfo Olaechea, vocero de Sendero Luminoso en el extranjero. Olaechea fue liberado en Perú por irregularidades en la gestión de la extradición que estaba a cargo de Olivera, lo que le valió críticas por negligencia.</p><p><strong>'Popy el Breve' (2005):</strong> Duró 36 horas como ministro de Relaciones Exteriores. Al ser nombrado por Toledo, el entonces premier Carlos Ferrero renunció inmediatamente porque no lo quería en el gabinete, arrastrando la renuncia de todo el consejo de ministros incluyendo al propio Olivera.</p><p><strong>Golpe a periodista (2005):</strong> Siendo embajador en España, golpeó con la puerta de su vehículo a una periodista de CPN Radio que intentaba formularle preguntas. Se disculpó pero argumentó que 'invadieron propiedad privada'.</p><p><strong>Contexto 2026:</strong> En el debate presidencial acusó a César Acuña de liderar una 'organización criminal' vinculada a los narcos Sánchez Paredes. Acuña presentó querella por difamación exigiendo S/20 millones. Olivera dijo que no se retractará. Los apristas lo atacaron físicamente en el segundo debate — incidente condenado por el Tribunal de Honor del JNE.</p>",
+  "fuentes": [
+    { "texto": "LP Derecho — Investigación Lava Jato por Interoceánica Sur (jun 2019, con cita directa de Olivera)", "url": "https://lpderecho.pe/fiscalia-investigacion-preliminar-contra-fernando-olivera/" },
+    { "texto": "Wikipedia — Fernando Olivera (cartas falsas, liberación senderista, Odebrecht)", "url": "https://es.wikipedia.org/wiki/Fernando_Olivera" },
+    { "texto": "ACI Prensa — Arzobispado confirma cartas falsas y que nunca se aclaró responsabilidad", "url": "https://www.aciprensa.com/noticias/37708/arzobispado-de-lima-precisa-a-toledo-nunca-se-aclaro-quien-fue-responsable-de-cartas-falsas" },
+    { "texto": "Panamericana — Fiscalía exculpó a investigados por cartas falsas (caso archivado)", "url": "https://panamericana.pe/politica/12024" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+}
 ]
