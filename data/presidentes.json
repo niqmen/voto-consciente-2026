@@ -348,5 +348,24 @@
     { "texto": "Infobae — Firmas falsas en inscripción del partido, investigación del MP (may 2025)", "url": "https://www.infobae.com/peru/2025/05/16/marisol-perez-tello-lleva-a-fiscalia-caso-de-firmas-falsas-en-primero-la-gente-y-acusa-a-reniec-de-negligencia/" },
     { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
   ]
+},
+  {
+  "id": "p18",
+  "nombre": "Rafael Belaunde Llosa",
+  "partido": "Libertad Popular",
+  "foto": "",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales ni investigaciones fiscales propias activas. Cuestionamiento de gestión: conflicto de interés documentado al asumir el MINEM en 2020 (era gerente de subsidiaria de Volcan y representante legal de empresa minera familiar con concesiones ante el INGEMMET). Dijo haber renunciado a todos los cargos al asumir. Sin proceso penal por esto.",
+  "eliminado": false,
+  "puntajes": { "integ": 58, "econ": 70, "capac": 55, "inst": 65, "segur": 60, "soc": 50 },
+  "encuesta_pct": 1,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Economista, nieto del dos veces presidente Fernando Belaúnde Terry. Fue ministro de Energía y Minas por solo 22 días (jul-ago 2020, gobierno Vizcarra) hasta que el Congreso negó el voto de confianza al gabinete Cateriano. Fundó Libertad Popular en 2022 con Pedro Cateriano.</p><p><strong>Conflicto de interés al asumir ministerio:</strong> Convoca.pe y el exviceministro José de Echave documentaron que al momento de jurar como ministro del MINEM, Belaunde era gerente general de Remediadora Ambiental SAC (subsidiaria de Volcan), representante legal de Compañía Minera Argento SRL (empresa familiar), y tenía concesiones mineras propias tramitadas ante el INGEMMET — organismo dependiente del ministerio que acababa de asumir. Calificado por especialistas como caso de 'puerta giratoria'. Belaunde afirmó haber renunciado a todos los cargos al asumir. No hay proceso penal por esto.</p><p><strong>Atentado cuestionado (dic 2025):</strong> Fue baleado en Cerro Azul. No hay registro fílmico del hecho. La selfie post-atentado con pequeñas manchas de sangre generó sospechas públicas. La investigación policial determinó como hipótesis principal la violencia del sector construcción por disputas en sus empresas inmobiliarias.</p><p><strong>Perfil y propuesta:</strong> Liberal, pro-minería formal, anti-Reinfo, anti-minería ilegal. Apoyó a Keiko Fujimori en segunda vuelta 2021. Propuestas técnicas bien articuladas en minería y seguridad. Candidatura marginal en encuestas.</p>",
+  "fuentes": [
+    { "texto": "Convoca.pe — Conflicto de interés y 'puerta giratoria' al asumir MINEM (jul 2020)", "url": "https://convoca.pe/agenda-propia/exviceministro-de-echave-afirma-que-nexos-del-ministro-rafael-belaunde-con-mineras" },
+    { "texto": "RPP — Atentado en Cerro Azul: investigación apunta al sector construcción (ene 2026)", "url": "https://rpp.pe/politica/elecciones/rafael-belaunde-investigacion-asegura-que-ataque-ocurrido-en-cerro-azul-estaria-vinculado-al-sector-construccion-noticia-1671707" },
+    { "texto": "Wikipedia — Rafael Belaúnde Llosa", "url": "https://es.wikipedia.org/wiki/Rafael_Bela%C3%BAnde_Llosa" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
 }
 ]
