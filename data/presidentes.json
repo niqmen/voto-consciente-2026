@@ -246,22 +246,25 @@
   ]
 },
   {
-    "id": "p13",
-    "nombre": "Fiorella Molinelli",
-    "partido": "Alianza Fuerza y Libertad",
-    "foto": "",
-    "filtro": "ok",
-    "filtro_nota": "Sin procesos penales conocidos. Ex ministra con trayectoria verificable. DDJJ presentada.",
-    "eliminado": false,
-    "puntajes": { "integ": 65, "econ": 60, "capac": 62, "inst": 60, "segur": 52, "soc": 60 },
-    "encuesta_pct": 1,
-    "encuesta_fuente": "IEP feb 2026",
-    "resumen_html": "<p>Médica especialista en salud pública, fue ministra de Salud durante el gobierno de Martín Vizcarra. Candidata de centro-derecha con perfil técnico en políticas de salud.</p><p><strong>Estado legal:</strong> No registra investigaciones penales ni sanciones. Declaración jurada coherente con perfil profesional-médico.</p><p><strong>Gestión ministerial:</strong> Su período al frente del MINSA fue previo a la pandemia de COVID-19. Gestión calificada como técnica y estable por especialistas del sector, sin escándalos de corrupción.</p><p><strong>Candidatura:</strong> Lidera una alianza de centro-derecha con escasa infraestructura partisan. Su perfil técnico-médico es un activo en el contexto post-pandemia, pero el bajo perfil mediático limita el alcance electoral.</p>",
-    "fuentes": [
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
-      { "texto": "MINSA — Historial de gestión ministerial", "url": "https://www.gob.pe/minsa" }
-    ]
-  },
+  "id": "p13",
+  "nombre": "Fiorella Molinelli",
+  "partido": "Alianza Fuerza y Libertad",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "3 procesos fiscales activos: (1) Caso EsSalud — investigada por colusión agravada y liderazgo de presunta organización criminal en compras irregulares de S/28.9 millones durante pandemia COVID-19. Vivienda allanada en 2021. PJ dictó 12 meses de impedimento de salida del país. Abogado habría mutilado registro de visitas. (2) Caso Chinchero — PJ ordenó inicio de juicio oral en mar 2026 por adenda firmada como viceministra que generó pérdida de US$100 millones al Estado en arbitraje. (3) Denuncia pendiente en Ica vinculada a EsSalud. Lleva a PPK (afrontando juicio por lavado de activos) como candidato al Senado.",
+  "eliminado": false,
+  "puntajes": { "integ": 38, "econ": 65, "capac": 62, "inst": 50, "segur": 48, "soc": 52 },
+  "encuesta_pct": 1,
+  "encuesta_fuente": "IEP feb 2026",
+  "resumen_html": "<p>Economista, ex ministra de Desarrollo e Inclusión Social (PPK, 2017-2018) y ex presidenta ejecutiva de EsSalud (2018-2021). Candidata presidencial por primera vez. El único partido sin candidatos congreales sentenciados, pero con una candidata presidencial con tres procesos fiscales activos.</p><p><strong>⚠ Caso EsSalud — organización criminal y colusión (el más grave):</strong> En 2021 la Fiscalía Provincial Especializada en Corrupción de Lima la sindicó como líder de una presunta organización criminal en EsSalud. La tesis fiscal: en el contexto de la pandemia COVID-19, funcionarios de EsSalud y SALOG concertaron ilegalmente compras directas por S/28.9 millones en tomógrafos y equipos de protección, generando un perjuicio al Estado de S/18.2 millones. En los registros telefónicos intervenidos, los funcionarios se referían a 'La Tía' como la persona que autorizaba las concertaciones — luego identificada como Molinelli. La PNP y el MP allanaron su vivienda en La Molina y oficinas de EsSalud en febrero 2021. El PJ le dictó 12 meses de impedimento de salida del país por colusión agravada y organización criminal. En una diligencia, su abogado Fernando Ugaz habría mutilado el registro de visitas a su despacho — la fiscal Jhannice Bastidas solicitó la grabación del incidente a la DIVIAC.</p><p><strong>⚠ Caso Chinchero — juicio oral ordenado (mar 2026):</strong> Como viceministra de Transportes firmó en febrero 2017 una adenda al contrato de concesión del Aeropuerto Internacional de Chinchero que permitió al Estado financiar la construcción. La Contraloría encontró que no se ajustaba a la normativa de APPs y recomendó acciones legales contra diez funcionarios incluyéndola. El arbitraje internacional terminó con Perú obligado a pagar US$100 millones a Kuntur Wasi. En marzo 2026, el Poder Judicial ordenó el inicio del juicio oral. Molinelli dice haber obtenido pronunciamientos favorables en la vía administrativa pero el proceso penal sigue su curso.</p><p><strong>⚠ Denuncia pendiente en Ica:</strong> Existe una denuncia adicional relacionada con EsSalud en Ica, en etapa preliminar al momento de la candidatura.</p><p><strong>El Estado le pagó su defensa:</strong> Más de S/280,000 han sido desembolsados por el MTC y EsSalud para pagar su defensa legal — recursos públicos. Si fuera elegida presidenta, las investigaciones quedarían en suspenso mientras ejerce el cargo, según jurisprudencia del TC.</p><p><strong>PPK en su lista al Senado:</strong> Lleva al expresidente Pedro Pablo Kuczynski como candidato al Senado, quien afronta juicio oral por lavado de activos. Molinelli lo defiende y confía en que el caso 'será archivado'.</p>",
+  "fuentes": [
+    { "texto": "El Comercio — 3 procesos fiscales activos: investigación a fondo (dic 2025)", "url": "https://elcomercio.pe/politica/candidata-fiorella-molinelli-acumula-tres-procesos-fiscales-esta-es-la-realidad-de-su-historial-de-denuncias-elecciones-2026-noticia/" },
+    { "texto": "Infobae — PJ dicta 12 meses de impedimento de salida del país (feb 2022)", "url": "https://www.infobae.com/america/peru/2022/02/09/poder-judicial-dicta-12-meses-de-impedimento-de-salida-del-pais-contra-fiorella-molinelli/" },
+    { "texto": "Wikipedia — Fiorella Molinelli (Caso Chinchero y EsSalud)", "url": "https://es.wikipedia.org/wiki/Fiorella_Molinelli" },
+    { "texto": "Diario Correo — Entrevista: Molinelli defiende gestión EsSalud y Caso Chinchero (ene 2026)", "url": "https://diariocorreo.pe/politica/fiorella-molinelli-christian-cueva-fue-parte-de-una-estrategia-para-que-se-recuerde-el-nombre-del-partido-noticia/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
   {
     "id": "p14",
     "nombre": "Yonhy Lescano",
