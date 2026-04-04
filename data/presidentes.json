@@ -169,22 +169,24 @@
   ]
 },
   {
-    "id": "p09",
-    "nombre": "George Forsyth",
-    "partido": "Somos Perú",
-    "foto": "",
-    "filtro": "ok",
-    "filtro_nota": "Sin procesos penales activos. DDJJ presentada y coherente.",
-    "eliminado": false,
-    "puntajes": { "integ": 60, "econ": 52, "capac": 55, "inst": 55, "segur": 60, "soc": 58 },
-    "encuesta_pct": 1,
-    "encuesta_fuente": "IEP feb 2026",
-    "resumen_html": "<p>Ex arquero profesional de fútbol, fue alcalde del distrito de La Victoria (Lima) entre 2019 y 2022, período donde ejecutó obras de seguridad ciudadana con metodología de gobierno localizado.</p><p><strong>Estado legal:</strong> No registra investigaciones penales ni sanciones electorales. Declaración jurada coherente.</p><p><strong>Contexto electoral:</strong> Llegó con altas expectativas al campo presidencial tras su popularidad como alcalde. No logró consolidar un equipo técnico ni una propuesta presidencial sólida. Su caída desde posiciones altas en encuestas de 2024-2025 hasta menos del 2% en 2026 refleja la dificultad de escalar el perfil de alcalde de distrito a candidato presidencial.</p>",
-    "fuentes": [
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
-      { "texto": "Municipalidad de La Victoria — Gestión 2019-2022", "url": "https://www.munilavictoria.gob.pe" }
-    ]
-  },
+  "id": "p09",
+  "nombre": "George Forsyth",
+  "partido": "Somos Perú",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Investigación preparatoria activa por colusión agravada y negociación incompatible — gestión como alcalde de La Victoria. PJ amplió el plazo hasta mayo 2026 con 13 co-investigados. Investigación previa por contratar a su socio y amigo Renzo Navarro (sin experiencia ni estudios concluidos) con S/107,000 de fondos municipales. Sin sentencia firme. Dato falso en debate: afirmó '80% del sicariato y extorsión se ordena desde las cárceles' — PerúCheck verificó que la cifra real es 0.1%.",
+  "eliminado": false,
+  "puntajes": { "integ": 48, "econ": 50, "capac": 50, "inst": 48, "segur": 55, "soc": 52 },
+  "encuesta_pct": 1,
+  "encuesta_fuente": "IEP feb 2026",
+  "resumen_html": "<p>Ex arquero profesional de Alianza Lima, fue alcalde del distrito de La Victoria entre 2018 y 2022, donde ejecutó obras de seguridad ciudadana con metodología de gobierno localizado. Renunció a la alcaldía para postular a la presidencia en 2021 — decisión que reconoció como 'un error' en 2022 y prometió no volver a repetir. En 2026, vuelve a postular.</p><p><strong>⚠ Investigación preparatoria activa — colusión agravada (hasta mayo 2026):</strong> La Segunda Fiscalía Provincial Corporativa Especializada en Delitos de Corrupción de Lima Centro formalizó investigación preparatoria contra Forsyth y otras 13 personas por presunta colusión agravada y negociación incompatible durante su gestión como alcalde de La Victoria. El PJ declaró el caso complejo y amplió el plazo de investigación hasta el 21 de mayo de 2026. La tesis fiscal incluye la designación de una funcionaria sin especialidad en contrataciones para la Subgerencia correspondiente, y el presunto favorecimiento a empresas relacionadas con una misma familia.</p><p><strong>⚠ Investigación previa — contratos a su amigo sin experiencia:</strong> La Fiscalía Anticorrupción también investigó a Forsyth por haber contratado a su socio y amigo Renzo Navarro con S/107,000 de fondos municipales para servicios de gestión, administración y comunicación — pese a que Navarro no tenía experiencia en el sector público ni estudios concluidos. Ambos eran cofundadores de la empresa GRT Seguridad y Control.</p><p><strong>Dato falso en debate presidencial:</strong> En el debate del JNE de marzo 2026, Forsyth afirmó que 'el 80% del sicariato y la extorsión son ordenados desde las cárceles'. PerúCheck (La República) verificó que la cifra es falsa: según el INPE, en 2023 solo 21 de 19,305 denuncias por extorsión a nivel nacional provino de llamadas desde penales — representando el 0.1%, no el 80%.</p><p><strong>Partido cuestionado:</strong> Somos Perú tiene entre sus filas al entonces presidente José María Balcázar — quien acumula 13 carpetas fiscales propias y fue acusado de plagiar la tesis de su hijo. Forsyth ha tomado distancia pública de Balcázar calificando al Congreso de 'mafioso'.</p>",
+  "fuentes": [
+    { "texto": "El Comercio — PJ amplía investigación por colusión hasta mayo 2026 (dic 2025)", "url": "https://elcomercio.pe/politica/george-forsyth-los-detalles-de-la-decision-del-poder-judicial-que-amplio-la-investigacion-en-su-contra-por-presunta-corrupcion-tlcnota-noticia/" },
+    { "texto": "Willax — Investigación por contratos a su amigo Navarro con fondos municipales", "url": "https://willax.pe/politica/george-forsyth-por-que-la-fiscalia-abrio-investigacion-contra-el-candidato-a-lima-de-somos-peru" },
+    { "texto": "La República — PerúCheck: falso que el 80% de extorsión viene de cárceles (mar 2026)", "url": "https://larepublica.pe/verificador/2026/03/18/el-80-del-sicariato-y-la-extorsion-no-sale-de-las-carceles-como-dijo-george-forsyth-311112" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
   {
     "id": "p10",
     "nombre": "José Luna Gálvez",
@@ -266,22 +268,25 @@
   ]
 },
   {
-    "id": "p14",
-    "nombre": "Yonhy Lescano",
-    "partido": "Cooperación Popular",
-    "foto": "",
-    "filtro": "ok",
-    "filtro_nota": "Sin sentencia penal firme. Acusaciones de hostigamiento laboral investigadas por Comisión de Ética del Congreso. Sin condena formal.",
-    "eliminado": false,
-    "puntajes": { "integ": 52, "econ": 50, "capac": 58, "inst": 52, "segur": 48, "soc": 65 },
-    "encuesta_pct": 2,
-    "encuesta_fuente": "IEP ene 2026",
-    "resumen_html": "<p>Ex congresista de Acción Popular con larga trayectoria parlamentaria. Candidato presidencial en 2021 donde obtuvo resultados menores a los esperados pese a llegar a la recta final en encuestas.</p><p><strong>Antecedente ético documentado:</strong> Durante su período como congresista fue denunciado por trabajadoras de su despacho por hostigamiento laboral. La Comisión de Ética del Congreso investigó los hechos. El caso generó debate público sobre la cultura de acoso al interior del parlamento peruano y tuvo cobertura mediática significativa.</p><p><strong>Propuesta:</strong> Izquierda moderada-populista con énfasis en agenda social, pensiones y acceso a servicios básicos. Electorado fiel concentrado en zonas rurales y sierra central.</p>",
-    "fuentes": [
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
-      { "texto": "Congreso — Comisión de Ética (actas y resoluciones)", "url": "https://www.congreso.gob.pe" }
-    ]
-  },
+  "id": "p14",
+  "nombre": "Yonhy Lescano",
+  "partido": "Cooperación Popular",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Denunciado en 2019 por acoso sexual por periodista María del Pilar Rivera — chats de WhatsApp con contenido sexual explícito publicados por múltiples medios. Caso archivado en feb 2020 por fiscal transitorio que reemplazó a la titular que pedía ampliar la investigación — el juez que rechazó su demanda de difamación aclaró que el archivo NO significa que el delito no existió. Versiones cambiantes: culpó a su seguridad, luego a 'manipulación del celular', luego encargó peritaje en Chile de una foto en redes (no del celular original). Ojo Público documentó que mintió sobre las razones del archivo. Sin sentencia penal firme.",
+  "eliminado": false,
+  "puntajes": { "integ": 40, "econ": 48, "capac": 58, "inst": 52, "segur": 45, "soc": 60 },
+  "encuesta_pct": 2,
+  "encuesta_fuente": "IEP ene 2026",
+  "resumen_html": "<p>Abogado y político puneño, ex congresista por cuatro períodos consecutivos (Acción Popular), candidato presidencial en 2021 donde llegó a la recta final en encuestas. Uno de los políticos con más trayectoria legislativa del campo actual. Postula con Cooperación Popular bajo el lema 'Verdad y Honradez'.</p><p><strong>⚠ Denuncia de acoso sexual — el caso más documentado:</strong> En febrero de 2019, la periodista María del Pilar Rivera denunció al entonces congresista Lescano por acoso sexual. Múltiples medios publicaron los chats de WhatsApp: mensajes a la medianoche preguntando '¿estás sola?', '¿cómo va esa delantera?', 'muéstramelas para ver si es cierto', y otros de contenido sexual explícito. La periodista respondió: 'Suficiente. Me está faltando al respeto. Pensé que era un hombre serio.' El procurador del Congreso envió el caso a la Fiscalía de la Nación. La Comisión de Ética del Congreso investigó. Acción Popular respaldó las investigaciones.</p><p><strong>Versiones cambiantes de Lescano:</strong> (1) Inicialmente: su seguridad tomó el celular y envió los mensajes. (2) Luego: el celular fue 'manipulado por otras personas'. (3) Luego: los chats son falsos — encargó peritaje en Chile, pero sobre una foto en redes sociales, no sobre el celular original de la denunciante. (4) Finalmente usó el archivo fiscal como 'prueba de inocencia' en campaña — mintiendo sobre las razones del archivo.</p><p><strong>Archivo fiscal cuestionado (feb 2020):</strong> La fiscal Katherina Borrero venía investigando el caso desde marzo 2019 y a inicios de 2020 había pedido ampliar la investigación. En sus vacaciones de febrero 2020, el fiscal transitorio Henry De la Cruz Marcelo archivó el caso en días — sin seguir la línea de investigación de su antecesora. La denunciante se quedó sin abogado por falta de recursos y no pudo impugnar a tiempo (el plazo coincidió con el inicio de la cuarentena COVID).</p><p><strong>El juez rechazó su demanda por difamación (sep 2022):</strong> Lescano demandó por difamación a la periodista por seguir hablando del caso tras el archivo. El juez Jonathan Pacherrez declaró que NO hubo difamación y aclaró expresamente que el archivo de la denuncia 'no quiere decir que el delito no haya existido' — y que los congresistas 'deben ser sometidos al juzgamiento de la ética y la moral pública'. La denunciante dijo en 2025: 'Señor Lescano, tenga un poquito de vergüenza. Yo tengo que encontrar justicia.'</p><p><strong>Contexto partidario:</strong> Postula con Cooperación Popular, cuyo secretario general Carlos Zeballos fue incluido por la Fiscalía en solicitud de levantamiento de secreto bancario en el caso 'Los Niños'. Lescano alega no tener vínculo con ese caso pero eligió a este partido como plataforma.</p>",
+  "fuentes": [
+    { "texto": "Ojo Público — Las mentiras detrás del archivo de la denuncia (mar 2021)", "url": "https://ojo-publico.com/politica/elecciones-2021/las-mentiras-detras-del-archivo-la-denuncia-acoso-contra-lescano" },
+    { "texto": "Infobae — Juez concluye que no difamaron a Lescano pero archivarlo no significa inocencia (sep 2022)", "url": "https://www.infobae.com/america/peru/2022/09/29/caso-de-acoso-sexual-juez-concluye-que-no-difamaron-a-yonhy-lescano-con-denuncia/" },
+    { "texto": "RPP — Chats de WhatsApp completos publicados (mar 2019)", "url": "https://rpp.pe/politica/congreso/yonhy-lescano-se-filtran-nuevos-chats-del-presunto-acoso-sexual-a-periodista-video-noticia-1183697" },
+    { "texto": "Willax — Periodista ratifica denuncia en 2025: mensajes no son falsos", "url": "https://willax.pe/inicio/periodista-que-denuncio-a-yonhy-lescano-de-acoso-sexual-los-mensajes-por-whatsapp-no-son-falsos" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
   {
     "id": "p15",
     "nombre": "Ricardo Belmont",
