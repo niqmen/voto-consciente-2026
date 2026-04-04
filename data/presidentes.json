@@ -188,24 +188,26 @@
   ]
 },
   {
-    "id": "p10",
-    "nombre": "José Luna Gálvez",
-    "partido": "Podemos Perú",
-    "foto": "",
-    "filtro": "warn",
-    "filtro_nota": "Investigado por el Ministerio Público por presunto lavado de activos vinculado a su empresa universitaria TELESUP. Sin sentencia firme al momento de la candidatura.",
-    "eliminado": false,
-    "puntajes": { "integ": 32, "econ": 50, "capac": 55, "inst": 30, "segur": 45, "soc": 48 },
-    "encuesta_pct": 1,
-    "encuesta_fuente": "CPI mar 2026",
-    "resumen_html": "<p>Empresario del sector educativo (TELESUP) y ex congresista. Fundador de Podemos Perú, partido con representación parlamentaria en el período 2021-2026.</p><p><strong>⚠ Investigación fiscal activa:</strong> El Ministerio Público lo investiga por presunto lavado de activos vinculado a su empresa universitaria TELESUP y posibles irregularidades en contratos con el Estado. La investigación está activa pero no ha llegado a juicio oral al momento de la candidatura.</p><p><strong>Conflictos de interés legislativos:</strong> Como congresista fue cuestionado por presentar proyectos que beneficiaban directamente al sector educativo privado donde tiene intereses económicos, hecho documentado por organizaciones de transparencia como Ojo Público.</p><p><strong>Caso TELESUP:</strong> Su universidad fue intervenida y posteriormente cerrada por la SUNEDU por incumplimiento reiterado de estándares mínimos de calidad educativa, afectando a miles de estudiantes.</p>",
-    "fuentes": [
-      { "texto": "Ministerio Público — Portal de consulta de casos", "url": "https://www.mpfn.gob.pe" },
-      { "texto": "SUNEDU — Caso TELESUP (denegación de licencia)", "url": "https://www.sunedu.gob.pe" },
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
-      { "texto": "Ojo Público — Conflictos de interés en el Congreso", "url": "https://ojo-publico.com" }
-    ]
-  },
+  "id": "p10",
+  "nombre": "José Luna Gálvez",
+  "partido": "Podemos Perú",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Fiscalía pide 22 años y 8 meses de prisión por organización criminal, cohecho activo y pasivo, tráfico de influencias y enriquecimiento ilícito — caso inscripción irregular de Podemos Perú (2017-2018), involucra a 18 personas más incluyendo su hijo. Telesup usada para lavar dinero de Odebrecht destinado a campañas de Castañeda Lossio: 21 cheques por S/256,600 (2011-2016) — UIF calificó las operaciones como sospechosas. PJ levantó secreto bancario por 16 años (2009-2025) en proceso de extinción de dominio. Tres investigaciones anuladas en abr 2025 por juez en solo 2 meses — generó indignación del MP. Tuvo detención domiciliaria (dic 2020 - jul 2021). Telesup clausurada por SUNEDU.",
+  "eliminado": false,
+  "puntajes": { "integ": 25, "econ": 48, "capac": 52, "inst": 22, "segur": 40, "soc": 42 },
+  "encuesta_pct": 3,
+  "encuesta_fuente": "Ipsos mar 2026",
+  "resumen_html": "<p>Empresario del sector educativo, fundador de la desaparecida Universidad Privada Telesup (clausurada por SUNEDU) y del partido Podemos Perú. Congresista en funciones y candidato presidencial. Uno de los perfiles con mayor carga judicial de este proceso electoral.</p><p><strong>🚫 Fiscalía pide 22 años y 8 meses de prisión:</strong> El Ministerio Público formuló acusación formal pidiendo 22 años y 8 meses de cárcel por los presuntos delitos de organización criminal, cohecho activo y pasivo específico, tráfico de influencias y enriquecimiento ilícito. La tesis fiscal: en 2017-2018, Luna Gálvez habría sobornado a miembros del entonces Consejo Nacional de la Magistratura (CNM) para lograr la designación de Adolfo Castillo como jefe de la ONPE. Castillo, desde ese cargo, habría permitido la inscripción irregular de Podemos Perú. La acusación involucra a 18 personas adicionales incluyendo su hijo José Luna Morales. El PJ rechazó el pedido de anular este caso — está en camino a juicio oral.</p><p><strong>⚠ Telesup usada como lavandería de dinero de Odebrecht (2011-2016):</strong> La tesis fiscal — respaldada por resoluciones de la Tercera Sala Penal de Apelaciones Nacional — establece que la Universidad Telesup emitió 21 cheques por un total de S/256,600 a favor del exalcalde Luis Castañeda Lossio entre 2011 y 2016, supuestamente para encubrir aportes ilícitos de Odebrecht a sus campañas. La Unidad de Inteligencia Financiera (UIF) calificó las operaciones como sospechosas. Luis José Nava Guibert declaró ante la Fiscalía haber presenciado en 2011 una reunión entre Alan García, Castañeda, Jorge Barata (Odebrecht) y Luna Gálvez donde se discutió el financiamiento de la campaña. La Tercera Sala Penal de Apelaciones confirmó en doble instancia la incorporación de Telesup como sujeto pasivo imputado.</p><p><strong>⚠ PJ levantó secreto bancario por 16 años (ene 2026):</strong> El Juzgado Permanente Especializado en Extinción de Dominio autorizó el levantamiento del secreto bancario, reserva tributaria y bursátil de Luna Gálvez y de Telesup por el período 2009-2025. La medida busca rastrear el origen y destino de fondos vinculados a campañas de Castañeda y a aportes de Odebrecht y OAS.</p><p><strong>⚠ Tres investigaciones anuladas por juez en 2 meses — indignación del MP:</strong> En abril 2025, el juez Juan Carlos Núñez Matos anuló tres investigaciones avanzadas contra Luna Gálvez mediante habeas corpus resuelto en solo 2 meses — velocidad inusual que generó indignación del MP. Las investigaciones anuladas: (1) lavado de activos por transferencias de Telesup a Castañeda, (2) pago de S/912,000 a Iván Noguera del CNM via Telesup, (3) cabecilla de organización criminal. El fiscal Mirko Cano declaró que el antejuicio político 'no es un escudo absoluto' y que los delitos investigados no estaban relacionados con su función congresal. La Segunda Sala Constitucional de la Corte Superior tiene pendiente resolver la apelación del MP.</p><p><strong>Detención domiciliaria (dic 2020 - jul 2021):</strong> El PJ ordenó detención domiciliaria en el marco del caso Cuellos Blancos del Puerto. Tuvo que solicitar permiso judicial para recibir su credencial cuando fue electo congresista.</p><p><strong>Telesup clausurada:</strong> La SUNEDU clausuró la Universidad Telesup por no cumplir con los requisitos de licenciamiento, dejando sin carrera a miles de estudiantes.</p>",
+  "fuentes": [
+    { "texto": "El Comercio — PJ rechaza anular caso Podemos Perú, acusación por 22 años avanza (nov 2025)", "url": "https://elcomercio.pe/politica/justicia/jose-luna-galvez-poder-judicial-confirma-incorporacion-de-universidad-telesup-en-investigacion-por-lavado-de-activos-odebrecht-luis-castaneda-lossio-podemos-peru-ultimas-noticia/" },
+    { "texto": "El Comercio — PJ levanta secreto bancario por 16 años, análisis de todos sus procesos (ene 2026)", "url": "https://elcomercio.pe/politica/ordenan-levantar-secreto-bancario-de-jose-luna-galvez-cual-es-el-estado-de-su-proceso-de-extincion-de-dominio-podemos-peru-odebrecht-tlcnota-noticia/" },
+    { "texto": "Infobae — PJ anuló 3 investigaciones en 2 meses: indignación del MP (may 2025)", "url": "https://www.infobae.com/peru/2025/05/26/jose-luna-pj-anula-investigaciones-contra-fundador-de-podemos-y-queda-libre-para-buscar-la-presidencia-en-las-elecciones-2026/" },
+    { "texto": "Infobae — Levantamiento de secreto bancario: detalle del caso Odebrecht-Castañeda (ene 2026)", "url": "https://www.infobae.com/peru/2026/01/30/ordenan-levantar-secreto-bancario-de-jose-luna-las-razones-detras-de-la-medida-contra-el-candidato-de-podemos/" },
+    { "texto": "Gestión — Telesup incorporada como sujeto pasivo en investigación lavado activos", "url": "https://gestion.pe/peru/poder-judicial-confirma-inclusion-de-telesup-en-investigacion-contra-el-congresista-jose-luna-noticia/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
   {
     "id": "p11",
     "nombre": "Vladimir Cerrón",
@@ -324,6 +326,26 @@
     { "texto": "Wikipedia — Fernando Olivera (cartas falsas, liberación senderista, Odebrecht)", "url": "https://es.wikipedia.org/wiki/Fernando_Olivera" },
     { "texto": "ACI Prensa — Arzobispado confirma cartas falsas y que nunca se aclaró responsabilidad", "url": "https://www.aciprensa.com/noticias/37708/arzobispado-de-lima-precisa-a-toledo-nunca-se-aclaro-quien-fue-responsable-de-cartas-falsas" },
     { "texto": "Panamericana — Fiscalía exculpó a investigados por cartas falsas (caso archivado)", "url": "https://panamericana.pe/politica/12024" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p17",
+  "nombre": "Marisol Pérez Tello",
+  "partido": "Primero la Gente",
+  "foto": "",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales firmes ni investigaciones fiscales propias activas al momento de la candidatura — ella misma lo confirmó en el debate y ningún medio ha rebatido el dato con documentación. Sin embargo, su gestión como ministra de Justicia (PPK, 2017) tiene cuestionamientos serios: firmó el DU 003-2017 que permitió a Odebrecht disponer de activos, y destituyó a la procuradora Ampuero cuando esta se negó a aplicarlo. No hay proceso penal por esto pero es un antecedente de gestión relevante. Partido: investigación preliminar del MP por 6,000 firmas falsas en inscripción.",
+  "eliminado": false,
+  "puntajes": { "integ": 68, "econ": 62, "capac": 70, "inst": 72, "segur": 60, "soc": 65 },
+  "encuesta_pct": 1,
+  "encuesta_fuente": "IEP mar 2026",
+  "resumen_html": "<p>Abogada y notaria pública tacneña, ex congresista 2011-2016 (PPC-Alianza Gran Cambio), ex ministra de Justicia y Derechos Humanos 2016-2017 (gobierno PPK). Candidata presidencial por primera vez. Militó 35 años en el PPC antes de renunciar en 2022. Postula desde el centro político con la escoba como símbolo de lucha anticorrupción.</p><p><strong>✓ Sin sentencias ni investigaciones fiscales propias activas:</strong> Es la candidata con mayor carga técnica del campo con más del 1% en encuestas que no registra procesos penales propios activos. Lo afirmó en el debate y sus contendores no pudieron rebatirlo con documentación — solo con ataques políticos no verificados.</p><p><strong>⚠ El flanco del DU 003-2017 — decisión ministerial cuestionada:</strong> En febrero 2017, como ministra de Justicia, firmó el Decreto de Urgencia N°003-2017, una norma que permitió a empresas involucradas en corrupción — incluyendo Odebrecht — disponer de sus activos bajo la condición de depositar la reparación civil en un fideicomiso. La procuradora ad hoc del caso Lava Jato, Katherine Ampuero, se negó a aplicar el decreto alegando que perjudicaba los intereses del Estado al abrir la puerta para que Odebrecht trasladara recursos al exterior. Días después, Pérez Tello destituyó a Ampuero. La norma resultó permitir la venta de la central de Chaglla por Odebrecht en 2019 por US$1,400 millones — transacción muy cuestionada. El exministro Gustavo Adrianzén declaró que 'los problemas entre el Estado y Odebrecht hoy tienen su origen en ese Decreto de Urgencia 003'. No hay proceso penal abierto contra Pérez Tello por este episodio. Ella defiende que la norma fue la única que garantizó cobrar reparaciones y que fue convertida en ley por el Congreso.</p><p><strong>Cuestionamiento de su partido:</strong> En 2025, Punto Final reveló una presunta 'fábrica de firmas' usada por Primero La Gente para su inscripción — aproximadamente 6,000 firmas falsas. La Fiscalía abrió investigación preliminar contra el personero legal del partido. Pérez Tello denunció el hecho ella misma ante el MP y no está implicada personalmente en la investigación. El candidato a diputado Miguel del Castillo renunció por acusaciones de haber desviado S/464,000 de la franja electoral a su canal de TV.</p><p><strong>Patrimonio declarado:</strong> Ingresos anuales S/4.5 millones — provenientes de su ejercicio como notaria pública. 3 inmuebles por S/1.75 millones y 4 vehículos por S/312,000. Patrimonio sólido pero consistente con 26 años de carrera notarial documentada.</p>",
+  "fuentes": [
+    { "texto": "Wikipedia — Marisol Pérez Tello (DU 003-2017 y destitución de Ampuero)", "url": "https://es.wikipedia.org/wiki/Marisol_P%C3%A9rez_Tello" },
+    { "texto": "Infobae — Pérez Tello defiende DU 003 y arremete contra Ampuero (mar 2026)", "url": "https://www.infobae.com/peru/2026/03/29/sin-esa-norma-odebrecht-se-habria-llevado-toda-la-plata-del-peru-marisol-perez-tello-defiende-du-003-y-arremete-contra-katherine-ampuero/" },
+    { "texto": "Lima Gris — DU 003 y venta de Chaglla: el flanco que persigue a Pérez Tello", "url": "https://limagris.com/perez-tello-acusa-corrupcion-pero-niega-su-pasado-firmo-decreto-que-permitio-a-odebrecht-sacar-su-dinero-del-peru/" },
+    { "texto": "Infobae — Firmas falsas en inscripción del partido, investigación del MP (may 2025)", "url": "https://www.infobae.com/peru/2025/05/16/marisol-perez-tello-lleva-a-fiscalia-caso-de-firmas-falsas-en-primero-la-gente-y-acusa-a-reniec-de-negligencia/" },
     { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
   ]
 }
