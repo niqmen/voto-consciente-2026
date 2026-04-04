@@ -1,22 +1,24 @@
 [
   {
-    "id": "p01",
-    "nombre": "Rafael López Aliaga",
-    "partido": "Renovación Popular",
-    "foto": "",
-    "filtro": "ok",
-    "filtro_nota": "Sin sentencia penal firme. Algunas denuncias administrativas menores resueltas. DDJJ presentada y coherente.",
-    "eliminado": false,
-    "puntajes": { "integ": 68, "econ": 72, "capac": 65, "inst": 52, "segur": 70, "soc": 40 },
-    "encuesta_pct": 11,
-    "encuesta_fuente": "Ipsos mar 2026",
-    "resumen_html": "<p>Empresario y político de derecha. Fue alcalde de Lima entre 2022 y 2026, ejecutó obras viales pero generó controversia por estilo confrontacional con el gobierno central y medios de comunicación.</p><p><strong>Estado legal:</strong> No registra sentencias penales ni investigaciones fiscales activas de gravedad. Su declaración jurada de bienes es coherente con su perfil empresarial conocido.</p><p><strong>Propuesta económica:</strong> Liberal, orientada a reducción del Estado, privatizaciones y disciplina fiscal estricta. Crítico del sistema de pensiones estatal (AFP y ONP).</p><p><strong>Alerta de contexto:</strong> Declaraciones sobre uso de la fuerza contra rivales políticos y periodistas durante su gestión municipal fueron documentadas por organismos de derechos humanos.</p>",
-    "fuentes": [
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
-      { "texto": "Ipsos — Encuesta intención de voto mar 2026", "url": "https://www.ipsos.com/es-pe/topic/encuesta-intencion-de-voto" },
-      { "texto": "Poder Judicial — Consulta de expedientes", "url": "https://www.pj.gob.pe" }
-    ]
-  },
+  "id": "p01",
+  "nombre": "Rafael López Aliaga",
+  "partido": "Renovación Popular",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Tres investigaciones fiscales activas: (1) Caso Panama Papers — investigación preparatoria por lavado de activos ampliada por 24 meses por el PJ en sep 2025, vinculada a empresas offshore y asesorías a la MML durante gestión Villarán. (2) Endeudamiento ilegal MML — Fiscalía anticorrupción abrió investigación en mar 2026 por presuntos delitos de colusión y negociación incompatible en deuda de S/4,000 millones via bonos titulizados. (3) Vía Expresa Norte — investigación por presunta adjudicación irregular a consorcio chino Gezhouba por S/277 millones. Sin sentencia firme en ningún caso.",
+  "eliminado": false,
+  "puntajes": { "integ": 42, "econ": 68, "capac": 62, "inst": 48, "segur": 65, "soc": 38 },
+  "encuesta_pct": 11,
+  "encuesta_fuente": "Ipsos mar 2026",
+  "resumen_html": "<p>Empresario y político de derecha, fue alcalde de Lima entre 2022 y 2026. Candidato presidencial de Renovación Popular con propuesta económica liberal.</p><p><strong>⚠ Caso Panama Papers — lavado de activos:</strong> La Fiscalía Supraprovincial de Lavado de Activos lo investiga por haber montado presuntamente una red de empresas offshore en Panamá, EEUU e Islas Vírgenes Británicas para ocultar fondos provenientes de asesorías a la Municipalidad de Lima durante la gestión de Susana Villarán (2010-2018). El Poder Judicial amplió el plazo de investigación preparatoria por 24 meses en septiembre de 2025. El perjuicio estimado al Estado supera los S/37 millones. López Aliaga ha intentado archivar el caso en múltiples ocasiones sin éxito.</p><p><strong>⚠ Endeudamiento ilegal MML — S/4,000 millones:</strong> La Fiscalía anticorrupción abrió en marzo 2026 una investigación preliminar por presuntos delitos de colusión y negociación incompatible, por el endeudamiento de la Municipalidad de Lima mediante bonos titulizados que habrían superado el límite legal y comprometido ingresos futuros del municipio.</p><p><strong>⚠ Vía Expresa Norte — adjudicación a empresa china:</strong> La Fiscalía investiga (carpeta 65-2026) la adjudicación del contrato por S/277 millones al consorcio liderado por la empresa china Gezhouba Group — la misma vinculada anteriormente al caso de corrupción del expresidente Martín Vizcarra en Moquegua.</p><p><strong>Otras investigaciones:</strong> El Ministerio Público registra carpetas adicionales por abuso de autoridad (3), falsedad genérica (3), negociación incompatible (2), peculado, malversación y nombramiento ilegal de cargo público — todas vinculadas a su gestión como alcalde.</p><p><strong>Propuesta económica:</strong> Liberal, orientada a reducción del Estado, privatizaciones y disciplina fiscal. Cuestionado por estilo confrontacional y declaraciones sobre uso de fuerza contra rivales.</p>",
+  "fuentes": [
+    { "texto": "Infobae — Caso Panama Papers: PJ amplía 24 meses investigación por lavado (sep 2025)", "url": "https://www.infobae.com/peru/2025/10/21/rafael-lopez-aliaga-en-problemas-por-caso-panama-papers-pj-amplia-a-24-meses-investigacion-preparatoria-contra-lider-de-renovacion-popular/" },
+    { "texto": "La República — Tres investigaciones fiscales activas (dic 2025)", "url": "https://larepublica.pe/politica/2025/12/21/cuatro-candidatos-cuentan-con-la-mayor-cantidad-de-investigaciones-fiscales-keiko-fujimori-rafael-lopez-aliaga-cesar-acuna-alex-gonzalez-castillo-hnews-1081380" },
+    { "texto": "Infobae — Fiscalía investiga endeudamiento S/4,000 millones MML (mar 2026)", "url": "https://www.infobae.com/peru/2026/03/21/fiscalia-anticorrupcion-dispone-investigar-a-rafael-lopez-aliaga-por-endeudamiento-de-s-4-mil-millones-en-mml/" },
+    { "texto": "Infobae — Caso Vía Expresa Norte y empresa china Gezhouba (feb 2026)", "url": "https://www.infobae.com/peru/2026/02/06/fiscalia-pide-informacion-a-podemos-sobre-presunto-favorecimiento-de-rafael-lopez-aliaga-a-empresa-china/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
   {
     "id": "p02",
     "nombre": "Keiko Fujimori",
