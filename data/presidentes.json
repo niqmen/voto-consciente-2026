@@ -41,23 +41,26 @@
   ]
 },
   {
-    "id": "p03",
-    "nombre": "Alfonso López Chau",
-    "partido": "Ahora Nación",
-    "foto": "",
-    "filtro": "ok",
-    "filtro_nota": "Sin procesos penales conocidos. Ex rector UNI. DDJJ presentada y coherente con perfil académico.",
-    "eliminado": false,
-    "puntajes": { "integ": 72, "econ": 65, "capac": 60, "inst": 68, "segur": 50, "soc": 60 },
-    "encuesta_pct": 7,
-    "encuesta_fuente": "Ipsos mar 2026",
-    "resumen_html": "<p>Matemático e ingeniero, fue rector de la Universidad Nacional de Ingeniería (UNI). Candidato emergente sin trayectoria política previa en cargos ejecutivos o legislativos.</p><p><strong>Estado legal:</strong> No registra investigaciones penales ni antecedentes en el Poder Judicial o Ministerio Público. Declaración jurada coherente con perfil académico-universitario.</p><p><strong>Propuesta:</strong> Énfasis en infraestructura, ciencia y tecnología como motores de desarrollo. Propuestas técnicas bien fundamentadas aunque con escasa articulación política para implementarlas desde el ejecutivo.</p><p><strong>Tendencia en encuestas:</strong> Ascenso sostenido desde 4% en enero hasta 7% en marzo 2026, impulsado por debates donde su perfil técnico destacó. Es el candidato con mayor crecimiento sostenido del pelotón intermedio.</p>",
-    "fuentes": [
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
-      { "texto": "Ipsos — Simulacro de votación mar 2026", "url": "https://www.ipsos.com/es-pe/topic/encuesta-intencion-de-voto" },
-      { "texto": "UNI — Perfil institucional", "url": "https://www.uni.edu.pe" }
-    ]
-  },
+  "id": "p03",
+  "nombre": "Alfonso López Chau",
+  "partido": "Ahora Nación",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Acusación fiscal formal (mar 2025) por peculado doloso y negociación incompatible durante gestión como rector de la UNI. La Fiscalía pide 5 años de cárcel. Juicio oral paralizado por demora judicial. Investigación preparatoria adicional declarada compleja (ene 2026) por uso de fondos UNI para beneficiar militantes de su partido. Omisión de bienes en DDJJ detectada por JNE. Antecedente: preso en El Sexto a los 20 años por asalto y robo (según documentos del INPE publicados).",
+  "eliminado": false,
+  "puntajes": { "integ": 38, "econ": 62, "capac": 55, "inst": 50, "segur": 45, "soc": 55 },
+  "encuesta_pct": 7,
+  "encuesta_fuente": "Ipsos mar 2026",
+  "resumen_html": "<p>Economista e ingeniero, fue rector de la Universidad Nacional de Ingeniería (UNI). Candidato emergente que generó expectativa por su perfil técnico, pero que acumula serios cuestionamientos legales vinculados a su gestión universitaria.</p><p><strong>⚠ Acusación fiscal formal — 5 años de cárcel solicitados:</strong> La fiscal Norah Córdova presentó en marzo de 2025 una acusación formal contra López Chau por peculado doloso y negociación incompatible. La tesis fiscal: designó a dedo a su amiga Sonia Anapán como secretaria general de la UNI sin cumplir requisitos legales, con sueldo de S/9,000 que subió a S/13,500. Por el delito de negociación incompatible la Fiscalía pide 5 años de prisión. El juicio oral está paralizado desde septiembre de 2025 por la jueza Julia Olivares, quien no convocó ninguna audiencia de control en casi un año — incumpliendo el Código Procesal Penal.</p><p><strong>⚠ Investigación preparatoria compleja (ene 2026):</strong> Investigación adicional declarada compleja y ampliada 8 meses por la Fiscalía Anticorrupción. La tesis: usó fondos de la UNI para contratar a tres militantes de Ahora Nación (Salcedo, Arévalo, Gámez) por contratos de S/54,000, S/75,000 y S/32,000 que no respondían a necesidades reales de la universidad. Dos de ellos candidatean al Congreso en su lista. También se investiga la modificación del estatuto universitario para instalar a un aliado como rector interino al irse.</p><p><strong>Omisión en DDJJ:</strong> El JNE detectó omisión de bienes y rentas en su declaración jurada. No fue excluido gracias a la Ley 32058 aprobada por el Congreso en 2024, que redujo los causales de exclusión. Sí enfrenta multa de hasta 10 UIT.</p><p><strong>Antecedente adicional:</strong> Publicaciones periodísticas difundieron un documento con logo del INPE que indicaría que estuvo preso en El Sexto a los 20 años por asalto y robo. El candidato reconoció haber estado preso en esa época.</p><p><strong>Listas cuestionadas:</strong> 11 candidatos al Congreso de Ahora Nación registran sentencias firmes por peculado y otros delitos. López Chau pidió su renuncia tras exposición mediática.</p>",
+  "fuentes": [
+    { "texto": "El Comercio — Acusación fiscal y estado del juicio paralizado (feb 2026)", "url": "https://elcomercio.pe/politica/caso-alfonso-lopez-chau-cual-es-el-estado-de-la-acusacion-contra-candidato-presidencial-por-presunta-colusion-agravada-elecciones-2026tlcnota-noticia/" },
+    { "texto": "Perú21 — Jueza retrasa juicio por corrupción: piden 5 años de cárcel (feb 2026)", "url": "https://peru21.pe/investigacion/alfonso-lopez-chau-jueza-retrasa-inicio-de-juicio-por-corrupcion-elecciones-2026/" },
+    { "texto": "Infobae — Investigación por uso de fondos UNI para campaña (feb 2026)", "url": "https://www.infobae.com/peru/2026/02/06/fiscalia-cita-a-alfonso-lopez-chau-candidato-de-ahora-nacion-investigado-por-presunto-uso-de-fondos-de-la-uni-para-su-campana/" },
+    { "texto": "Infobae — Omisión en DDJJ y Ley 32058 que lo salvó de exclusión (mar 2026)", "url": "https://www.infobae.com/peru/2026/03/04/alfonso-lopez-chau-salvado-por-ley-del-congreso-candidato-de-ahora-nacion-no-sera-excluido-de-las-elecciones/" },
+    { "texto": "Canal N — Fiscalía anticorrupción cita por Caso UNI (feb 2026)", "url": "https://canaln.pe/actualidad/fiscalia-anticorrupcion-cita-alfonso-lopez-chau-caso-uni-n490118" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
   {
     "id": "p04",
     "nombre": "Carlos Álvarez",
