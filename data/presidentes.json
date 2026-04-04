@@ -224,23 +224,27 @@
     ]
   },
   {
-    "id": "p12",
-    "nombre": "Mario Vizcarra",
-    "partido": "Perú Primero",
-    "foto": "",
-    "filtro": "warn",
-    "filtro_nota": "Investigaciones periféricas por vínculos con obras cuestionadas en gestión regional de su hermano Martín Vizcarra. Sin sentencia ni investigación fiscal directa confirmada en su contra.",
-    "eliminado": false,
-    "puntajes": { "integ": 48, "econ": 55, "capac": 50, "inst": 48, "segur": 50, "soc": 55 },
-    "encuesta_pct": 3,
-    "encuesta_fuente": "IEP feb 2026",
-    "resumen_html": "<p>Hermano menor del expresidente Martín Vizcarra (2018-2020, destituido por el Congreso). Candidato de perfil moderado que busca capitalizar la popularidad que aún mantiene su hermano en zonas del sur del país.</p><p><strong>Estado legal propio:</strong> No registra sentencia penal propia ni investigación fiscal directa confirmada. Existen menciones periféricas en investigaciones del MP relacionadas con obras durante la gestión regional de Martín Vizcarra en Moquegua, pero sin imputación formal contra Mario.</p><p><strong>Contexto político crítico:</strong> Martín Vizcarra enfrenta múltiples investigaciones penales activas por corrupción en obras públicas. La candidatura de Mario Vizcarra genera el cuestionamiento legítimo de si busca posicionarse para influir en los procesos judiciales de su hermano desde el ejecutivo — patrón observado en otros casos latinoamericanos.</p><p><strong>Propuesta:</strong> Centro moderado sin diferenciadores claros. No ha logrado establecer una identidad política propia independiente del apellido.</p>",
-    "fuentes": [
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
-      { "texto": "Ministerio Público — Investigaciones vinculadas a Martín Vizcarra", "url": "https://www.mpfn.gob.pe" },
-      { "texto": "IEP — Encuesta intención de voto feb 2026", "url": "https://iep.org.pe" }
-    ]
-  },
+  "id": "p12",
+  "nombre": "Mario Vizcarra",
+  "partido": "Perú Primero",
+  "foto": "",
+  "filtro": "bad",
+  "filtro_nota": "CONDENA FIRME por peculado y falsedad genérica (Sala Mixta de Moquegua, oct 2005): cobró simultáneamente sueldo como presidente del CTAR Moquegua y honorarios del Programa de Naciones Unidas. Pena de 3 años suspendida, cumplida y rehabilitado. JEE Lima declaró improcedente su candidatura en enero 2026. El JNE pleno (4-1) la habilitó por excepción aplicando jurisprudencia del TC. Una magistrada votó en contra. Investigaciones propias activas: colusión agravada y peculado por dirección de contratos de empresa CyM Vizcarra a municipalidad (Fiscalía abrió investigación preparatoria por 36 meses). Investigación por lavado de activos (Tercera Fiscalía Especializada). Propósito declarado: indultar a todos los expresidentes incluyendo a su hermano Martín (condenado a 14 años por sobornos del Club de la Construcción).",
+  "eliminado": true,
+  "puntajes": { "integ": 8, "econ": 42, "capac": 45, "inst": 15, "segur": 35, "soc": 45 },
+  "encuesta_pct": 2,
+  "encuesta_fuente": "IEP feb 2026",
+  "resumen_html": "<p>Ingeniero y empresario moqueguano, hermano mayor del expresidente Martín Vizcarra — condenado a 14 años de prisión en el penal de Barbadillo por recibir S/2.3 millones en sobornos del Club de la Construcción. Mario reemplazó a su hermano como candidato presidencial de Perú Primero tras la inhabilitación de este.</p><p><strong>🚫 Condena firme por peculado (2005) — candidatura cuestionada:</strong> En octubre de 2005, la Sala Mixta de Moquegua lo condenó a 3 años de pena suspendida por peculado y falsedad genérica — cobró simultáneamente su sueldo como presidente del Consejo Transitorio de Administración Regional (CTAR) de Moquegua y honorarios del Programa de Naciones Unidas. La condena fue cumplida y está rehabilitado. Sin embargo, la Ley Orgánica de Elecciones (artículo 107, literal j) establece que una persona con sentencia firme por peculado no puede postular a la presidencia, incluso si está rehabilitada. El JEE Lima lo declaró improcedente en enero 2026. El JNE pleno (4 votos a 1) lo habilitó por excepción aplicando jurisprudencia del TC. La magistrada representante del Ministerio Público votó en contra.</p><p><strong>⚠ Investigaciones propias activas:</strong> La Fiscalía Anticorrupción formalizó investigación preparatoria por 36 meses por presunta colusión agravada y peculado doloso — el fiscal detectó un posible direccionamiento de contratos para la empresa CyM Vizcarra en obras de la Municipalidad Distrital de Ilabaya. La Tercera Fiscalía Especializada en Lavado de Activos también lo investiga por presuntos actos de conversión y transferencia. Su empresa familiar tuvo contratos con entidades estatales durante la gestión de su hermano Martín como gobernador regional y presidente.</p><p><strong>🚫 Propósito declarado — indultar a expresidentes:</strong> Su propuesta más concreta y reiterada en campaña es indultar a 'todos los expresidentes presos'. En la práctica esto beneficiaría directamente a su hermano Martín Vizcarra. Analistas y medios señalan que el partido Perú Primero fue creado con el propósito de mantener la influencia política de Martín Vizcarra mientras cumple condena y facilitar su eventual liberación.</p><p><strong>Partido con 29 candidatos sentenciados:</strong> Cuarto Poder documentó que 29 candidatos al Congreso de Perú Primero tienen sentencias firmes por omisión a la asistencia familiar, corrupción de funcionarios y violencia contra la mujer. En las listas también figuran exfuncionarios vinculados al Caso Richard Swing de la gestión Vizcarra.</p>",
+  "fuentes": [
+    { "texto": "El Comercio — Condena por peculado 2005 e investigaciones activas (dic 2025)", "url": "https://elcomercio.pe/politica/mario-vizcarra-candidato-presidencial-de-peru-primero-registra-condena-por-corrupciontlcnota-noticia/" },
+    { "texto": "La República — JEE declaró improcedente la candidatura (ene 2026)", "url": "https://larepublica.pe/politica/2025/12/31/futuro-de-mario-vizcarra-en-manos-del-jee-3-tachas-buscan-anular-su-candidatura-en-las-elecciones-2026-hnews-1289383" },
+    { "texto": "Infobae — JNE habilitó candidatura por excepción: perfil completo (feb 2026)", "url": "https://www.infobae.com/peru/2026/02/04/quien-es-mario-vizcarra-perfil-formacion-academica-y-trayectoria-del-candidato-presidencial-de-peru-primero-para-el-2026/" },
+    { "texto": "Willax — Investigaciones fiscales activas y propósito de indulto (dic 2025)", "url": "https://willax.pe/politica/perfil-politico-mario-vizcarra-investigaciones-fiscales-willax" },
+    { "texto": "Diario Correo — 29 candidatos de Perú Primero con sentencias (feb 2026)", "url": "https://diariocorreo.pe/politica/candidatos-de-peru-primero-fundado-por-martin-vizcarra-con-sentencias-e-investigaciones-noticia/" },
+    { "texto": "Wikipedia — Mario Vizcarra (historial judicial)", "url": "https://es.wikipedia.org/wiki/Mario_Vizcarra" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
   {
     "id": "p13",
     "nombre": "Fiorella Molinelli",
