@@ -20,24 +20,26 @@
   ]
 },
   {
-    "id": "p02",
-    "nombre": "Keiko Fujimori",
-    "partido": "Fuerza Popular",
-    "foto": "",
-    "filtro": "warn",
-    "filtro_nota": "Caso Cócteles archivado por TC (ene 2026) por irretroactividad penal. Investigación preparatoria activa por aportes campaña 2021 (lavado de activos). Casos menores pendientes (falsa declaración).",
-    "eliminado": false,
-    "puntajes": { "integ": 38, "econ": 55, "capac": 62, "inst": 44, "segur": 55, "soc": 50 },
-    "encuesta_pct": 11,
-    "encuesta_fuente": "Ipsos mar 2026",
-    "resumen_html": "<p>Candidata presidencial por cuarta vez, lideresa de Fuerza Popular. Hija del expresidente Alberto Fujimori, condenado por crímenes de lesa humanidad y corrupción.</p><p><strong>Caso Cócteles (archivado):</strong> Investigada 10 años por lavado de activos en campañas 2011 y 2016 — recepción de fondos de Odebrecht y Credicorp via falsos aportantes. El Tribunal Constitucional anuló el proceso en octubre 2025 por violación al principio de irretroactividad penal (la figura de 'receptación patrimonial' no existía antes de nov. 2016). El caso fue archivado definitivamente en enero 2026.</p><p><strong>⚠ Investigación ACTIVA (campaña 2021):</strong> La Fiscalía Especializada en Lavado de Activos formalizó en septiembre de 2025 una investigación preparatoria por los aportes a su campaña presidencial de 2021. Esta investigación está vigente al momento de su candidatura, e incluye a sus candidatos a vicepresidencias Luis Galarreta y Miguel Torres.</p><p><strong>Antivoto:</strong> Registra el mayor antivoto del campo (54% según IEP feb 2026), concentrado en zonas centro y sur del país y entre electores con educación superior.</p>",
-    "fuentes": [
-      { "texto": "TC — Sentencia 185/2025 (Caso Cócteles, PDF oficial)", "url": "https://www.tc.gob.pe/jurisprudencia/2025/02109-2024-HC.pdf" },
-      { "texto": "RPP — Investigación preparatoria activa por aportes 2021", "url": "https://rpp.pe/politica/judiciales/keiko-fujimori-y-fuerza-popular-afrontan-investigacion-preparatoria-por-aportes-para-campana-electoral-de-2021-noticia-1673024" },
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
-      { "texto": "IEP — Encuesta intención de voto feb 2026 (antivoto 54%)", "url": "https://iep.org.pe" }
-    ]
-  },
+  "id": "p02",
+  "nombre": "Keiko Fujimori",
+  "partido": "Fuerza Popular",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Investigación preparatoria ACTIVA por Caso Lava Moto (campaña 2021): presunto lavado de activos y organización criminal (carpeta N°43-2021, fiscal Manuela Villar). Uso de S/1.6 millones de fondos públicos para campaña (prohibido por ley). Multa de S/181,500 del JNE confirmada en marzo 2026 por uso indebido de financiamiento estatal. Caso Cócteles (campañas 2011-2016) archivado por TC en enero 2026. Fiscalía presentó recurso ante Corte Suprema para reabrir el caso. 69 investigaciones registradas en el MP.",
+  "eliminado": false,
+  "puntajes": { "integ": 28, "econ": 55, "capac": 62, "inst": 38, "segur": 52, "soc": 48 },
+  "encuesta_pct": 11,
+  "encuesta_fuente": "Ipsos mar 2026",
+  "resumen_html": "<p>Candidata presidencial por cuarta vez consecutiva, lideresa de Fuerza Popular. Hija del expresidente Alberto Fujimori, condenado por crímenes de lesa humanidad y corrupción. Registra 69 investigaciones en el Ministerio Público.</p><p><strong>⚠ Caso Lava Moto — investigación ACTIVA (campaña 2021):</strong> La fiscal Manuela Villar (Primera Fiscalía contra el Lavado de Activos) investiga a Keiko Fujimori y su plancha completa (Galarreta, Torres, Beteta, Takayama, Miranda) por presunto lavado de activos y organización criminal. La tesis fiscal señala que usaron aportes falsos, sobres con dinero en efectivo y S/1.6 millones de fondos públicos de la ONPE — uso expresamente prohibido por ley — para financiar la campaña de 2021 y las impugnaciones contra Pedro Castillo. Nueve aportantes confesaron haber entregado dinero en sobres. Múltiples 'donantes' declararon ante la Fiscalía no haber dado ningún aporte.</p><p><strong>⚠ Multa JNE confirmada (mar 2026):</strong> El JNE ratificó en marzo 2026 una multa de S/181,500 (33 UIT) a Fuerza Popular por usar financiamiento público para comprar vales de pavo, canastas navideñas y artículos publicitarios — gastos fuera de los fines autorizados. Además pierde el 10% del financiamiento público semestral. Es una de las multas más altas impuestas por el JNE en fiscalización electoral.</p><p><strong>Caso Cócteles (campañas 2011-2016) — archivado pero no cerrado:</strong> El TC anuló en octubre 2025 el proceso por lavado de activos de Odebrecht y Credicorp (USD 17.3 millones presuntamente lavados) por irretroactividad penal. El caso fue archivado en enero 2026. Sin embargo, la Fiscalía presentó recurso ante la Corte Suprema para reabrir el proceso. Persisten cargos por falsedad genérica y falsa declaración.</p><p><strong>Antivoto:</strong> 54% de antivoto según IEP — el más alto del campo presidencial. Su propia hija Kyara (18 años) expresó públicamente en febrero 2026 su desacuerdo con las posiciones de su madre.</p>",
+  "fuentes": [
+    { "texto": "La República — Caso Lava Moto: investigación activa campaña 2021 (nov 2025)", "url": "https://larepublica.pe/politica/2025/11/18/plancha-presidencial-de-fuerza-popular-investigada-por-caso-lavamoto-el-esquema-criminal-de-keiko-fujimori-segun-fiscalia-hnews-1178496" },
+    { "texto": "Infobae — Aportes falsos y manejo irregular de fondos (nov 2025)", "url": "https://www.infobae.com/peru/2025/11/14/fiscalia-investigacion-a-keiko-fujimori-por-presuntos-aportes-falsos-y-manejo-irregular-de-fondos-publicos/" },
+    { "texto": "Diario Correo — Multa JNE S/181,500 confirmada (mar 2026)", "url": "https://diariocorreo.pe/politica/keiko-fujimori-anuncia-apelacion-contra-multa-de-mas-de-160-mil-soles-impuesta-por-el-jne-a-fuerza-popular-noticia/" },
+    { "texto": "TC — Sentencia 185/2025 — Caso Cócteles archivado (oct 2025)", "url": "https://www.tc.gob.pe/jurisprudencia/2025/02109-2024-HC.pdf" },
+    { "texto": "Ojo Público — Evidencias lavado USD 17.3 millones Fuerza Popular", "url": "https://ojo-publico.com/4962/fiscalia-hechos-revelan-que-fuerza-popular-lavo-usd-17-millones" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
   {
     "id": "p03",
     "nombre": "Alfonso López Chau",
