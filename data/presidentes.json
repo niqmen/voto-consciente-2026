@@ -1,0 +1,269 @@
+[
+  {
+    "id": "p01",
+    "nombre": "Rafael López Aliaga",
+    "partido": "Renovación Popular",
+    "foto": "",
+    "filtro": "ok",
+    "filtro_nota": "Sin sentencia penal firme. Algunas denuncias administrativas menores resueltas. DDJJ presentada y coherente.",
+    "eliminado": false,
+    "puntajes": { "integ": 68, "econ": 72, "capac": 65, "inst": 52, "segur": 70, "soc": 40 },
+    "encuesta_pct": 11,
+    "encuesta_fuente": "Ipsos mar 2026",
+    "resumen_html": "<p>Empresario y político de derecha. Fue alcalde de Lima entre 2022 y 2026, ejecutó obras viales pero generó controversia por estilo confrontacional con el gobierno central y medios de comunicación.</p><p><strong>Estado legal:</strong> No registra sentencias penales ni investigaciones fiscales activas de gravedad. Su declaración jurada de bienes es coherente con su perfil empresarial conocido.</p><p><strong>Propuesta económica:</strong> Liberal, orientada a reducción del Estado, privatizaciones y disciplina fiscal estricta. Crítico del sistema de pensiones estatal (AFP y ONP).</p><p><strong>Alerta de contexto:</strong> Declaraciones sobre uso de la fuerza contra rivales políticos y periodistas durante su gestión municipal fueron documentadas por organismos de derechos humanos.</p>",
+    "fuentes": [
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "Ipsos — Encuesta intención de voto mar 2026", "url": "https://www.ipsos.com/es-pe/topic/encuesta-intencion-de-voto" },
+      { "texto": "Poder Judicial — Consulta de expedientes", "url": "https://www.pj.gob.pe" }
+    ]
+  },
+  {
+    "id": "p02",
+    "nombre": "Keiko Fujimori",
+    "partido": "Fuerza Popular",
+    "foto": "",
+    "filtro": "warn",
+    "filtro_nota": "Caso Cócteles archivado por TC (ene 2026) por irretroactividad penal. Investigación preparatoria activa por aportes campaña 2021 (lavado de activos). Casos menores pendientes (falsa declaración).",
+    "eliminado": false,
+    "puntajes": { "integ": 38, "econ": 55, "capac": 62, "inst": 44, "segur": 55, "soc": 50 },
+    "encuesta_pct": 11,
+    "encuesta_fuente": "Ipsos mar 2026",
+    "resumen_html": "<p>Candidata presidencial por cuarta vez, lideresa de Fuerza Popular. Hija del expresidente Alberto Fujimori, condenado por crímenes de lesa humanidad y corrupción.</p><p><strong>Caso Cócteles (archivado):</strong> Investigada 10 años por lavado de activos en campañas 2011 y 2016 — recepción de fondos de Odebrecht y Credicorp via falsos aportantes. El Tribunal Constitucional anuló el proceso en octubre 2025 por violación al principio de irretroactividad penal (la figura de 'receptación patrimonial' no existía antes de nov. 2016). El caso fue archivado definitivamente en enero 2026.</p><p><strong>⚠ Investigación ACTIVA (campaña 2021):</strong> La Fiscalía Especializada en Lavado de Activos formalizó en septiembre de 2025 una investigación preparatoria por los aportes a su campaña presidencial de 2021. Esta investigación está vigente al momento de su candidatura, e incluye a sus candidatos a vicepresidencias Luis Galarreta y Miguel Torres.</p><p><strong>Antivoto:</strong> Registra el mayor antivoto del campo (54% según IEP feb 2026), concentrado en zonas centro y sur del país y entre electores con educación superior.</p>",
+    "fuentes": [
+      { "texto": "TC — Sentencia 185/2025 (Caso Cócteles, PDF oficial)", "url": "https://www.tc.gob.pe/jurisprudencia/2025/02109-2024-HC.pdf" },
+      { "texto": "RPP — Investigación preparatoria activa por aportes 2021", "url": "https://rpp.pe/politica/judiciales/keiko-fujimori-y-fuerza-popular-afrontan-investigacion-preparatoria-por-aportes-para-campana-electoral-de-2021-noticia-1673024" },
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "IEP — Encuesta intención de voto feb 2026 (antivoto 54%)", "url": "https://iep.org.pe" }
+    ]
+  },
+  {
+    "id": "p03",
+    "nombre": "Alfonso López Chau",
+    "partido": "Ahora Nación",
+    "foto": "",
+    "filtro": "ok",
+    "filtro_nota": "Sin procesos penales conocidos. Ex rector UNI. DDJJ presentada y coherente con perfil académico.",
+    "eliminado": false,
+    "puntajes": { "integ": 72, "econ": 65, "capac": 60, "inst": 68, "segur": 50, "soc": 60 },
+    "encuesta_pct": 7,
+    "encuesta_fuente": "Ipsos mar 2026",
+    "resumen_html": "<p>Matemático e ingeniero, fue rector de la Universidad Nacional de Ingeniería (UNI). Candidato emergente sin trayectoria política previa en cargos ejecutivos o legislativos.</p><p><strong>Estado legal:</strong> No registra investigaciones penales ni antecedentes en el Poder Judicial o Ministerio Público. Declaración jurada coherente con perfil académico-universitario.</p><p><strong>Propuesta:</strong> Énfasis en infraestructura, ciencia y tecnología como motores de desarrollo. Propuestas técnicas bien fundamentadas aunque con escasa articulación política para implementarlas desde el ejecutivo.</p><p><strong>Tendencia en encuestas:</strong> Ascenso sostenido desde 4% en enero hasta 7% en marzo 2026, impulsado por debates donde su perfil técnico destacó. Es el candidato con mayor crecimiento sostenido del pelotón intermedio.</p>",
+    "fuentes": [
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "Ipsos — Simulacro de votación mar 2026", "url": "https://www.ipsos.com/es-pe/topic/encuesta-intencion-de-voto" },
+      { "texto": "UNI — Perfil institucional", "url": "https://www.uni.edu.pe" }
+    ]
+  },
+  {
+    "id": "p04",
+    "nombre": "Carlos Álvarez",
+    "partido": "País para Todos",
+    "foto": "",
+    "filtro": "ok",
+    "filtro_nota": "Sin procesos penales. Perfil mediático reconvertido en político. DDJJ presentada.",
+    "eliminado": false,
+    "puntajes": { "integ": 65, "econ": 50, "capac": 42, "inst": 55, "segur": 50, "soc": 65 },
+    "encuesta_pct": 8,
+    "encuesta_fuente": "Ipsos mar 2026",
+    "resumen_html": "<p>Comediante y animador de televisión de larga trayectoria mediática. No tiene experiencia en gestión pública, cargos ejecutivos ni legislativos.</p><p><strong>Estado legal:</strong> No registra investigaciones penales ni antecedentes judiciales relevantes. Declaración jurada coherente.</p><p><strong>Propuesta:</strong> Centro-izquierda popular con énfasis en reducción de desigualdad y lucha anticorrupción. Las propuestas carecen de sustento técnico detallado, especialmente en economía y seguridad.</p><p><strong>Contexto electoral:</strong> Su ascenso (5%→8%) refleja el desencanto ciudadano con la clase política tradicional. Captó voto de protesta y voto joven post-debate. El 40% de sus votantes potenciales admite que podría cambiar su voto antes del 12 de abril (IEP mar 2026).</p>",
+    "fuentes": [
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "IEP — Encuesta y análisis de voto volátil mar 2026", "url": "https://iep.org.pe" }
+    ]
+  },
+  {
+    "id": "p05",
+    "nombre": "Jorge Nieto",
+    "partido": "Partido del Buen Gobierno",
+    "foto": "",
+    "filtro": "ok",
+    "filtro_nota": "Sin procesos penales. Trayectoria académica y técnica reconocida. DDJJ coherente con perfil profesional.",
+    "eliminado": false,
+    "puntajes": { "integ": 78, "econ": 70, "capac": 75, "inst": 78, "segur": 62, "soc": 65 },
+    "encuesta_pct": 5,
+    "encuesta_fuente": "Ipsos mar 2026",
+    "resumen_html": "<p>Politólogo y sociólogo, fue ministro de Defensa durante el gobierno de PPK (2016-2017). Investigador en gobernanza, institucionalidad y seguridad democrática.</p><p><strong>Estado legal:</strong> No registra investigaciones penales, sanciones del JNE ni observaciones de la Contraloría. Declaración jurada coherente con perfil académico-funcionario.</p><p><strong>Propuesta:</strong> Énfasis en reforma del Estado, fortalecimiento institucional y lucha anticorrupción con mecanismos concretos. Una de las propuestas más coherentes y detalladas del campo electoral según analistas especializados.</p><p><strong>Limitación estructural:</strong> Bajo perfil mediático y escasa maquinaria partisan limitan su alcance pese a ser técnicamente uno de los perfiles más sólidos. Ilustra el problema histórico peruano: los candidatos con mejor propuesta rara vez acceden a segunda vuelta.</p>",
+    "fuentes": [
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "Ministerio de Defensa — Historial de gestión ministerial", "url": "https://www.mindef.gob.pe" },
+      { "texto": "Ipsos — Encuesta intención de voto mar 2026", "url": "https://www.ipsos.com/es-pe/topic/encuesta-intencion-de-voto" }
+    ]
+  },
+  {
+    "id": "p06",
+    "nombre": "Roberto Sánchez",
+    "partido": "Juntos por el Perú",
+    "foto": "",
+    "filtro": "ok",
+    "filtro_nota": "Sin procesos penales activos. Ex ministro con trayectoria verificable. DDJJ coherente.",
+    "eliminado": false,
+    "puntajes": { "integ": 70, "econ": 58, "capac": 68, "inst": 65, "segur": 50, "soc": 72 },
+    "encuesta_pct": 4,
+    "encuesta_fuente": "Ipsos mar 2026",
+    "resumen_html": "<p>Ex ministro de Comercio Exterior y Turismo durante el gobierno de Pedro Castillo. Economista con experiencia en negociaciones comerciales internacionales y política de turismo.</p><p><strong>Estado legal:</strong> No registra investigaciones penales propias. Su paso por el gobierno Castillo fue sin escándalos personales. Declaración jurada coherente.</p><p><strong>Propuesta:</strong> Izquierda moderada con énfasis en agenda social (salud, educación, empleo digno) y reactivación económica vía turismo e industria. Propuestas más articuladas que la media del campo izquierdista en 2026.</p><p><strong>Tendencia:</strong> Uno de los crecimientos más rápidos del campo: de 0.6% en enero a 4% en marzo 2026. Su discurso moderado lo diferencia claramente del resto de la izquierda.</p>",
+    "fuentes": [
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "MINCETUR — Historial de gestión ministerial", "url": "https://www.mincetur.gob.pe" },
+      { "texto": "IEP — Encuesta intención de voto mar 2026", "url": "https://iep.org.pe" }
+    ]
+  },
+  {
+    "id": "p07",
+    "nombre": "César Acuña",
+    "partido": "Alianza para el Progreso",
+    "foto": "",
+    "filtro": "warn",
+    "filtro_nota": "Inhabilitado por JNE en 2016 por entregar dádivas a electores (inhabilitación ya cumplida). Múltiples investigaciones fiscales antiguas sin sentencia firme activa al momento de la candidatura.",
+    "eliminado": false,
+    "puntajes": { "integ": 35, "econ": 58, "capac": 65, "inst": 38, "segur": 55, "soc": 55 },
+    "encuesta_pct": 3,
+    "encuesta_fuente": "Ipsos mar 2026",
+    "resumen_html": "<p>Empresario del sector educativo (Universidad César Vallejo y otras), ex gobernador regional de La Libertad y candidato presidencial recurrente.</p><p><strong>Antecedente JNE 2016:</strong> Inhabilitado durante la campaña de 2016 por el Jurado Nacional de Elecciones por entregar dádivas a electores — regalos y dinero en actividades proselitistas, práctica documentada con evidencia fotográfica y testimonial. La inhabilitación fue cumplida y no le impide candidatear en 2026.</p><p><strong>Investigaciones fiscales:</strong> Ha tenido diversas investigaciones del Ministerio Público vinculadas a su gestión regional y empresas educativas. Ninguna ha culminado en sentencia firme en su contra al momento de la candidatura.</p><p><strong>Infraestructura política:</strong> APP tiene una de las maquinarias electorales más grandes del país gracias a su red universitaria. Esto genera cuestionamiento sobre uso de recursos educativos con fines políticos, con múltiples denuncias de ex trabajadores.</p><p><strong>Antivoto:</strong> 7.3% de antivoto según IEP — el segundo más alto del campo presidencial después de Fujimori (54%).</p>",
+    "fuentes": [
+      { "texto": "JNE — Resolución de inhabilitación 2016", "url": "https://portal.jne.gob.pe" },
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "Ministerio Público — Portal de consulta de casos", "url": "https://www.mpfn.gob.pe" },
+      { "texto": "IEP — Encuesta feb 2026 (datos de antivoto)", "url": "https://iep.org.pe" }
+    ]
+  },
+  {
+    "id": "p08",
+    "nombre": "Wolfgang Grozo",
+    "partido": "Integridad Democrática",
+    "foto": "",
+    "filtro": "ok",
+    "filtro_nota": "Sin procesos penales. Candidato nuevo sin historial en cargos públicos. DDJJ presentada.",
+    "eliminado": false,
+    "puntajes": { "integ": 72, "econ": 55, "capac": 38, "inst": 65, "segur": 48, "soc": 62 },
+    "encuesta_pct": 4,
+    "encuesta_fuente": "Ipsos mar 2026",
+    "resumen_html": "<p>Candidato político emergente sin trayectoria previa en cargos públicos ejecutivos o legislativos. Captó atención mediática especialmente entre electores jóvenes de 18-30 años.</p><p><strong>Estado legal:</strong> No registra investigaciones penales ni antecedentes judiciales. Declaración jurada coherente con perfil privado.</p><p><strong>Tendencia en encuestas:</strong> Ascenso espectacular de 0.4% en enero a 5-6% en febrero 2026, impulsado por el voto joven. Experimentó caída post-primer debate al 4% al ser cuestionado con mayor profundidad sobre propuestas económicas concretas.</p><p><strong>Limitación principal:</strong> La falta de experiencia en gestión pública y un equipo técnico poco consolidado son sus principales debilidades. Sus propuestas económicas son las menos desarrolladas entre los candidatos del pelotón intermedio.</p>",
+    "fuentes": [
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "IEP/Ipsos — Encuestas feb-mar 2026", "url": "https://www.ipsos.com/es-pe/topic/encuesta-intencion-de-voto" }
+    ]
+  },
+  {
+    "id": "p09",
+    "nombre": "George Forsyth",
+    "partido": "Somos Perú",
+    "foto": "",
+    "filtro": "ok",
+    "filtro_nota": "Sin procesos penales activos. DDJJ presentada y coherente.",
+    "eliminado": false,
+    "puntajes": { "integ": 60, "econ": 52, "capac": 55, "inst": 55, "segur": 60, "soc": 58 },
+    "encuesta_pct": 1,
+    "encuesta_fuente": "IEP feb 2026",
+    "resumen_html": "<p>Ex arquero profesional de fútbol, fue alcalde del distrito de La Victoria (Lima) entre 2019 y 2022, período donde ejecutó obras de seguridad ciudadana con metodología de gobierno localizado.</p><p><strong>Estado legal:</strong> No registra investigaciones penales ni sanciones electorales. Declaración jurada coherente.</p><p><strong>Contexto electoral:</strong> Llegó con altas expectativas al campo presidencial tras su popularidad como alcalde. No logró consolidar un equipo técnico ni una propuesta presidencial sólida. Su caída desde posiciones altas en encuestas de 2024-2025 hasta menos del 2% en 2026 refleja la dificultad de escalar el perfil de alcalde de distrito a candidato presidencial.</p>",
+    "fuentes": [
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "Municipalidad de La Victoria — Gestión 2019-2022", "url": "https://www.munilavictoria.gob.pe" }
+    ]
+  },
+  {
+    "id": "p10",
+    "nombre": "José Luna Gálvez",
+    "partido": "Podemos Perú",
+    "foto": "",
+    "filtro": "warn",
+    "filtro_nota": "Investigado por el Ministerio Público por presunto lavado de activos vinculado a su empresa universitaria TELESUP. Sin sentencia firme al momento de la candidatura.",
+    "eliminado": false,
+    "puntajes": { "integ": 32, "econ": 50, "capac": 55, "inst": 30, "segur": 45, "soc": 48 },
+    "encuesta_pct": 1,
+    "encuesta_fuente": "CPI mar 2026",
+    "resumen_html": "<p>Empresario del sector educativo (TELESUP) y ex congresista. Fundador de Podemos Perú, partido con representación parlamentaria en el período 2021-2026.</p><p><strong>⚠ Investigación fiscal activa:</strong> El Ministerio Público lo investiga por presunto lavado de activos vinculado a su empresa universitaria TELESUP y posibles irregularidades en contratos con el Estado. La investigación está activa pero no ha llegado a juicio oral al momento de la candidatura.</p><p><strong>Conflictos de interés legislativos:</strong> Como congresista fue cuestionado por presentar proyectos que beneficiaban directamente al sector educativo privado donde tiene intereses económicos, hecho documentado por organizaciones de transparencia como Ojo Público.</p><p><strong>Caso TELESUP:</strong> Su universidad fue intervenida y posteriormente cerrada por la SUNEDU por incumplimiento reiterado de estándares mínimos de calidad educativa, afectando a miles de estudiantes.</p>",
+    "fuentes": [
+      { "texto": "Ministerio Público — Portal de consulta de casos", "url": "https://www.mpfn.gob.pe" },
+      { "texto": "SUNEDU — Caso TELESUP (denegación de licencia)", "url": "https://www.sunedu.gob.pe" },
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "Ojo Público — Conflictos de interés en el Congreso", "url": "https://ojo-publico.com" }
+    ]
+  },
+  {
+    "id": "p11",
+    "nombre": "Vladimir Cerrón",
+    "partido": "Perú Libre",
+    "foto": "",
+    "filtro": "bad",
+    "filtro_nota": "SENTENCIA FIRME: 3 años y 6 meses de prisión efectiva + inhabilitación para cargo público por delito de colusión agravada (Caso Aeródromo Wanka, Sala Penal Apelaciones Junín, oct 2023). Prófugo de la justicia con orden de captura activa renovada en marzo 2026 y requisitoria internacional vía Interpol. Investigado paralelamente por lavado de activos y liderazgo de organización criminal (Los Dinámicos del Centro).",
+    "eliminado": true,
+    "puntajes": { "integ": 5, "econ": 35, "capac": 40, "inst": 20, "segur": 15, "soc": 45 },
+    "encuesta_pct": 0,
+    "encuesta_fuente": "Marginal (<1%)",
+    "resumen_html": "<p>Médico y político, fundador de Perú Libre y artífice del triunfo de Pedro Castillo en 2021. Fue gobernador regional de Junín en dos períodos (2011-2014 y 2019, hasta ser destituido).</p><p><strong>🚫 DESCALIFICADO — Sentencia firme por colusión:</strong> El Poder Judicial lo condenó en octubre de 2023 a 3 años y 6 meses de prisión efectiva por el delito de colusión en agravio del Estado — Caso Aeródromo Wanka: dirigió la construcción de un aeródromo con fondos regionales sin aprobación del Ministerio de Economía, en aparente beneficio del consorcio Gran Aeródromo Wanka. La sentencia incluye inhabilitación para cargos públicos. Fue ratificada en segunda instancia.</p><p><strong>Prófugo desde oct 2023:</strong> Tras confirmarse la sentencia, desapareció. No se presentó a la cárcel. El Poder Judicial emitió orden de captura, renovada en marzo de 2026. Interpol Lima tiene activa la requisitoria a nivel internacional.</p><p><strong>Investigación paralela — Lavado de activos:</strong> El Ministerio Público lo investiga como presunto líder de la organización criminal 'Los Dinámicos del Centro', que habría operado al interior de Perú Libre captando fondos ilícitos mediante cobros ilegales en la región Junín durante años. La investigación incluye análisis patrimonial de familiares.</p><p><strong>Hábeas corpus cuestionado en TC (mar 2026):</strong> Su defensa presentó en febrero 2026 un hábeas corpus al Tribunal Constitucional para anular su prisión preventiva. El TC lo tramitó en tiempo récord — 20 días vs. el promedio de más de 1 año — lo que generó denuncia pública de la propia presidenta del TC sobre irregularidades en el proceso interno.</p>",
+    "fuentes": [
+      { "texto": "Poder Judicial — Sentencia Sala Penal Apelaciones Junín (oct 2023)", "url": "https://www.pj.gob.pe" },
+      { "texto": "La República — Renovación orden de captura (mar 2026)", "url": "https://larepublica.pe/politica/2026/03/31/vladimir-cerron-poder-judicial-renueva-ordenes-de-busqueda-y-captura-por-caso-aportes-a-peru-libre-hnews-990016" },
+      { "texto": "Infobae — Caso hábeas corpus en TC e irregularidades (mar 2026)", "url": "https://www.infobae.com/peru/2026/03/31/pj-renueva-orden-de-captura-contra-vladimir-cerron-por-organizacion-criminal-y-lavado-de-activos" },
+      { "texto": "Ministerio Público — Caso Los Dinámicos del Centro", "url": "https://www.mpfn.gob.pe" }
+    ]
+  },
+  {
+    "id": "p12",
+    "nombre": "Mario Vizcarra",
+    "partido": "Perú Primero",
+    "foto": "",
+    "filtro": "warn",
+    "filtro_nota": "Investigaciones periféricas por vínculos con obras cuestionadas en gestión regional de su hermano Martín Vizcarra. Sin sentencia ni investigación fiscal directa confirmada en su contra.",
+    "eliminado": false,
+    "puntajes": { "integ": 48, "econ": 55, "capac": 50, "inst": 48, "segur": 50, "soc": 55 },
+    "encuesta_pct": 3,
+    "encuesta_fuente": "IEP feb 2026",
+    "resumen_html": "<p>Hermano menor del expresidente Martín Vizcarra (2018-2020, destituido por el Congreso). Candidato de perfil moderado que busca capitalizar la popularidad que aún mantiene su hermano en zonas del sur del país.</p><p><strong>Estado legal propio:</strong> No registra sentencia penal propia ni investigación fiscal directa confirmada. Existen menciones periféricas en investigaciones del MP relacionadas con obras durante la gestión regional de Martín Vizcarra en Moquegua, pero sin imputación formal contra Mario.</p><p><strong>Contexto político crítico:</strong> Martín Vizcarra enfrenta múltiples investigaciones penales activas por corrupción en obras públicas. La candidatura de Mario Vizcarra genera el cuestionamiento legítimo de si busca posicionarse para influir en los procesos judiciales de su hermano desde el ejecutivo — patrón observado en otros casos latinoamericanos.</p><p><strong>Propuesta:</strong> Centro moderado sin diferenciadores claros. No ha logrado establecer una identidad política propia independiente del apellido.</p>",
+    "fuentes": [
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "Ministerio Público — Investigaciones vinculadas a Martín Vizcarra", "url": "https://www.mpfn.gob.pe" },
+      { "texto": "IEP — Encuesta intención de voto feb 2026", "url": "https://iep.org.pe" }
+    ]
+  },
+  {
+    "id": "p13",
+    "nombre": "Fiorella Molinelli",
+    "partido": "Alianza Fuerza y Libertad",
+    "foto": "",
+    "filtro": "ok",
+    "filtro_nota": "Sin procesos penales conocidos. Ex ministra con trayectoria verificable. DDJJ presentada.",
+    "eliminado": false,
+    "puntajes": { "integ": 65, "econ": 60, "capac": 62, "inst": 60, "segur": 52, "soc": 60 },
+    "encuesta_pct": 1,
+    "encuesta_fuente": "IEP feb 2026",
+    "resumen_html": "<p>Médica especialista en salud pública, fue ministra de Salud durante el gobierno de Martín Vizcarra. Candidata de centro-derecha con perfil técnico en políticas de salud.</p><p><strong>Estado legal:</strong> No registra investigaciones penales ni sanciones. Declaración jurada coherente con perfil profesional-médico.</p><p><strong>Gestión ministerial:</strong> Su período al frente del MINSA fue previo a la pandemia de COVID-19. Gestión calificada como técnica y estable por especialistas del sector, sin escándalos de corrupción.</p><p><strong>Candidatura:</strong> Lidera una alianza de centro-derecha con escasa infraestructura partisan. Su perfil técnico-médico es un activo en el contexto post-pandemia, pero el bajo perfil mediático limita el alcance electoral.</p>",
+    "fuentes": [
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "MINSA — Historial de gestión ministerial", "url": "https://www.gob.pe/minsa" }
+    ]
+  },
+  {
+    "id": "p14",
+    "nombre": "Yonhy Lescano",
+    "partido": "Cooperación Popular",
+    "foto": "",
+    "filtro": "ok",
+    "filtro_nota": "Sin sentencia penal firme. Acusaciones de hostigamiento laboral investigadas por Comisión de Ética del Congreso. Sin condena formal.",
+    "eliminado": false,
+    "puntajes": { "integ": 52, "econ": 50, "capac": 58, "inst": 52, "segur": 48, "soc": 65 },
+    "encuesta_pct": 2,
+    "encuesta_fuente": "IEP ene 2026",
+    "resumen_html": "<p>Ex congresista de Acción Popular con larga trayectoria parlamentaria. Candidato presidencial en 2021 donde obtuvo resultados menores a los esperados pese a llegar a la recta final en encuestas.</p><p><strong>Antecedente ético documentado:</strong> Durante su período como congresista fue denunciado por trabajadoras de su despacho por hostigamiento laboral. La Comisión de Ética del Congreso investigó los hechos. El caso generó debate público sobre la cultura de acoso al interior del parlamento peruano y tuvo cobertura mediática significativa.</p><p><strong>Propuesta:</strong> Izquierda moderada-populista con énfasis en agenda social, pensiones y acceso a servicios básicos. Electorado fiel concentrado en zonas rurales y sierra central.</p>",
+    "fuentes": [
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
+      { "texto": "Congreso — Comisión de Ética (actas y resoluciones)", "url": "https://www.congreso.gob.pe" }
+    ]
+  },
+  {
+    "id": "p15",
+    "nombre": "Ricardo Belmont",
+    "partido": "Partido Cívico OBRAS",
+    "foto": "",
+    "filtro": "ok",
+    "filtro_nota": "Sin procesos penales activos. DDJJ presentada.",
+    "eliminado": false,
+    "puntajes": { "integ": 55, "econ": 48, "capac": 52, "inst": 48, "segur": 50, "soc": 58 },
+    "encuesta_pct": 1,
+    "encuesta_fuente": "IEP feb 2026",
+    "resumen_html": "<p>Empresario de medios de comunicación y ex alcalde de Lima durante los años 90. Figura conocida por generaciones mayores que busca retornar al espacio político.</p><p><strong>Estado legal:</strong> No registra investigaciones penales activas. Su gestión municipal de los 90s fue objeto de cuestionamientos administrativos que no derivaron en procesos penales formales.</p><p><strong>Contexto:</strong> Candidatura percibida por analistas como testimonial. No logró articular una propuesta diferenciada ni un equipo técnico competitivo. Su nombre reconocible entre electores mayores de 50 años no se traduce en intención de voto significativa en el contexto 2026.</p>",
+    "fuentes": [
+      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+    ]
+  }
+]
