@@ -143,22 +143,26 @@
     ]
   },
   {
-    "id": "p08",
-    "nombre": "Wolfgang Grozo",
-    "partido": "Integridad Democrática",
-    "foto": "",
-    "filtro": "ok",
-    "filtro_nota": "Sin procesos penales. Candidato nuevo sin historial en cargos públicos. DDJJ presentada.",
-    "eliminado": false,
-    "puntajes": { "integ": 72, "econ": 55, "capac": 38, "inst": 65, "segur": 48, "soc": 62 },
-    "encuesta_pct": 4,
-    "encuesta_fuente": "Ipsos mar 2026",
-    "resumen_html": "<p>Candidato político emergente sin trayectoria previa en cargos públicos ejecutivos o legislativos. Captó atención mediática especialmente entre electores jóvenes de 18-30 años.</p><p><strong>Estado legal:</strong> No registra investigaciones penales ni antecedentes judiciales. Declaración jurada coherente con perfil privado.</p><p><strong>Tendencia en encuestas:</strong> Ascenso espectacular de 0.4% en enero a 5-6% en febrero 2026, impulsado por el voto joven. Experimentó caída post-primer debate al 4% al ser cuestionado con mayor profundidad sobre propuestas económicas concretas.</p><p><strong>Limitación principal:</strong> La falta de experiencia en gestión pública y un equipo técnico poco consolidado son sus principales debilidades. Sus propuestas económicas son las menos desarrolladas entre los candidatos del pelotón intermedio.</p>",
-    "fuentes": [
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
-      { "texto": "IEP/Ipsos — Encuestas feb-mar 2026", "url": "https://www.ipsos.com/es-pe/topic/encuesta-intencion-de-voto" }
-    ]
-  },
+  "id": "p08",
+  "nombre": "Wolfgang Grozo",
+  "partido": "Integridad Democrática",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Sin sentencia penal ni investigación fiscal propia. Pero: (1) Mintió públicamente sobre su relación con Zamir Villaverde (investigado por corrupción en gobierno Castillo) y lo admitió después. Chats de WhatsApp lo desmienten. (2) Figura en el equipo de transferencia del Ministerio de Defensa del gobierno Castillo junto al sobrino del expresidente. (3) Buscó ser ministro en el gobierno Castillo según chats y testimonio de Villaverde. (4) Su candidata a vicepresidenta declaró patrimonio de S/277 millones por 'error' — eran S/277,000. Listas con candidatos excluidos por omitir sentencias.",
+  "eliminado": false,
+  "puntajes": { "integ": 40, "econ": 52, "capac": 58, "inst": 48, "segur": 65, "soc": 45 },
+  "encuesta_pct": 2,
+  "encuesta_fuente": "Ipsos mar 2026 (fue 5-6% en feb, cayó tras revelaciones)",
+  "resumen_html": "<p>Mayor general FAP en retiro, exdirector de Inteligencia de la Fuerza Aérea del Perú. Fundó Integridad Democrática en 2023. Candidato emergente que alcanzó 5-6% de intención de voto en febrero 2026, impulsado por el voto joven, pero experimentó caída libre post-debate al revelarse sus contradicciones.</p><p><strong>⚠ Vínculo con Zamir Villaverde — mintió y lo admitió:</strong> Villaverde es un empresario investigado por corrupción vinculado al gobierno de Pedro Castillo y colaborador eficaz de la Fiscalía. Grozo afirmó inicialmente que lo conocía solo de una foto casual e institucional en el CAEN. Villaverde lo desmintió con 5 fotografías, chats de WhatsApp y una cronología detallada de encuentros desde 2018: campaña municipal de Renzo Reggiardo (2018), reuniones con asesores del Ministerio de Defensa (2019), almuerzo en restaurante Costanera 700 en Miraflores (2019), visita de Grozo a la casa de Villaverde en La Molina (2021). Los chats muestran a Grozo llamándolo 'hermano', enviándole saludos afectuosos y su propio currículum vitae en junio 2021. Ante la evidencia, Grozo admitió que mintió 'por vergüenza' ante la 'dudosa reputación' de Villaverde.</p><p><strong>⚠ Buscó ser ministro en el gobierno Castillo:</strong> Según Villaverde y los chats difundidos, en 2021 Grozo buscó activamente posicionarse en el gobierno de Pedro Castillo, aspirando a los ministerios de Interior o Defensa. Le envió su CV a través de Villaverde para hacerlo llegar al exsecretario presidencial Bruno Pacheco (hoy investigado). Grozo admite haber asistido a la reunión en casa de Villaverde donde le ofrecieron el cargo, pero dice haberlo rechazado.</p><p><strong>⚠ Figura en equipo de transferencia de Defensa con sobrino de Castillo:</strong> En 2021, su nombre apareció en el documento del Comité de Transferencia para el Ministerio de Defensa del gobierno entrante de Perú Libre, junto a Fray Vásquez Castillo — sobrino del expresidente y posteriormente prófugo por el Caso Puente Tarata. Grozo atribuyó su inclusión a un 'exalumno del CAEN' que no le consultó.</p><p><strong>⚠ Equipo y listas cuestionados:</strong> Su candidata a primera vicepresidenta, Bertha Azabache, declaró un patrimonio de S/277 millones ante el JNE — en realidad eran S/277,000. Grozo atribuyó el error a Azabache. El JNE excluyó a varios candidatos de sus listas parlamentarias por omitir sentencias por hurto, violencia familiar y omisión de asistencia familiar. Grozo dijo desconocer los antecedentes de sus propios candidatos.</p><p><strong>Sin investigación propia pero con patrón preocupante:</strong> No tiene sentencias penales ni carpetas fiscales activas en su contra. Sin embargo, el patrón de mentiras admitidas, vínculos con el entorno corrupto del gobierno Castillo, y un equipo sin filtros adecuados generan dudas sobre su perfil de integridad — que es precisamente el eje central de su campaña.</p>",
+  "fuentes": [
+    { "texto": "El Comercio — Amistades peligrosas: Villaverde, Shimabukuro y Azabache (mar 2026)", "url": "https://elcomercio.pe/politica/elecciones/wolfang-grozo-zamir-villaverde-henry-shimabukuro-bertha-azabache-noticia/" },
+    { "texto": "Infobae — Grozo admite que mintió sobre Villaverde 'por vergüenza' (mar 2026)", "url": "https://www.infobae.com/peru/2026/03/18/wolfgang-grozo-niega-haber-ido-a-sarratea-y-admite-que-nego-amistad-con-zamir-villaverde-por-verguenza-de-su-dudosa-reputacion/" },
+    { "texto": "La República — Chats: Grozo habría buscado ser ministro con Castillo (mar 2026)", "url": "https://larepublica.pe/politica/2026/03/16/wolfgang-grozo-habria-buscado-ser-ministro-en-el-gobierno-de-pedro-castillo-segun-chats-hnews-982832" },
+    { "texto": "Infobae — Caída en encuestas tras revelaciones Villaverde (mar 2026)", "url": "https://www.infobae.com/peru/2026/03/25/wolfgang-grozo-cae-estrepitosamente-y-pasa-al-bolson-de-otros-en-ultima-encuesta-de-ipsos-no-llega-ni-al-1/" },
+    { "texto": "Wikipedia — Wolfgang Grozo (perfil completo)", "url": "https://es.wikipedia.org/wiki/Wolfgang_Grozo" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
   {
     "id": "p09",
     "nombre": "George Forsyth",
