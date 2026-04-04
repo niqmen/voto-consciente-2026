@@ -72,23 +72,25 @@
     ]
   },
   {
-    "id": "p05",
-    "nombre": "Jorge Nieto",
-    "partido": "Partido del Buen Gobierno",
-    "foto": "",
-    "filtro": "ok",
-    "filtro_nota": "Sin procesos penales. Trayectoria académica y técnica reconocida. DDJJ coherente con perfil profesional.",
-    "eliminado": false,
-    "puntajes": { "integ": 78, "econ": 70, "capac": 75, "inst": 78, "segur": 62, "soc": 65 },
-    "encuesta_pct": 5,
-    "encuesta_fuente": "Ipsos mar 2026",
-    "resumen_html": "<p>Politólogo y sociólogo, fue ministro de Defensa durante el gobierno de PPK (2016-2017). Investigador en gobernanza, institucionalidad y seguridad democrática.</p><p><strong>Estado legal:</strong> No registra investigaciones penales, sanciones del JNE ni observaciones de la Contraloría. Declaración jurada coherente con perfil académico-funcionario.</p><p><strong>Propuesta:</strong> Énfasis en reforma del Estado, fortalecimiento institucional y lucha anticorrupción con mecanismos concretos. Una de las propuestas más coherentes y detalladas del campo electoral según analistas especializados.</p><p><strong>Limitación estructural:</strong> Bajo perfil mediático y escasa maquinaria partisan limitan su alcance pese a ser técnicamente uno de los perfiles más sólidos. Ilustra el problema histórico peruano: los candidatos con mejor propuesta rara vez acceden a segunda vuelta.</p>",
-    "fuentes": [
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
-      { "texto": "Ministerio de Defensa — Historial de gestión ministerial", "url": "https://www.mindef.gob.pe" },
-      { "texto": "Ipsos — Encuesta intención de voto mar 2026", "url": "https://www.ipsos.com/es-pe/topic/encuesta-intencion-de-voto" }
-    ]
-  },
+  "id": "p05",
+  "nombre": "Jorge Nieto",
+  "partido": "Partido del Buen Gobierno",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Investigación preparatoria activa por presunto lavado de activos — Caso 'Las Chalinas Verdes'. La Fiscalía lo vincula con pagos de US$120,000-129,000 de la constructora OAS por asesorías a Susana Villarán en la campaña del No a la Revocatoria (2013). El propio candidato reconoció estar incluido en la investigación. Sin sentencia firme.",
+  "eliminado": false,
+  "puntajes": { "integ": 45, "econ": 70, "capac": 72, "inst": 65, "segur": 62, "soc": 65 },
+  "encuesta_pct": 5,
+  "encuesta_fuente": "Ipsos mar 2026",
+  "resumen_html": "<p>Sociólogo y político, fue ministro de Cultura y Defensa durante el gobierno de PPK (2016-2018). Renunció al gabinete tras el indulto a Alberto Fujimori. Candidato presidencial con perfil técnico e institucional.</p><p><strong>⚠ Investigación fiscal activa — Caso Las Chalinas Verdes:</strong> El Equipo Especial Lava Jato formalizó en julio de 2023 una investigación preparatoria contra Nieto por presunto lavado de activos. La tesis fiscal señala que recibió pagos de US$120,000 a US$129,000 de Valfredo de Assis Ribeiro, ejecutivo de OAS, como contraprestación por asesorías políticas a Susana Villarán durante la campaña del 'No a la Revocatoria' de 2013. El propio Nieto reconoció estar incluido en la investigación aunque niega haber recibido pago alguno. Sostiene que el principal testigo en su contra, José Miguel Castro (colaborador eficaz), declaró no conocerlo personalmente.</p><p><strong>Patrimonio cuestionado:</strong> Su declaración jurada ante el JNE 2026 consigna cinco propiedades — dos en México (Ciudad de México y Acapulco) y tres en Perú (Punta Hermosa y Lurín) — valorizadas en más de US$1,080,000. Reportes periodísticos señalan discrepancias entre años sin ingresos declarados y el mantenimiento de un patrimonio significativo.</p><p><strong>Dato adicional:</strong> Es sobrino de Vladimiro Montesinos, aunque no hay evidencia de relación política entre ambos. Nicanor Boluarte figuró inicialmente como personero legal de su partido.</p>",
+  "fuentes": [
+    { "texto": "El Comercio — Fiscalía formaliza investigación por Odebrecht y OAS (jul 2023)", "url": "https://elcomercio.pe/politica/justicia/caso-odebrecht-y-oas-fiscalia-formaliza-investigacion-contra-susana-villaran-marisa-glave-y-jorge-nieto-montesinos-ministerio-publico-jaime-salinas-municipalidad-de-lima-mml-ultimas-noticia/" },
+    { "texto": "RPP — Detalle de pagos OAS: US$129,000 a Nieto por asesorías", "url": "https://rpp.pe/politica/judiciales/susana-villaran-por-que-la-fiscalia-abrio-investigacion-a-marisa-glave-anel-townsend-jorge-nieto-y-otros-vinculados-al-no-a-la-revocatoria-odebrecht-oas-noticia-1280191" },
+    { "texto": "La Razón — Investigación activa por lavado de activos (2026)", "url": "https://larazon.pe/fiscalia-investiga-a-jorge-nieto-por-presunto-delito-de-lavado-de-activos/" },
+    { "texto": "Wikipedia — Jorge Nieto Montesinos (sección Controversias)", "url": "https://es.wikipedia.org/wiki/Jorge_Nieto" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
   {
     "id": "p06",
     "nombre": "Roberto Sánchez",
