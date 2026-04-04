@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function loadData(key, url) {
   try {
-    const r = await fetch(url);
+    const r = await fetch(url + '?v=' + Date.now());
     state[key].data = await r.json();
   } catch(e) {
     console.error('Error cargando', url, e);
