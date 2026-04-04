@@ -124,24 +124,29 @@
   ]
 },
   {
-    "id": "p07",
-    "nombre": "César Acuña",
-    "partido": "Alianza para el Progreso",
-    "foto": "",
-    "filtro": "warn",
-    "filtro_nota": "Inhabilitado por JNE en 2016 por entregar dádivas a electores (inhabilitación ya cumplida). Múltiples investigaciones fiscales antiguas sin sentencia firme activa al momento de la candidatura.",
-    "eliminado": false,
-    "puntajes": { "integ": 35, "econ": 58, "capac": 65, "inst": 38, "segur": 55, "soc": 55 },
-    "encuesta_pct": 3,
-    "encuesta_fuente": "Ipsos mar 2026",
-    "resumen_html": "<p>Empresario del sector educativo (Universidad César Vallejo y otras), ex gobernador regional de La Libertad y candidato presidencial recurrente.</p><p><strong>Antecedente JNE 2016:</strong> Inhabilitado durante la campaña de 2016 por el Jurado Nacional de Elecciones por entregar dádivas a electores — regalos y dinero en actividades proselitistas, práctica documentada con evidencia fotográfica y testimonial. La inhabilitación fue cumplida y no le impide candidatear en 2026.</p><p><strong>Investigaciones fiscales:</strong> Ha tenido diversas investigaciones del Ministerio Público vinculadas a su gestión regional y empresas educativas. Ninguna ha culminado en sentencia firme en su contra al momento de la candidatura.</p><p><strong>Infraestructura política:</strong> APP tiene una de las maquinarias electorales más grandes del país gracias a su red universitaria. Esto genera cuestionamiento sobre uso de recursos educativos con fines políticos, con múltiples denuncias de ex trabajadores.</p><p><strong>Antivoto:</strong> 7.3% de antivoto según IEP — el segundo más alto del campo presidencial después de Fujimori (54%).</p>",
-    "fuentes": [
-      { "texto": "JNE — Resolución de inhabilitación 2016", "url": "https://portal.jne.gob.pe" },
-      { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" },
-      { "texto": "Ministerio Público — Portal de consulta de casos", "url": "https://www.mpfn.gob.pe" },
-      { "texto": "IEP — Encuesta feb 2026 (datos de antivoto)", "url": "https://iep.org.pe" }
-    ]
-  },
+  "id": "p07",
+  "nombre": "César Acuña",
+  "partido": "Alianza para el Progreso",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Inhabilitado por JNE en 2016 por entregar dádivas a electores (cumplida). Investigación fiscal activa (caso complejo) por colusión: uso de S/2 millones de fondos del Gobierno Regional de La Libertad para publicidad política propia. Investigación por Procompite: S/116 millones aprobados sin sustento con indicios de corrupción en funcionarios de su gestión. Contraloría detectó corrupción en contratos por S/315.6 millones adjudicados a empresa de 23 años sin experiencia. Hermano Óscar investigado por tráfico de influencias. Plagios documentados en tesis doctoral (Complutense) y maestría (U. de Lima), sancionado por INDECOPI. SUNEDU sancionó a su universidad por usar activos para su beneficio personal.",
+  "eliminado": false,
+  "puntajes": { "integ": 22, "econ": 55, "capac": 60, "inst": 25, "segur": 48, "soc": 50 },
+  "encuesta_pct": 3,
+  "encuesta_fuente": "Ipsos mar 2026",
+  "resumen_html": "<p>Empresario del sector educativo (Universidad César Vallejo y otras instituciones), ex congresista, ex alcalde de Trujillo y ex gobernador regional de La Libertad. Candidato presidencial por tercera vez. Uno de los políticos con el historial más largo de escándalos documentados en el Perú contemporáneo.</p><p><strong>🚫 Inhabilitado por JNE en 2016 — dádivas a electores:</strong> Durante la campaña presidencial de 2016, el JNE lo excluyó de la contienda por entregar dinero en efectivo y regalos a electores en actividades proselitistas — práctica documentada con evidencia fotográfica y testimonial. La inhabilitación fue cumplida y no le impide candidatear en 2026, pero es el único candidato presidencial de esta elección que ya fue sancionado y excluido de una campaña por corrupción electoral directa.</p><p><strong>⚠ Investigación fiscal activa — colusión en publicidad (caso complejo):</strong> La Fiscalía Especializada en Corrupción de La Libertad declaró compleja en 2025 la investigación contra Acuña por presunta colusión al destinar S/2 millones de fondos del Gobierno Regional a publicidad en medios afines a su partido, con el objetivo documentado de impulsar su candidatura presidencial. La denuncia cita una frase del propio expediente fiscal: 'el denunciado tiene como objetivo ser presidente y hace abuso de su cargo'. Están co-investigados dos funcionarios de confianza.</p><p><strong>⚠ Corrupción en gestión regional — Contraloría y Fiscalía:</strong> La Contraloría detectó corrupción en dos grandes obras adjudicadas a LC&EC Constructora — empresa propiedad de una joven de 23 años recién graduada, sin experiencia en el rubro — por S/315.6 millones totales. Se modificaron bases de licitación para favorecerla. Funcionarios de confianza de Acuña fueron acusados formalmente. Acuña los destituyó solo después que la Fiscalía abrió investigación penal. También aprobó 75 proyectos Procompite por S/116 millones sin sustento, con indicios de manipulación de puntajes por el Comité Evaluador. La Fiscalía Anticorrupción tuvo que intervenir. Además, acumuló 145 días fuera del cargo durante 2025 — el 30% de su tiempo de gestión.</p><p><strong>⚠ Hermano Óscar — tráfico de influencias:</strong> La Fiscalía Anticorrupción investiga a su hermano Óscar Acuña por haber recibido S/77,000 del empresario Nilo Burga para gestionar contratos del Gobierno Regional de La Libertad a favor de la empresa Frigoinca en el programa Qali Warma. El Poder Judicial rechazó la prisión preventiva por tecnicismo legal pero el caso sigue activo. Una llamada alertó a Óscar del operativo policial justo a tiempo para eludir su captura.</p><p><strong>⚠ Plagios académicos — tres universidades y SUNEDU:</strong> En 2016, El Comercio verificó con software Turnitin plagios extensos en su tesis doctoral (Universidad Complutense de Madrid, 2009): párrafos y páginas enteras copiados de la OMS, Universidad de Chile y Universidad de Barcelona sin citar. La Complutense investigó y su propia Comisión de Doctorado concluyó que el trabajo 'incurría en deficiencias contrarias a la metodología académica'. En 2016 la Universidad de Lima confirmó plagio en su tesis de maestría. INDECOPI sancionó a Acuña y a la Universidad César Vallejo por plagio. La SUNEDU sancionó a la Universidad César Vallejo por usar activos institucionales para beneficio personal de su fundador. Acuña afirma que 'la originalidad fue demostrada', pero el dictamen de la Comisión Jurídica de Madrid no dice eso — solo dice que no había pruebas suficientes para anular el título.</p><p><strong>⚠ Audio ordenando legislación a su favor:</strong> En 2022 se filtró un audio donde Acuña le ordena a la entonces presidenta del Congreso Lady Camones agilizar un proyecto de ley de creación del distrito Alto Trujillo diciéndole: 'Ese proyecto de Alto Trujillo me va a favorecer a mí. Tiene 120,000 electores'. El audio fue difundido por Epicentro TV y generó escándalo nacional.</p><p><strong>Partido con 20% de candidatos sentenciados:</strong> Cuarto Poder documentó que 53 candidatos de APP al Congreso tienen sentencias firmes por delitos como corrupción, homicidio culposo, lesiones graves y violencia familiar. Acuña declaró enterarse 'ahorita' cuando fue preguntado por los medios — pese a ser el fundador y líder indiscutible del partido.</p>",
+  "fuentes": [
+    { "texto": "JNE — Resolución de inhabilitación por dádivas a electores (2016)", "url": "https://portal.jne.gob.pe" },
+    { "texto": "Infobae — Investigación fiscal activa por S/2 millones en publicidad (may 2025)", "url": "https://www.infobae.com/peru/2025/05/22/fiscalia-investiga-a-cesar-acuna-por-destinar-s-2-millones-de-dinero-publico-para-publicidad-su-objetivo-es-ser-presidente/" },
+    { "texto": "La República — Contraloría acusa 6 funcionarios por Procompite S/116 millones (mar 2026)", "url": "https://larepublica.pe/politica/2026/03/20/contraloria-acusa-a-6-exfuncionarios-de-cesar-acuna-por-malos-manejos-en-programa-de-s116-millones-alianza-para-el-progreso-contraloria-hnews-861420" },
+    { "texto": "La República — Corrupción en contratos S/315.6 millones empresa de 23 años (dic 2025)", "url": "https://larepublica.pe/politica/2025/12/24/cinco-funcionarios-de-acuna-acusados-de-corrupcion-cesar-acuna-alianza-para-el-progreso-hnews-728496" },
+    { "texto": "Infobae — Hermano Óscar: tráfico de influencias en Qali Warma (dic 2025)", "url": "https://www.infobae.com/peru/2025/12/07/oscar-acuna-sera-investigado-en-libertad-pj-rechaza-prision-preventiva-para-el-hermano-de-cesar-acuna/" },
+    { "texto": "Infobae — 20% de candidatos de APP tienen sentencias firmes (feb 2026)", "url": "https://www.infobae.com/peru/2026/02/09/alianza-para-el-progreso-y-sus-sentenciados-20-de-candidatos-llega-a-elecciones-con-antecedentes-penales/" },
+    { "texto": "El Comercio — Plagios en tesis doctoral verificados con Turnitin (ene 2016)", "url": "https://elcomercio.pe/politica/elecciones/cesar-acuna-tesis-doctoral-presento-llena-plagios-391626-noticia/" },
+    { "texto": "Wikipedia — César Acuña (historial completo)", "url": "https://es.wikipedia.org/wiki/C%C3%A9sar_Acu%C3%B1a" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
   {
   "id": "p08",
   "nombre": "Wolfgang Grozo",
