@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Revisa tu candidato — VotoConsciente Perú 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0d0f14;
+    --bg2: #13161e;
+    --bg3: #1a1e28;
+    --border: #252a38;
+    --accent: #e63946;
+    --accent2: #f4a261;
+    --green: #2ec4b6;
+    --text: #e8eaf0;
+    --text2: #8b93a8;
+    --text3: #555e78;
+    --red: #e63946;
+    --yellow: #f4a261;
+    --teal: #2ec4b6;
+    --radius: 10px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* HEADER */
+  .header {
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .header a {
+    color: var(--text2);
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .header a:hover { color: var(--text); }
+  .header-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .header-title span {
+    background: var(--accent);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 20px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+  }
+
+  /* MAIN */
+  .main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 2.5rem 0 2rem;
+  }
+  .hero h1 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: .75rem;
+  }
+  .hero h1 em {
+    font-style: normal;
+    color: var(--accent);
+  }
+  .hero p {
+    color: var(--text2);
+    font-size: 14px;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  /* SEARCH BOX */
+  .search-box {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .search-box label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text2);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    margin-bottom: .6rem;
+  }
+  .search-row {
+    display: flex;
+    gap: 10px;
+  }
+  .search-row input {
+    flex: 1;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: .65rem 1rem;
+    color: var(--text);
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .15s;
+  }
+  .search-row input:focus { border-color: var(--accent); }
+  .search-row input::placeholder { color: var(--text3); }
+  .btn-search {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: .65rem 1.25rem;
+    font-family: 'Sora', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: opacity .15s;
+  }
+  .btn-search:hover { opacity: .85; }
+
+  /* STEPS */
+  .section-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text3);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    margin-bottom: .75rem;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+
+  .step {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    transition: border-color .15s;
+  }
+  .step:hover { border-color: #353a4e; }
+
+  .step-num {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .step-num.s1 { background: rgba(230,57,70,.15); color: var(--red); }
+  .step-num.s2 { background: rgba(244,162,97,.15); color: var(--yellow); }
+  .step-num.s3 { background: rgba(46,196,182,.15); color: var(--teal); }
+  .step-num.s4 { background: rgba(139,147,168,.1); color: var(--text2); }
+
+  .step-content h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: .3rem;
+    color: var(--text);
+  }
+  .step-content p {
+    font-size: 12px;
+    color: var(--text2);
+    line-height: 1.5;
+    margin-bottom: .5rem;
+  }
+
+  .links-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: .4rem;
+  }
+  .link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text2);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .link-btn:hover {
+    background: var(--bg);
+    color: var(--text);
+    border-color: #3a4060;
+  }
+  .link-btn.primary {
+    background: rgba(230,57,70,.1);
+    border-color: rgba(230,57,70,.3);
+    color: var(--red);
+  }
+  .link-btn.primary:hover {
+    background: rgba(230,57,70,.2);
+  }
+  .link-btn.teal {
+    background: rgba(46,196,182,.08);
+    border-color: rgba(46,196,182,.25);
+    color: var(--teal);
+  }
+  .link-btn.teal:hover { background: rgba(46,196,182,.15); }
+
+  /* PREGUNTAS GUIA */
+  .checklist {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .checklist h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+  .check-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: .55rem 0;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+  }
+  .check-item:last-child { border-bottom: none; }
+  .check-item input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    accent-color: var(--teal);
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .check-item label {
+    font-size: 13px;
+    color: var(--text2);
+    cursor: pointer;
+    line-height: 1.4;
+  }
+  .check-item.checked label {
+    color: var(--text3);
+    text-decoration: line-through;
+  }
+  .check-progress {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .progress-bar {
+    flex: 1;
+    height: 4px;
+    background: var(--bg3);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--teal);
+    border-radius: 2px;
+    transition: width .3s;
+    width: 0%;
+  }
+  .progress-text {
+    font-size: 11px;
+    color: var(--text3);
+    white-space: nowrap;
+  }
+
+  /* SEÑALES DE ALERTA */
+  .alerts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+  .alert-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem;
+  }
+  .alert-card .icon {
+    font-size: 20px;
+    margin-bottom: .5rem;
+  }
+  .alert-card h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: .3rem;
+  }
+  .alert-card p {
+    font-size: 11px;
+    color: var(--text2);
+    line-height: 1.4;
+  }
+  .alert-card.red { border-left: 3px solid var(--red); }
+  .alert-card.yellow { border-left: 3px solid var(--yellow); }
+  .alert-card.teal { border-left: 3px solid var(--teal); }
+
+  /* RESULTADO URL */
+  .result-box {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    display: none;
+    margin-bottom: 1.5rem;
+  }
+  .result-box.visible { display: block; }
+  .result-box h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+  .result-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .result-link-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: .65rem 1rem;
+    gap: 10px;
+  }
+  .result-link-item .site-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text);
+    min-width: 130px;
+  }
+  .result-link-item .site-desc {
+    font-size: 11px;
+    color: var(--text2);
+    flex: 1;
+  }
+  .result-link-item a {
+    font-size: 11px;
+    color: var(--accent);
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  .result-link-item a:hover { text-decoration: underline; }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    background: rgba(244,162,97,.06);
+    border: 1px solid rgba(244,162,97,.2);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+    font-size: 12px;
+    color: var(--text2);
+    line-height: 1.6;
+    margin-top: 2rem;
+  }
+  .disclaimer strong { color: var(--yellow); }
+
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 20px; }
+    .search-row { flex-direction: column; }
+    .result-link-item { flex-direction: column; align-items: flex-start; }
+    .result-link-item .site-name { min-width: auto; }
+    .alerts-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="index.html">← Volver a la matriz</a>
+  <div class="header-title">
+    VotoConsciente Perú 2026 <span>Beta</span>
+  </div>
+</div>
+
+<div class="main">
+
+  <div class="hero">
+    <h1>Revisa a cualquier candidato<br>en <em>3 minutos</em></h1>
+    <p>Los 190 congresistas no los investigamos uno por uno. Pero te mostramos cómo verificarlos tú mismo con fuentes oficiales del Estado.</p>
+  </div>
+
+  <!-- SEARCH BOX -->
+  <div class="search-box">
+    <label>Escribe el nombre del candidato</label>
+    <div class="search-row">
+      <input type="text" id="candidato-input" placeholder="Ej: Martha Chávez, Alejandro Soto, Lady Camones…" />
+      <button class="btn-search" onclick="buscarCandidato()">Buscar →</button>
+    </div>
+  </div>
+
+  <!-- RESULTADO CON LINKS PERSONALIZADOS -->
+  <div class="result-box" id="result-box">
+    <h3>🔍 Links de verificación para "<span id="nombre-resultado"></span>"</h3>
+    <div class="result-links" id="result-links"></div>
+  </div>
+
+  <!-- PASOS -->
+  <div class="section-label" style="margin-bottom:.75rem">Cómo verificar en 4 pasos</div>
+  <div class="steps">
+
+    <div class="step">
+      <div class="step-num s1">1</div>
+      <div class="step-content">
+        <h3>Consulta su hoja de vida oficial en el JNE</h3>
+        <p>El JNE publica la declaración jurada de bienes, ingresos, estudios y antecedentes de cada candidato. Si omitió información, el JEE puede sancionarlo. Es el punto de partida.</p>
+        <div class="links-row">
+          <a class="link-btn primary" href="https://votoinformado.jne.gob.pe" target="_blank">🏛 JNE — Voto Informado</a>
+          <a class="link-btn" href="https://declara.jne.gob.pe" target="_blank">📄 Declaraciones juradas</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num s2">2</div>
+      <div class="step-content">
+        <h3>Verifica si tiene procesos en el Ministerio Público</h3>
+        <p>El MP publica investigaciones preparatorias, acusaciones formales y estado de casos. Si aparece como investigado o imputado, es una señal de alerta — aunque no sentencia.</p>
+        <div class="links-row">
+          <a class="link-btn primary" href="https://www.mpfn.gob.pe" target="_blank">⚖️ Ministerio Público (portal)</a>
+          <a class="link-btn" href="https://plataformaelectoral.jne.gob.pe" target="_blank">📋 Plataforma Electoral JNE</a>
+          <a class="link-btn" href="https://infogob.jne.gob.pe" target="_blank">📊 Infogob JNE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num s3">3</div>
+      <div class="step-content">
+        <h3>Consulta el Poder Judicial — sentencias firmes</h3>
+        <p>Aquí puedes buscar si tiene sentencia condenatoria firme. Es la prueba más contundente. Una sentencia no archivada ni anulada es eliminatoria.</p>
+        <div class="links-row">
+          <a class="link-btn teal" href="https://www.pj.gob.pe" target="_blank">🔍 Poder Judicial (portal)</a>
+          <a class="link-btn" href="https://www.pj.gob.pe/wps/wcm/connect/CIJPoral/s_ciij_home_left/s_busquedas_de_jurisprudencia/" target="_blank">📚 PJ — Jurisprudencia</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num s4">4</div>
+      <div class="step-content">
+        <h3>Revisa su historial de votación y asistencia en el Congreso</h3>
+        <p>Si ya fue congresista, puedes ver cómo votó, cuántas veces asistió, qué proyectos presentó y si votó a favor de leyes cuestionadas. El Congreso y el Infogob lo publican.</p>
+        <div class="links-row">
+          <a class="link-btn" href="https://www.congreso.gob.pe/seguimiento-de-legislacion/" target="_blank">🏛 Congreso — Historial legislativo</a>
+          <a class="link-btn" href="https://infogob.jne.gob.pe" target="_blank">📊 Infogob — Historial político</a>
+          <a class="link-btn" href="https://leyes-procrimen.gob.pe" target="_blank">⚠️ Leyes procrimen</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- CHECKLIST INTERACTIVO -->
+  <div class="section-label">Checklist — úsalo mientras investigas</div>
+  <div class="checklist">
+    <h3>¿Qué verificar de cada candidato?</h3>
+
+    <div class="check-item" onclick="toggleCheck(this)">
+      <input type="checkbox">
+      <label>¿Tiene sentencia penal firme por delito doloso? (Si sí → descarta)</label>
+    </div>
+    <div class="check-item" onclick="toggleCheck(this)">
+      <input type="checkbox">
+      <label>¿Está investigado por la Fiscalía Anticorrupción o Lava Jato? (alerta amarilla)</label>
+    </div>
+    <div class="check-item" onclick="toggleCheck(this)">
+      <input type="checkbox">
+      <label>¿Declaró todos sus bienes e ingresos coherentemente en el JNE?</label>
+    </div>
+    <div class="check-item" onclick="toggleCheck(this)">
+      <input type="checkbox">
+      <label>¿Cambió de partido más de 2 veces en los últimos 5 años? (oportunismo político)</label>
+    </div>
+    <div class="check-item" onclick="toggleCheck(this)">
+      <input type="checkbox">
+      <label>¿Si fue congresista, asistió más del 80% de las sesiones?</label>
+    </div>
+    <div class="check-item" onclick="toggleCheck(this)">
+      <input type="checkbox">
+      <label>¿Votó a favor de alguna ley identificada como "procrimen" por el MP o Transparencia?</label>
+    </div>
+    <div class="check-item" onclick="toggleCheck(this)">
+      <input type="checkbox">
+      <label>¿Tiene denuncias por mochasueldos (recorte ilegal de sueldos a trabajadores)?</label>
+    </div>
+    <div class="check-item" onclick="toggleCheck(this)">
+      <input type="checkbox">
+      <label>¿Su partido lleva candidatos con sentencias graves en las listas? (señal del tipo de alianza)</label>
+    </div>
+    <div class="check-item" onclick="toggleCheck(this)">
+      <input type="checkbox">
+      <label>¿Sus propuestas tienen sustento técnico o son populismo sin fuente de financiamiento?</label>
+    </div>
+    <div class="check-item" onclick="toggleCheck(this)">
+      <input type="checkbox">
+      <label>¿Sus ingresos declarados son coherentes con su patrimonio visible?</label>
+    </div>
+
+    <div class="check-progress">
+      <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+      <span class="progress-text" id="progress-text">0 / 10 verificados</span>
+    </div>
+  </div>
+
+  <!-- SEÑALES DE ALERTA -->
+  <div class="section-label">Señales de alerta a detectar</div>
+  <div class="alerts-grid">
+    <div class="alert-card red">
+      <div class="icon">🚨</div>
+      <h4>Eliminatorio directo</h4>
+      <p>Sentencia penal firme por delito doloso. Prófugo de la justicia. Inhabilitación vigente del JNE.</p>
+    </div>
+    <div class="alert-card red">
+      <div class="icon">🔴</div>
+      <h4>Alerta grave</h4>
+      <p>Investigación formal activa por corrupción, lavado o crimen organizado. Mochasueldo documentado.</p>
+    </div>
+    <div class="alert-card yellow">
+      <div class="icon">🟡</div>
+      <h4>Alerta moderada</h4>
+      <p>Omisión de datos en DDJJ. Cambio de más de 2 partidos. Votó leyes procrimen. Uso cuestionado de recursos públicos.</p>
+    </div>
+    <div class="alert-card teal">
+      <div class="icon">✅</div>
+      <h4>Sin alerta detectada</h4>
+      <p>Sin antecedentes penales. DDJJ coherente. Asistencia alta. Propuestas con sustento técnico verificable.</p>
+    </div>
+    <div class="alert-card yellow">
+      <div class="icon">⚠️</div>
+      <h4>Candidatos "lista relleno"</h4>
+      <p>Más de 130 clanes de hermanos postulan en listas al Congreso 2026 (El Comercio, abr 2026). Verifica parentescos.</p>
+    </div>
+    <div class="alert-card yellow">
+      <div class="icon">📊</div>
+      <h4>Partido como señal</h4>
+      <p>Podemos Perú lleva 38 candidatos con sentencias firmes. APP lleva 14. Verifica el partido antes del candidato.</p>
+    </div>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="disclaimer">
+    <strong>⚠ Aviso importante:</strong> Esta herramienta es orientativa. Los links te llevan a fuentes oficiales del Estado peruano — el juicio sobre cada candidato lo haces tú. Una investigación fiscal no es una sentencia. Una sentencia anulada no es una condena vigente. <strong>Verifica siempre en la fuente original antes de concluir.</strong><br><br>
+    Esta sección fue construida por <strong>VotoConsciente Perú 2026</strong> — proyecto ciudadano independiente, sin financiamiento político ni publicitario. Código abierto en <a href="https://github.com/niqmen/voto-consciente-2026" style="color:var(--teal)">GitHub</a>.
+  </div>
+
+</div><!-- /main -->
+
+<script>
+// CHECKLIST
+function toggleCheck(item) {
+  const cb = item.querySelector('input[type="checkbox"]');
+  cb.checked = !cb.checked;
+  item.classList.toggle('checked', cb.checked);
+  updateProgress();
+}
+
+function updateProgress() {
+  const items = document.querySelectorAll('.check-item input[type="checkbox"]');
+  const checked = [...items].filter(i => i.checked).length;
+  const total = items.length;
+  const pct = (checked / total * 100).toFixed(0);
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-text').textContent = checked + ' / ' + total + ' verificados';
+}
+
+// BUSCADOR CON LINKS DINÁMICOS
+function buscarCandidato() {
+  const nombre = document.getElementById('candidato-input').value.trim();
+  if (!nombre) return;
+
+  const encoded = encodeURIComponent(nombre);
+  const encodedGoogle = encodeURIComponent(nombre + ' Peru investigacion fiscal corrupcion');
+
+  const links = [
+    {
+      sitio: 'JNE — Voto Informado',
+      desc: 'Hoja de vida, bienes, ingresos y antecedentes declarados',
+      url: `https://votoinformado.jne.gob.pe/presidente-vicepresidentes`,
+      action: `Buscar "${nombre}"`
+    },
+    {
+      sitio: 'Infogob JNE',
+      desc: 'Historial político, partidos, elecciones anteriores',
+      url: `https://infogob.jne.gob.pe`,
+      action: 'Ir →'
+    },
+    {
+      sitio: 'Revisa Tu Candidato (RTC)',
+      desc: 'Investigaciones fiscales activas por el MP',
+      url: `https://plataformaelectoral.jne.gob.pe`,
+      action: 'Buscar en RTC →'
+    },
+    {
+      sitio: 'Poder Judicial — Expedientes',
+      desc: 'Sentencias y procesos judiciales activos',
+      url: `https://www.pj.gob.pe`,
+      action: 'Buscar en PJ →'
+    },
+    {
+      sitio: 'Google — Prensa verificada',
+      desc: 'El Comercio, RPP, Ojo Público, IDL-Reporteros, La República',
+      url: `https://www.google.com/search?q=${encodedGoogle}&tbm=nws`,
+      action: 'Ver noticias →'
+    },
+    {
+      sitio: 'Ministerio Público',
+      desc: 'Portal oficial de la Fiscalía de la Nación',
+      url: `https://www.mpfn.gob.pe`,
+      action: 'Ir al MP →'
+    }
+  ];
+
+  document.getElementById('nombre-resultado').textContent = nombre;
+
+  const container = document.getElementById('result-links');
+  container.innerHTML = links.map(l => `
+    <div class="result-link-item">
+      <span class="site-name">${l.sitio}</span>
+      <span class="site-desc">${l.desc}</span>
+      <a href="${l.url}" target="_blank">${l.action}</a>
+    </div>
+  `).join('');
+
+  document.getElementById('result-box').classList.add('visible');
+  document.getElementById('result-box').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// Enter en el input
+document.getElementById('candidato-input').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') buscarCandidato();
+});
+</script>
+
+</body>
+</html>
