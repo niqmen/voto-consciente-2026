@@ -490,21 +490,21 @@
 },
   {
   "id": "p21",
-  "nombre": "Herbert Caller",
-  "partido": "Partido Patriótico del Perú",
-  "foto": "",
-  "filtro": "ok",
-  "filtro_nota": "Sin sentencias penales, investigaciones fiscales ni antecedentes judiciales, policiales ni penales. ONPE y JNE confirman ausencia de antecedentes. Perfil técnico-militar sin cargos públicos previos en el ejecutivo o legislativo.",
+  "nombre": "Herbert Caller Gutiérrez",
+  "partido": "Partido Patriótico del Perú (PPP)",
+  "foto": "https://jne.gob.pe",
+  "filtro": "observado",
+  "filtro_nota": "Aunque no registra sentencias penales vigentes en su Hoja de Vida del JNE, presenta una sentencia judicial firme de carácter civil por una deuda de S/ 84,000 y denuncias públicas por préstamos no devueltos que no figuran como aportes oficiales ante la ONPE.",
   "eliminado": false,
-  "puntajes": { "integ": 70, "econ": 52, "capac": 50, "inst": 58, "segur": 65, "soc": 52 },
-  "encuesta_pct": 0,
-  "encuesta_fuente": "Marginal (<1%)",
-  "resumen_html": "<p>Abogado, exoficial superior de la Marina de Guerra del Perú (1996-2017), egresado como 'Espada de Honor' de la Escuela Naval en 2000. Master en Gestión y Análisis de Políticas Públicas por la Universidad Carlos III de Madrid. Habla seis idiomas. Fundador del Partido Patriótico del Perú (2017) y empresario educativo (Caller Language Center y Caller Colegio Internacional).</p><p><strong>Estado legal:</strong> Sin sentencias penales, investigaciones fiscales ni antecedentes de ningún tipo. Es uno de los perfiles más limpios del campo electoral 2026.</p><p><strong>Sin experiencia en cargos públicos ejecutivos o legislativos:</strong> Nunca ha sido alcalde, congresista, ministro ni gobernador regional. Su única experiencia en el Estado fue como oficial de marina. Esto limita significativamente su capacidad de gobernar desde el primer día.</p><p><strong>Propuesta:</strong> Seguridad con FFAA en orden interno (art. 137), transformar cárceles en centros productivos, descentralizar 5 ministerios a regiones, revolución educativa con metodologías propias. Propuestas con más creatividad que viabilidad técnica en algunos casos.</p>",
+  "puntajes": { "integ": 45, "econ": 52, "capac": 50, "inst": 58, "segur": 65, "soc": 52 },
+  "encuesta_pct": 0.8,
+  "encuesta_fuente": "Marginal (Ipsos/Datum abr 2026)",
+  "resumen_html": "<p><strong>Perfil y Trayectoria:</strong> Abogado y exoficial de la Marina de Guerra del Perú (1996-2017). Se graduó como 'Espada de Honor' y posee una Maestría en Gestión de Políticas Públicas por la Universidad Carlos III de Madrid. Es fundador del Partido Patriótico del Perú y empresario en el sector educativo (Caller Language Center).</p><p><strong>Antecedentes y 'Manchas':</strong> A pesar de presentarse como un perfil técnico-militar limpio, registra una <strong>sentencia judicial firme</strong> por 'Obligación de dar suma de dinero' ascendente a S/ 84,000 más intereses a favor de Isolda Vera Romero. Asimismo, ha sido denunciado por el impago de un préstamo de S/ 35,000; el candidato sostiene que fue un aporte partidario, pero dicha transacción <strong>no aparece en los registros de financiamiento de la ONPE</strong>, lo que genera dudas sobre su transparencia financiera.</p><p><strong>Propuesta Política:</strong> Su plan se centra en la seguridad nacional bajo un enfoque de 'mano dura', proponiendo que las Fuerzas Armadas asuman el orden interno (Art. 137), la conversión de penales en centros industriales productivos y el servicio militar obligatorio para jóvenes desempleados. También plantea descentralizar el Estado trasladando cinco ministerios clave a provincias.</p><p><strong>Debilidad Crítica:</strong> Carece totalmente de experiencia previa en cargos de elección popular (Congreso, Alcaldías o Gobiernos Regionales), lo que genera incertidumbre sobre su capacidad de manejo político y legislativo.</p>",
   "fuentes": [
-    { "texto": "Andina — Hoja de vida oficial 2026", "url": "https://andina.pe/agencia/noticia-elecciones-2026-revisa-hoja-vida-herbert-caller-del-partido-patriotico-del-peru-1065346.aspx" },
-    { "texto": "RPP — Propuesta de descentralizar ministerios (ene 2026)", "url": "https://rpp.pe/politica/elecciones/herbert-caller-candidato-presidencial-del-ppp-plantea-trasladar-cinco-ministerios-a-regiones-noticia-1671255" },
-    { "texto": "Wikipedia — Partido Patriótico del Perú", "url": "https://es.wikipedia.org/wiki/Partido_Patri%C3%B3tico_del_Per%C3%BA" },
-    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+    { "texto": "JNE — Hoja de Vida y Declaración Jurada 2026", "url": "https://jne.gob.pe" },
+    { "texto": "Andina — Perfil del candidato Herbert Caller", "url": "https://andina.pe" },
+    { "texto": "RPP — Propuestas de seguridad y descentralización", "url": "https://rpp.pe" },
+    { "texto": "Reportes Judiciales — Sentencia civil firme 2024/2025", "url": "https://pj.gob.pe" }
   ]
 },
   {
