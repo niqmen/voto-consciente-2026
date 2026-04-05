@@ -493,7 +493,7 @@
   "nombre": "Herbert Caller Gutiérrez",
   "partido": "Partido Patriótico del Perú (PPP)",
   "foto": "https://jne.gob.pe",
-  "filtro": "observado",
+  "filtro": "warn",
   "filtro_nota": "Aunque no registra sentencias penales vigentes en su Hoja de Vida del JNE, presenta una sentencia judicial firme de carácter civil por una deuda de S/ 84,000 y denuncias públicas por préstamos no devueltos que no figuran como aportes oficiales ante la ONPE.",
   "eliminado": false,
   "puntajes": { "integ": 45, "econ": 52, "capac": 50, "inst": 58, "segur": 65, "soc": 52 },
