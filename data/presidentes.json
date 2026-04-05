@@ -417,20 +417,55 @@
 },
   {
   "id": "p19",
-  "nombre": "José Williams Zapata",
-  "partido": "Avanza País",
+  "nombre": "Mesías Antonio Guevara Amasifuén",
+  "partido": "Partido Morado",
   "foto": "",
-  "filtro": "warn",
-  "filtro_nota": "Vinculado a dos hechos graves como militar: (1) Masacre de Accomarca (1985): estuvo a cargo de patrullas que asesinaron a 69 civiles en Ayacucho. Dos procesos judiciales en 2005 no encontraron pruebas suficientes para condenarlo, aunque un testigo lo señaló por ordenar encubrir las bajas. (2) Operación Chavín de Huántar (1997): el JEE inició proceso sancionador por presunta omisión de antecedentes judiciales vinculados a homicidio calificado; archivado en feb 2026 tras confirmarse que fue absuelto en ambos fueros. Sin sentencia firme en ningún caso.",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales ni investigaciones fiscales propias activas. Cuestionamiento menor de gestión parlamentaria: el Fiscal de la Nación (2014) lo denunció ante la Comisión de Ética por presunta vulneración al debido proceso durante su presidencia de la Comisión Áncash. La denuncia no prosperó. Sin proceso penal propio.",
   "eliminado": false,
-  "puntajes": { "integ": 45, "econ": 52, "capac": 65, "inst": 58, "segur": 72, "soc": 45 },
-  "encuesta_pct": 1,
-  "encuesta_fuente": "IEP mar 2026",
-  "resumen_html": "<p>General retirado del Ejército peruano. Fue jefe de la operación Chavín de Huántar (1997, rescate de rehenes MRTA), expresidente del Congreso 2022-2023, y congresista de Avanza País 2021-2026.</p><p><strong>⚠ Masacre de Accomarca (1985):</strong> Como coronel del Ejército, estuvo a cargo de dos de las cuatro patrullas del Plan Huancayoc que culminó en el asesinato de 69 civiles en Accomarca, Ayacucho — mujeres, niños y ancianos no combatientes. Dos procesos judiciales en 2005 no hallaron pruebas suficientes para condenarlo penalmente. En 2012, el subteniente Telmo Hurtado (condenado por la masacre) declaró que Williams ordenó verbalmente no documentar las bajas para evitar quejas de familiares. Williams negó la orden. El IDL señaló que eso apuntaría a encubrimiento, no participación directa.</p><p><strong>⚠ Chavín de Huántar y proceso electoral 2026:</strong> El JEE detectó en febrero 2026 que el Poder Judicial consignaba antecedentes penales por homicidio calificado vinculados a Chavín de Huántar. Williams no lo declaró en su DDJJ. Tras descargos, el JEE archivó el proceso al verificar que fue absuelto en ambos fueros (ordinario y militar). No hay sentencia condenatoria firme.</p><p><strong>Perfil y propuesta:</strong> Derecha conservadora, anti-izquierda, pro-FFAA. Propuestas más desarrolladas en seguridad: creación de Guardia Nacional y Policía de Investigación Criminal separadas. Fue presidente del Congreso durante la vacancia de Castillo (dic 2022).</p>",
+  "puntajes": { "integ": 68, "econ": 62, "capac": 70, "inst": 72, "segur": 65, "soc": 63 },
+  "encuesta_pct": 3,
+  "encuesta_fuente": "Ipsos marzo 2026",
+  "antecedentes": [
+    {
+      "id": "ant_001",
+      "titulo": "Denuncia ante Comisión de Ética por conducción de Comisión Áncash",
+      "fecha": "2014-10",
+      "calificacion": "leve",
+      "calificacion_label": "Cuestionamiento político-procedimental sin proceso penal",
+      "descripcion": "El Fiscal de la Nación, Carlos Ramos Heredia, lo denunció ante la Comisión de Ética Parlamentaria por presuntamente vulnerar el debido proceso en su calidad de presidente de la Comisión Áncash (que investigaba la red de corrupción del gobernador César Álvarez). Guevara rechazó la denuncia calificándola de maniobra dilatoria de Ramos Heredia para no comparecer ante la comisión. La denuncia no prosperó y Guevara continuó al frente de la investigación. El propio Ramos Heredia fue posteriormente cuestionado por su actuación en el caso Áncash.",
+      "tipo": "politico_procedimental",
+      "fuente": "El Comercio / RPP / Peru.com",
+      "url": "https://elcomercio.pe/politica/gobierno/ramos-heredia-denuncio-mesias-guevara-comision-etica-291359-noticia/",
+      "proceso_penal": false
+    },
+    {
+      "id": "ant_002",
+      "titulo": "Salida polémica de Acción Popular tras discrepancias internas",
+      "fecha": "2023-11",
+      "calificacion": "leve",
+      "calificacion_label": "Cuestionamiento político menor",
+      "descripcion": "Tras casi una década como presidente de Acción Popular (2014-2023), Guevara renunció al partido alegando 'profundos e irreconciliables desencuentros con la dirigencia ejecutiva'. La salida ocurrió en un contexto de crisis interna del partido marcada por conductas cuestionadas de congresistas acciopopulistas (agresiones, escándalos de ética). Guevara se distanció públicamente de los legisladores, pero su gestión como presidente del partido durante ese periodo turbulento también forma parte de su historial. No hay proceso penal vinculado.",
+      "tipo": "politico",
+      "fuente": "TVPerú / Wikipedia",
+      "url": "https://www.tvperu.gob.pe/noticias/tags/mesias-guevara",
+      "proceso_penal": false
+    }
+  ],
+  "antecedentes_resumen": {
+    "tiene_antecedentes_penales": false,
+    "tiene_investigacion_fiscal": false,
+    "calificacion_global": "leve",
+    "calificacion_label": "Cuestionamientos políticos y procedimentales menores sin proceso penal",
+    "color": "#F59E0B",
+    "icono": "⚠️"
+  },
+  "resumen_html": "<p>Ingeniero electrónico (Universidad Ricardo Palma), MBA (UPC), con estudios en la Universidad de Sevilla. Nacido en Eten, Chiclayo, el 13 de junio de 1963. Hijo del exdiputado acciopopulista David Guevara Soto. Trayectoria en empresas multinacionales del sector tecnológico, la academia y la función pública.</p><p><strong>Trayectoria pública:</strong> Congresista por Cajamarca 2011-2016 (Alianza Perú Posible). Presidió la Comisión Áncash que investigó la red de corrupción del gobernador César Álvarez. Presidente de Acción Popular 2014-2023. Gobernador Regional de Cajamarca 2019-2022, período en el que presidió la Asamblea Nacional de Gobiernos Regionales. Actualmente miembro del Consejo Directivo de CEPLAN y CONCYTEC.</p><p><strong>Cuestionamiento parlamentario (2014):</strong> El Fiscal de la Nación Carlos Ramos Heredia lo denunció ante la Comisión de Ética por presunta vulneración al debido proceso durante la investigación del caso Áncash. Guevara rechazó la acusación como maniobra dilatoria. La denuncia no prosperó.</p><p><strong>Salida de Acción Popular (2023):</strong> Renunció al partido tras discrepancias irreconciliables con la dirigencia, en un contexto de crisis interna marcada por escándalos de los legisladores acciopopulistas.</p><p><strong>Perfil y propuesta:</strong> Centro liberal-progresista. Pro-institucionalidad, anti-corrupción, pro-Sunedu. Propone derogar leyes 'procrimen', reformar la PNP y el sistema de justicia. Sin antecedentes penales ni fiscales. Candidatura con presencia moderada en encuestas (~3%).</p>",
   "fuentes": [
-    { "texto": "Wikipedia — José Williams (sección Accomarca y Chavín de Huántar)", "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Williams" },
-    { "texto": "La República — JEE inicia proceso por omisión de sentencia en DDJJ (feb 2026)", "url": "https://larepublica.pe/politica/2026/02/10/jee-inicia-procedimiento-sancionador-que-podria-excluir-a-jose-williams-por-omitir-sentencia-en-su-hoja-de-vida-hnews-663820" },
-    { "texto": "El Comercio — JEE archiva proceso: Williams fue absuelto en ambos fueros (feb 2026)", "url": "https://elcomercio.pe/politica/elecciones/jee-de-lima-centro-1-archiva-proceso-contra-jose-williams-zapata-por-presunta-omision-en-su-hoja-de-vida-ultimas-noticia/" },
+    { "texto": "Infobae — Hoja de vida y perfil del candidato del Partido Morado (feb 2026)", "url": "https://www.infobae.com/peru/2026/02/12/mesias-guevara-hoja-de-vida-y-perfil-del-candidato-del-partido-morado/" },
+    { "texto": "El Comercio — Ramos Heredia denunció a Mesías Guevara ante Comisión de Ética (oct 2014)", "url": "https://elcomercio.pe/politica/gobierno/ramos-heredia-denuncio-mesias-guevara-comision-etica-291359-noticia/" },
+    { "texto": "RPP — Guevara: denuncia de Ramos Heredia 'no tiene ni pies ni cabeza' (oct 2014)", "url": "https://rpp.pe/politica/actualidad/mesias-guevara-denuncia-de-ramos-heredia-no-tiene-ni-pies-ni-cabeza-noticia-737072" },
+    { "texto": "Wikipedia — Mesías Guevara Amasifuén", "url": "https://es.wikipedia.org/wiki/Mes%C3%ADas_Guevara" },
     { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
   ]
 },
