@@ -367,5 +367,308 @@
     { "texto": "Wikipedia — Rafael Belaúnde Llosa", "url": "https://es.wikipedia.org/wiki/Rafael_Bela%C3%BAnde_Llosa" },
     { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
   ]
+},
+  {
+  "id": "p19",
+  "nombre": "José Williams Zapata",
+  "partido": "Avanza País",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Vinculado a dos hechos graves como militar: (1) Masacre de Accomarca (1985): estuvo a cargo de patrullas que asesinaron a 69 civiles en Ayacucho. Dos procesos judiciales en 2005 no encontraron pruebas suficientes para condenarlo, aunque un testigo lo señaló por ordenar encubrir las bajas. (2) Operación Chavín de Huántar (1997): el JEE inició proceso sancionador por presunta omisión de antecedentes judiciales vinculados a homicidio calificado; archivado en feb 2026 tras confirmarse que fue absuelto en ambos fueros. Sin sentencia firme en ningún caso.",
+  "eliminado": false,
+  "puntajes": { "integ": 45, "econ": 52, "capac": 65, "inst": 58, "segur": 72, "soc": 45 },
+  "encuesta_pct": 1,
+  "encuesta_fuente": "IEP mar 2026",
+  "resumen_html": "<p>General retirado del Ejército peruano. Fue jefe de la operación Chavín de Huántar (1997, rescate de rehenes MRTA), expresidente del Congreso 2022-2023, y congresista de Avanza País 2021-2026.</p><p><strong>⚠ Masacre de Accomarca (1985):</strong> Como coronel del Ejército, estuvo a cargo de dos de las cuatro patrullas del Plan Huancayoc que culminó en el asesinato de 69 civiles en Accomarca, Ayacucho — mujeres, niños y ancianos no combatientes. Dos procesos judiciales en 2005 no hallaron pruebas suficientes para condenarlo penalmente. En 2012, el subteniente Telmo Hurtado (condenado por la masacre) declaró que Williams ordenó verbalmente no documentar las bajas para evitar quejas de familiares. Williams negó la orden. El IDL señaló que eso apuntaría a encubrimiento, no participación directa.</p><p><strong>⚠ Chavín de Huántar y proceso electoral 2026:</strong> El JEE detectó en febrero 2026 que el Poder Judicial consignaba antecedentes penales por homicidio calificado vinculados a Chavín de Huántar. Williams no lo declaró en su DDJJ. Tras descargos, el JEE archivó el proceso al verificar que fue absuelto en ambos fueros (ordinario y militar). No hay sentencia condenatoria firme.</p><p><strong>Perfil y propuesta:</strong> Derecha conservadora, anti-izquierda, pro-FFAA. Propuestas más desarrolladas en seguridad: creación de Guardia Nacional y Policía de Investigación Criminal separadas. Fue presidente del Congreso durante la vacancia de Castillo (dic 2022).</p>",
+  "fuentes": [
+    { "texto": "Wikipedia — José Williams (sección Accomarca y Chavín de Huántar)", "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Williams" },
+    { "texto": "La República — JEE inicia proceso por omisión de sentencia en DDJJ (feb 2026)", "url": "https://larepublica.pe/politica/2026/02/10/jee-inicia-procedimiento-sancionador-que-podria-excluir-a-jose-williams-por-omitir-sentencia-en-su-hoja-de-vida-hnews-663820" },
+    { "texto": "El Comercio — JEE archiva proceso: Williams fue absuelto en ambos fueros (feb 2026)", "url": "https://elcomercio.pe/politica/elecciones/jee-de-lima-centro-1-archiva-proceso-contra-jose-williams-zapata-por-presunta-omision-en-su-hoja-de-vida-ultimas-noticia/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p20",
+  "nombre": "Mesías Guevara",
+  "partido": "Partido Morado",
+  "foto": "",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales ni investigaciones fiscales activas. ONPE y JNE confirman ausencia de antecedentes judiciales, policiales ni penales.",
+  "eliminado": false,
+  "puntajes": { "integ": 68, "econ": 58, "capac": 68, "inst": 65, "segur": 52, "soc": 62 },
+  "encuesta_pct": 1,
+  "encuesta_fuente": "Ipsos mar 2026",
+  "resumen_html": "<p>Ingeniero electrónico y político con trayectoria amplia: congresista 2011-2016, gobernador regional de Cajamarca 2019-2022, expresidente de Acción Popular 2014-2023. Migró al Partido Morado en 2024 tras discrepancias internas con la lampa.</p><p><strong>Estado legal:</strong> Sin sentencias penales, investigaciones fiscales activas ni antecedentes registrados. ONPE y JNE lo confirman en el proceso de fiscalización de hoja de vida.</p><p><strong>Gestión en Cajamarca:</strong> Mejoró el índice de competitividad regional, construyó infraestructura de salud y educación, impulsó agricultura con canales de riego. Sin escándalos de corrupción documentados en ese período.</p><p><strong>Propuesta:</strong> Centro con énfasis en MYPES, recuperación de exoneraciones tributarias irregulares, empleo formal y agricultura familiar. En debates fue confrontacional pero articuló propuestas más concretas que la mayoría.</p><p><strong>Límite:</strong> Candidatura marginal en encuestas. Su salida de Acción Popular generó cuestionamientos sobre lealtad institucional, aunque no hay proceso por esto.</p>",
+  "fuentes": [
+    { "texto": "Infobae — Perfil y hoja de vida oficial 2026", "url": "https://www.infobae.com/peru/2026/02/12/mesias-guevara-hoja-de-vida-y-perfil-del-candidato-del-partido-morado/" },
+    { "texto": "Wikipedia — Mesías Guevara", "url": "https://es.wikipedia.org/wiki/Mes%C3%ADas_Guevara" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p21",
+  "nombre": "Álvaro Paz de la Barra",
+  "partido": "Fe en el Perú",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Episodio de violencia familiar documentado (mar 2021): detenido en comisaría junto a su esposa Sofía Franco. La Corte Superior otorgó medidas de protección a ambos por 'maltrato físico y psicológico mutuo'. Cuestionado por uso de recursos municipales de La Molina para difundir el caso por el área de prensa de su municipio. Sin sentencia penal firme. Propuestas económicas calificadas por economistas como inviables (condonación total de deudas SUNAT, 50,000 soles a jóvenes sin retorno).",
+  "eliminado": false,
+  "puntajes": { "integ": 42, "econ": 28, "capac": 45, "inst": 38, "segur": 55, "soc": 40 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Abogado, exalcalde del distrito de La Molina 2019-2022, expresidente de la Asociación de Municipalidades del Perú (AMPE). Fundador de Fe en el Perú en 2021. 42 años al momento de la candidatura.</p><p><strong>⚠ Episodio de violencia familiar (mar 2021):</strong> Siendo alcalde de La Molina, fue detenido junto a su exesposa la conductora Sofía Franco tras denuncia mutua por violencia doméstica. El Quinto Juzgado de Familia de Ate otorgó medidas de protección a ambos por 'maltrato físico y psicológico mutuo', notificando a la PNP y Fiscalía. Sin sentencia penal condenatoria. El episodio generó adicionalmente un cuestionamiento sobre el posible uso indebido del área de prensa municipal para difundir grabaciones y partes del conflicto privado — hecho que un docente de Derecho calificó como posible delito funcional, aunque no hubo proceso formal por ello.</p><p><strong>Gestión en La Molina:</strong> Críticas por uso intensivo de recursos municipales para imagen personal durante la pandemia. Sin investigaciones de Contraloría con perjuicio documentado.</p><p><strong>Propuestas de alto riesgo fiscal:</strong> Propone estado de excepción los primeros 90-180 días, gobernar por decretos, condonación total de deudas con SUNAT y el sistema financiero, y entrega de S/50,000 a jóvenes emprendedores sin retorno. Economistas señalan que estas medidas pondrían en riesgo la estabilidad fiscal del país.</p>",
+  "fuentes": [
+    { "texto": "El Comercio — Medidas de protección mutuas por maltrato físico y psicológico (mar 2021)", "url": "https://elcomercio.pe/tvmas/farandula/sofia-franco-y-alvaro-paz-de-la-barra-todo-lo-que-se-sabe-del-caso-que-termino-con-una-noche-en-la-comisaria-magaly-medina-la-molina-ministerio-de-la-mujer-y-poblaciones-vulnerables-nndc-noticia/" },
+    { "texto": "Trome — Cuestionamiento por uso de prensa municipal en conflicto privado (mar 2021)", "url": "https://trome.com/espectaculos/alvaro-paz-de-la-barra-poder-entrevista-hans-sanchez-cuadros-noticia/" },
+    { "texto": "Radio Chota — Perfil: populismo punitivo y escándalo personal (2026)", "url": "https://radiochota.net/alvaro-paz-de-la-barra-el-expediente-de-un-candidato-entre-el-populismo-punitivo-y-el-escandalo-personal/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p22",
+  "nombre": "Herbert Caller",
+  "partido": "Partido Patriótico del Perú",
+  "foto": "",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales, investigaciones fiscales ni antecedentes judiciales, policiales ni penales. ONPE y JNE confirman ausencia de antecedentes. Perfil técnico-militar sin cargos públicos previos en el ejecutivo o legislativo.",
+  "eliminado": false,
+  "puntajes": { "integ": 70, "econ": 52, "capac": 50, "inst": 58, "segur": 65, "soc": 52 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Abogado, exoficial superior de la Marina de Guerra del Perú (1996-2017), egresado como 'Espada de Honor' de la Escuela Naval en 2000. Master en Gestión y Análisis de Políticas Públicas por la Universidad Carlos III de Madrid. Habla seis idiomas. Fundador del Partido Patriótico del Perú (2017) y empresario educativo (Caller Language Center y Caller Colegio Internacional).</p><p><strong>Estado legal:</strong> Sin sentencias penales, investigaciones fiscales ni antecedentes de ningún tipo. Es uno de los perfiles más limpios del campo electoral 2026.</p><p><strong>Sin experiencia en cargos públicos ejecutivos o legislativos:</strong> Nunca ha sido alcalde, congresista, ministro ni gobernador regional. Su única experiencia en el Estado fue como oficial de marina. Esto limita significativamente su capacidad de gobernar desde el primer día.</p><p><strong>Propuesta:</strong> Seguridad con FFAA en orden interno (art. 137), transformar cárceles en centros productivos, descentralizar 5 ministerios a regiones, revolución educativa con metodologías propias. Propuestas con más creatividad que viabilidad técnica en algunos casos.</p>",
+  "fuentes": [
+    { "texto": "Andina — Hoja de vida oficial 2026", "url": "https://andina.pe/agencia/noticia-elecciones-2026-revisa-hoja-vida-herbert-caller-del-partido-patriotico-del-peru-1065346.aspx" },
+    { "texto": "RPP — Propuesta de descentralizar ministerios (ene 2026)", "url": "https://rpp.pe/politica/elecciones/herbert-caller-candidato-presidencial-del-ppp-plantea-trasladar-cinco-ministerios-a-regiones-noticia-1671255" },
+    { "texto": "Wikipedia — Partido Patriótico del Perú", "url": "https://es.wikipedia.org/wiki/Partido_Patri%C3%B3tico_del_Per%C3%BA" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p23",
+  "nombre": "Enrique Valderrama",
+  "partido": "Partido Aprista Peruano (APRA)",
+  "foto": "",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales, investigaciones fiscales ni antecedentes. Mencionó ante medios que hubo una 'ocurrencia policial' sin denuncia formal ni proceso. JNE y ONPE no registran antecedentes.",
+  "eliminado": false,
+  "puntajes": { "integ": 65, "econ": 55, "capac": 40, "inst": 58, "segur": 55, "soc": 62 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Abogado (USMP), 39 años, militante del APRA desde 2010. Columnista en Diario Expreso y fundador del portal político Punto de Encuentro. Ganó las primarias apristas por escaso margen (26% de votos) sobre históricos como Jorge del Castillo, Javier Velásquez Quesquén y Mauricio Mulder — representando la apuesta generacional del partido.</p><p><strong>Estado legal:</strong> Sin antecedentes penales, judiciales ni policiales confirmados por JNE y ONPE. Aclaró públicamente que una mención en comisaría nunca llegó a denuncia formal.</p><p><strong>Perfil:</strong> Sin experiencia en cargos públicos ejecutivos ni legislativos — nunca fue alcalde, congresista ni ministro. Toda su trayectoria es partidaria e intelectual. Esto es su principal limitación técnica para gobernar.</p><p><strong>Contexto del APRA:</strong> El partido recuperó su inscripción en 2022 tras perderla. La candidatura de Valderrama es un intento de renovación generacional en una organización desgastada por los escándalos de Alan García y los vínculos con Odebrecht de figuras históricas.</p><p><strong>Propuesta:</strong> Centro, énfasis en seguridad (duplicar PNP a 250,000), construcción masiva de penales y reforma del INPE. Desempeño en debate: confrontacional con Fernando Olivera.</p>",
+  "fuentes": [
+    { "texto": "Infobae — Perfil y hoja de vida oficial 2026", "url": "https://www.infobae.com/peru/2026/02/12/el-regreso-del-apra-enrique-valderrama-es-su-candidato-presidencial-para-las-elecciones-2026/" },
+    { "texto": "La República — Valderrama: 'no tengo antecedentes de ningún tipo'", "url": "https://larepublica.pe/politica/2025/12/01/enrique-valderrama-el-candidato-del-apra-al-2026-los-senadores-y-diputados-que-lo-acompanaran-hnews-93769" },
+    { "texto": "Wikipedia — Enrique Valderrama", "url": "https://es.wikipedia.org/wiki/Enrique_Valderrama" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p24",
+  "nombre": "Charlie Carrasco",
+  "partido": "Partido Demócrata Unido Perú",
+  "foto": "",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales, investigaciones fiscales ni antecedentes judiciales o policiales documentados. Sin cargos públicos previos.",
+  "eliminado": false,
+  "puntajes": { "integ": 65, "econ": 45, "capac": 42, "inst": 52, "segur": 58, "soc": 50 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Abogado, doctor en Derecho (UNFV), maestro en Derecho Constitucional y en Gestión Pública (USMP). Exoficial del Ejército (Batallón Contrasubversivo 63, Andahuaylas). Catedrático universitario y empresario educativo (Caller Language Center). Natural de Huancarama, Apurímac. Fundó el Partido Demócrata Unido Perú en 2021.</p><p><strong>Estado legal:</strong> Sin antecedentes penales, judiciales ni policiales. Perfil académico-militar sin cargos ejecutivos públicos previos.</p><p><strong>Sin experiencia en cargos públicos:</strong> Nunca fue alcalde, gobernador, congresista ni ministro. Toda su trayectoria es académica, castrense y empresarial privada.</p><p><strong>Propuesta:</strong> Servicio militar obligatorio para quienes no estudian ni trabajan, cadena perpetua para una extensa lista de delitos, reducción drástica del gasto público al 20% del PBI, descentralización de salud con hospitales en cada provincia. Plan de 'Fronteras Vivas' con inversión de US$45,000 millones. Varias propuestas carecen de sustento técnico de financiamiento.</p>",
+  "fuentes": [
+    { "texto": "Andina — Hoja de vida oficial 2026", "url": "https://andina.pe/agencia/noticia-elecciones-2026-aqui-hoja-vida-charlie-carrasco-del-partido-democrata-unido-peru-1065354.aspx" },
+    { "texto": "Wikipedia — Charlie Carrasco", "url": "https://es.wikipedia.org/wiki/Charlie_Carrasco" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p25",
+  "nombre": "Roberto Chiabra",
+  "partido": "Alianza Unidad Nacional (PPC + Unidad y Paz + Somos Libres)",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Sin sentencia firme. Antecedentes militares cuestionados: (1) 1998 — inspección militar por malos manejos como director Escuela Militar de Chorrillos; pasado al retiro. (2) 2003 — denuncia por nombramientos sin título en Escuela de Enfermería del Ejército. (3) Vínculos documentados con Vladimiro Montesinos: designado director de Información Exterior del SIN (ene 1999) y como agregado civil en Paraguay donde habría recibido S/23,450 de fondos del SIN. (4) Ene 2025 — Fiscalía lo denunció por proyecto de ley de doble sueldo para exmilitares; Subcomisión del Congreso declaró inconstitucional la acusación.",
+  "eliminado": false,
+  "puntajes": { "integ": 42, "econ": 52, "capac": 65, "inst": 48, "segur": 68, "soc": 48 },
+  "encuesta_pct": 1,
+  "encuesta_fuente": "Ipsos mar 2026",
+  "resumen_html": "<p>General en retiro del Ejército Peruano. Fue comandante general del Ejército (2002-2003) y ministro de Defensa durante el gobierno de Alejandro Toledo (2003-2005). Congresista por APP 2021-2026, renunció a esa bancada en 2025 para postular con Unidad Nacional (alianza con PPC).</p><p><strong>⚠ Vínculos con Montesinos documentados:</strong> En enero de 1999 fue designado director de Información Exterior del Servicio de Inteligencia Nacional (SIN), entidad manejada por Vladimiro Montesinos. Como agregado civil en Paraguay habría recibido al menos S/23,450 de fondos del SIN — fuente documentada por Wikipedia con expedientes del caso Montesinos.</p><p><strong>⚠ Inspección militar (1998):</strong> Pasado al retiro por malos manejos como director de la Escuela Militar de Chorrillos. Reincorporado posteriormente bajo gobierno Toledo.</p><p><strong>⚠ Denuncia fiscal (ene 2025):</strong> La Fiscalía lo denunció por impulsarse un proyecto de ley que autorizaba doble sueldo para exmilitares y expolicías — iniciativa cuestionada por blindar a investigados. La Subcomisión de Acusaciones Constitucionales del Congreso declaró inconstitucional la acusación. Sin sentencia.</p><p><strong>En el Congreso:</strong> Presentó proyecto de ley para destituir jueces y fiscales sin pasar por la JNJ (ene 2024) — calificado por analistas como intento de debilitar el sistema anticorrupción.</p>",
+  "fuentes": [
+    { "texto": "Wikipedia — Roberto Chiabra (sección antecedentes y Montesinos)", "url": "https://es.wikipedia.org/wiki/Roberto_Chiabra" },
+    { "texto": "Infobae — Perfil y hoja de vida 2026 (denuncia fiscal ene 2025)", "url": "https://www.infobae.com/peru/2026/02/08/roberto-chiabra-perfil-y-hoja-de-vida-del-candidato-del-partido-alianza-unidad-nacional-para-las-elecciones-2026/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p26",
+  "nombre": "Armando Massé",
+  "partido": "Partido Democrático Federal",
+  "foto": "",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales ni investigaciones fiscales. El JEE detectó error en DDJJ: declaró ser 'accionista' de DISVENSAC cuando en realidad fue gerente general (cargo que dejó en 2011). El partido explicó que fue error material involuntario. Sin proceso sancionador activo.",
+  "eliminado": false,
+  "puntajes": { "integ": 60, "econ": 48, "capac": 42, "inst": 52, "segur": 45, "soc": 55 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Administrador de empresas y productor musical. Ha dirigido la Asociación Peruana de Autores y Compositores (APDAYC) y gestionado iniciativas culturales. Sin cargos ejecutivos públicos previos. Natural de Lima, 1958.</p><p><strong>Estado legal:</strong> Sin antecedentes penales ni investigaciones fiscales. El JEE detectó una discrepancia en su DDJJ (declaró accionista en lugar de exgerente general de DISVENSAC), resuelta por el partido como error material involuntario.</p><p><strong>Perfil:</strong> Candidatura de nicho cultural. Sin trayectoria política electoral previa significativa.</p>",
+  "fuentes": [
+    { "texto": "La República — 16 candidatos con omisiones en DDJJ (mar 2026)", "url": "https://larepublica.pe/politica/2026/03/08/16-candidatos-presidenciales-y-15-vicepresidentes-omitieron-informacion-en-su-hoja-de-vida-segun-el-jee-hnews-181112" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p27",
+  "nombre": "Rosario Fernández",
+  "partido": "Un Camino Diferente",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "El JEE detectó que presuntamente no declaró una sentencia 'en estado de ejecución' por obligación de dar suma de dinero. El partido presentó descargos indicando que sí fue declarada en el formato físico. JEE aún sin resolver al cierre de campaña. Sin sentencia penal.",
+  "eliminado": false,
+  "puntajes": { "integ": 50, "econ": 50, "capac": 60, "inst": 55, "segur": 52, "soc": 55 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Abogada, hermana del exalcalde de Trujillo Arturo Fernández. Fue presidenta del Consejo de Ministros durante el gobierno de Alan García (2011). Candidata con experiencia en el Ejecutivo y ámbito jurídico.</p><p><strong>Alerta DDJJ:</strong> El JEE inició investigación por presunta omisión de una sentencia civil en ejecución (obligación de dar suma de dinero). El partido presentó descargos afirmando que sí fue declarada en el formato físico. Proceso sin resolución confirmada al momento de la candidatura. No es sentencia penal.</p><p><strong>Propuesta:</strong> Reforma de la PNP, participación de FFAA en seguridad ciudadana, sistemas de geolocalización. Centro-derecha.</p>",
+  "fuentes": [
+    { "texto": "La República — Omisiones en DDJJ candidatos 2026 (mar 2026)", "url": "https://larepublica.pe/politica/2026/03/08/16-candidatos-presidenciales-y-15-vicepresidentes-omitieron-informacion-en-su-hoja-de-vida-segun-el-jee-hnews-181112" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p28",
+  "nombre": "Antonio Ortiz",
+  "partido": "Salvemos al Perú",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "El JEE detectó que no declaró ser socio de Advanced Development Company S.A.C. Proceso de descargos iniciado. Su candidatura se definió por lanzamiento de moneda en las primarias internas. Sin sentencia penal.",
+  "eliminado": false,
+  "puntajes": { "integ": 52, "econ": 45, "capac": 38, "inst": 45, "segur": 48, "soc": 45 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Abogado y empresario arequipeño, 1956. Sin cargos ejecutivos públicos previos de relevancia. Candidato de Salvemos al Perú — partido cuya candidatura presidencial se definió literalmente por el lanzamiento de una moneda entre dos aspirantes empatados en las primarias (ONPE verificó el proceso).</p><p><strong>Alerta DDJJ:</strong> El JEE detectó omisión de su condición de socio en Advanced Development Company S.A.C. Proceso de descargos iniciado. No es sentencia penal.</p><p><strong>Perfil:</strong> Candidatura muy marginal. Sin propuesta diferenciada documentada en medios.</p>",
+  "fuentes": [
+    { "texto": "La República — Omisiones en DDJJ candidatos 2026 (mar 2026)", "url": "https://larepublica.pe/politica/2026/03/08/16-candidatos-presidenciales-y-15-vicepresidentes-omitieron-informacion-en-su-hoja-de-vida-segun-el-jee-hnews-181112" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p29",
+  "nombre": "Paul Jaimes",
+  "partido": "Progresemos",
+  "foto": "",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales ni investigaciones fiscales activas documentadas. Sin omisiones detectadas en DDJJ.",
+  "eliminado": false,
+  "puntajes": { "integ": 62, "econ": 48, "capac": 40, "inst": 50, "segur": 50, "soc": 50 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Abogado y licenciado en Ciencias Políticas (Lima, 1973). Asesor legal en sector público y privado. Fundador del partido Progresemos. Sin cargos ejecutivos públicos previos de relevancia nacional.</p><p><strong>Estado legal:</strong> Sin antecedentes penales ni investigaciones fiscales. Perfil de bajo riesgo institucional.</p><p><strong>Propuesta destacada en debate:</strong> Pena de muerte para casos de sicariato y violación de menores. Propuestas de seguridad con énfasis punitivo.</p>",
+  "fuentes": [
+    { "texto": "Infobae — Lista completa candidatos 2026", "url": "https://www.infobae.com/peru/2026/03/12/elecciones-presidenciales-2026-en-peru-quienes-son-los-36-candidatos-y-como-sera-la-votacion/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p30",
+  "nombre": "Walter Chirinos",
+  "partido": "Partido Político PRIN",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "El JEE detectó que no declaró ser socio fundador de ARM ALL SERVICE S.A.C. Proceso de descargos iniciado. Sin sentencia penal.",
+  "eliminado": false,
+  "puntajes": { "integ": 52, "econ": 45, "capac": 42, "inst": 48, "segur": 48, "soc": 48 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Contador público y técnico en mercadotecnia. Natural de Paiján, 1968. Fue director general de Gobierno Interior en 2018. Fundó el PRIN en 2022 y es apoderado legal del partido.</p><p><strong>Alerta DDJJ:</strong> El JEE detectó que no declaró ser socio fundador de ARM ALL SERVICE S.A.C. Proceso de descargos iniciado. No es sentencia penal.</p><p><strong>Perfil:</strong> Candidatura marginal con experiencia puntual en el Estado (dirección de Gobierno Interior). Sin trayectoria ejecutiva amplia.</p>",
+  "fuentes": [
+    { "texto": "La República — Omisiones en DDJJ candidatos 2026 (mar 2026)", "url": "https://larepublica.pe/politica/2026/03/08/16-candidatos-presidenciales-y-15-vicepresidentes-omitieron-informacion-en-su-hoja-de-vida-segun-el-jee-hnews-181112" },
+    { "texto": "Infobae — Lista completa candidatos 2026", "url": "https://www.infobae.com/peru/2026/03/12/elecciones-presidenciales-2026-en-peru-quienes-son-los-36-candidatos-y-como-sera-la-votacion/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p31",
+  "nombre": "Carlos Espá",
+  "partido": "SíCreo",
+  "foto": "",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales ni investigaciones fiscales activas documentadas. Candidato primerizo sin cargos públicos previos relevantes.",
+  "eliminado": false,
+  "puntajes": { "integ": 62, "econ": 55, "capac": 42, "inst": 50, "segur": 48, "soc": 55 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Ingeniero agrónomo y empresario agrícola piurano, 1977. Candidato presidencial de SíCreo, partido de reciente inscripción. Sin cargos ejecutivos públicos previos. Su candidatura se definió con 7 delegados en las primarias internas.</p><p><strong>Estado legal:</strong> Sin antecedentes penales, judiciales ni investigaciones fiscales. Perfil empresarial privado sin escándalos documentados.</p><p><strong>Propuesta:</strong> Meritocracia en educación, triplicar Beca 18, zonas económicas especiales libres de impuestos, industrialización del agro. Énfasis en desarrollo regional desde perspectiva empresarial agrícola.</p>",
+  "fuentes": [
+    { "texto": "Infobae — Lista completa candidatos 2026", "url": "https://www.infobae.com/peru/2026/03/12/elecciones-presidenciales-2026-en-peru-quienes-son-los-36-candidatos-y-como-sera-la-votacion/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p32",
+  "nombre": "Ronald Atencio",
+  "partido": "Alianza Venceremos (Voces del Pueblo + Nuevo Perú)",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Sin sentencia penal propia. Es el abogado defensor de Guillermo Bermejo, condenado por terrorismo. En debate presidencial (mar 2026) López Aliaga le señaló múltiples denuncias vinculadas a bonos por S/4,000 millones. Nuevo Perú expulsó al excongresista Alberto Quintanilla de su partido por integrarse a la plancha de Atencio sin aval partidario.",
+  "eliminado": false,
+  "puntajes": { "integ": 40, "econ": 45, "capac": 42, "inst": 38, "segur": 42, "soc": 55 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Abogado penalista, sin cargos ejecutivos públicos previos. Candidato de la Alianza Venceremos, conformada por Voces del Pueblo y Nuevo Perú. Su postulación generó controversia interna en Nuevo Perú, que expulsó al excongresista Alberto Quintanilla por integrarse a su plancha sin aval del partido.</p><p><strong>⚠ Defensa de Guillermo Bermejo:</strong> Es el abogado defensor de Guillermo Bermejo, excongresista condenado por el delito de terrorismo. Ello no implica responsabilidad penal propia — todo acusado tiene derecho a defensa — pero ubica a Atencio en el ámbito de la izquierda radical, lo que es relevante para el electorado.</p><p><strong>⚠ Señalamientos en debate:</strong> Durante el debate presidencial del JNE (mar 2026), fue señalado públicamente con denuncias vinculadas a bonos millonarios. No se encontró resolución judicial confirmada al momento de la investigación.</p><p><strong>Propuesta:</strong> Izquierda, asamblea constituyente, segunda reforma agraria, recuperación de Camisea, paridad de género en cargos públicos.</p>",
+  "fuentes": [
+    { "texto": "Infobae — Candidatos 2026: Ronald Atencio defensor de Bermejo", "url": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos/" },
+    { "texto": "Caretas — Debate presidencial: señalamientos contra Atencio (mar 2026)", "url": "https://caretas.pe/politica/debate-presidencial-2026-que-propone-alex-gonzales/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p33",
+  "nombre": "Carlos Jaico",
+  "partido": "Perú Moderno",
+  "foto": "",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales ni investigaciones fiscales activas documentadas. Exfuncionario técnico del gobierno de PPK (secretario general de la Presidencia).",
+  "eliminado": false,
+  "puntajes": { "integ": 62, "econ": 58, "capac": 58, "inst": 60, "segur": 50, "soc": 52 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Abogado piurano, 1979. Fue secretario general de la Presidencia de la República durante el gobierno de Pedro Pablo Kuczynski (PPK). Candidato presidencial de Perú Moderno, partido de reciente inscripción.</p><p><strong>Estado legal:</strong> Sin antecedentes penales ni investigaciones fiscales. Su paso por el gobierno PPK fue como funcionario técnico sin escándalos documentados propios, aunque ese gobierno enfrentó el caso Odebrecht.</p><p><strong>Propuesta:</strong> Reforma del Estado, digitalización de contrataciones con blockchain, Súper-Ministerios para eliminar duplicidades, poligrafía para altas autoridades. Perfil tecnocrático.</p><p><strong>En debates:</strong> Calificó la primera jornada de debates de 2026 como 'un chiste'. Discurso crítico con la clase política tradicional.</p>",
+  "fuentes": [
+    { "texto": "Infobae — Lista completa candidatos 2026", "url": "https://www.infobae.com/peru/2026/03/12/elecciones-presidenciales-2026-en-peru-quienes-son-los-36-candidatos-y-como-sera-la-votacion/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p34",
+  "nombre": "Francisco Diez-Canseco",
+  "partido": "Perú Acción",
+  "foto": "",
+  "filtro": "ok",
+  "filtro_nota": "Sin sentencias penales ni investigaciones fiscales activas. Trayectoria política de los 80s-90s sin procesos documentados. Candidato de 80 años.",
+  "eliminado": false,
+  "puntajes": { "integ": 65, "econ": 52, "capac": 58, "inst": 62, "segur": 50, "soc": 55 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Abogado, periodista y empresario limeño, 1946. Fue diputado por Lima 1985-1990, presidió comisiones parlamentarias relevantes. Fundador y presidente de Perú Acción. Con 80 años es el candidato de mayor edad en la contienda 2026.</p><p><strong>Estado legal:</strong> Sin antecedentes penales ni investigaciones fiscales documentadas. Trayectoria política de los años 80-90 sin escándalos registrados.</p><p><strong>Propuesta:</strong> Énfasis en institucionalidad, lucha anticorrupción y digitalización del Estado. Posición crítica frente a la corrupción sistémica. En debate confrontó directamente a George Forsyth sobre efectividad de controles tecnológicos.</p><p><strong>Limitación:</strong> Candidatura testimonial con escasa proyección electoral. Su edad y bajo perfil mediático actual limitan el alcance de la campaña.</p>",
+  "fuentes": [
+    { "texto": "La República — Perfil candidatos 2026", "url": "https://larepublica.pe/politica/2026/03/16/elecciones-2026-lo-bueno-lo-malo-y-lo-peor-de-seis-candidatos-presidenciales-hnews-198450" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
+},
+  {
+  "id": "p35",
+  "nombre": "Álex González Castillo",
+  "partido": "Partido Demócrata Verde",
+  "foto": "",
+  "filtro": "warn",
+  "filtro_nota": "Sin sentencia penal firme. Cuestionado durante su gestión como alcalde de SJL por permitir que funcionarios municipales participaran en su campaña electoral. Su partido fue observado por irregularidades en afiliaciones en el proceso de inscripción (firmas cuestionadas). En el debate presidencial (mar 2026) López Aliaga le señaló carpetas fiscales activas vinculadas a su gestión municipal. Historial de cambio reiterado de partidos políticos (más de 6 en 30 años).",
+  "eliminado": false,
+  "puntajes": { "integ": 45, "econ": 48, "capac": 52, "inst": 42, "segur": 55, "soc": 50 },
+  "encuesta_pct": 0,
+  "encuesta_fuente": "Marginal (<1%)",
+  "resumen_html": "<p>Administrador de empresas (incompleto), conciliador extrajudicial. Natural de Lima, 1961. Exalcalde de San Juan de Lurigancho 2019-2022 (por Podemos Perú). Fundador del Partido Demócrata Verde en 2021. Ha transitado por al menos 6 partidos distintos en 30 años de carrera política.</p><p><strong>⚠ Cuestionamientos en gestión municipal:</strong> Durante su alcaldía en SJL fue denunciado por permitir que funcionarios municipales participaran en actividades de campaña — hecho que configura potencial uso de recursos públicos con fines políticos. Ocho regidores de su propio partido tomaron distancia al inicio de su gestión por contrataciones cuestionadas.</p><p><strong>⚠ Carpetas fiscales señaladas:</strong> En el debate presidencial del JNE, López Aliaga le señaló públicamente la existencia de carpetas fiscales activas vinculadas a su gestión. No se encontró resolución judicial confirmatoria al momento de la investigación.</p><p><strong>⚠ Irregularidades en inscripción del partido:</strong> El registro oficial detectó firmas cuestionadas en el proceso de inscripción del Partido Demócrata Verde, incluyendo presunta afiliación de líderes de ollas comunes sin su consentimiento.</p><p><strong>Propuesta:</strong> Reconocimiento facial, banco de ADN de delincuentes, fusión Ministerios Interior y Defensa, reubicación de penales a zonas andinas. Énfasis en seguridad tecnológica.</p>",
+  "fuentes": [
+    { "texto": "La República — Cuestionamientos gestión SJL y cambio de partidos (dic 2025)", "url": "https://larepublica.pe/politica/2025/12/08/elecciones-2026-conoce-la-lista-de-los-37-candidatos-a-las-presidencia-y-sus-partidos-politicos-hnews-267112" },
+    { "texto": "Caretas — Debate: señalamientos de López Aliaga (mar 2026)", "url": "https://caretas.pe/politica/debate-presidencial-2026-que-propone-alex-gonzales/" },
+    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
+  ]
 }
 ]
