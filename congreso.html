@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Congreso Bicameral — VotoConsciente Perú 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:      #0b0d12;
+  --bg2:     #11141c;
+  --bg3:     #181c27;
+  --bg4:     #1e2230;
+  --border:  #252b3b;
+  --border2: #2e3548;
+  --red:     #e63946;
+  --yellow:  #f4a261;
+  --green:   #2ec4b6;
+  --text:    #e8eaf2;
+  --text2:   #8b93a8;
+  --text3:   #50596e;
+  --radius:  10px;
+  --radius2: 16px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Sora', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ── HEADER ── */
+.header {
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+  padding: .85rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header a.back {
+  color: var(--text2);
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  transition: all .15s;
+}
+.header a.back:hover { color: var(--text); border-color: var(--border2); }
+.header-center {
+  flex: 1;
+  text-align: center;
+}
+.header-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: .02em;
+}
+.header-sub {
+  font-size: 10px;
+  color: var(--text3);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.badge {
+  background: var(--red);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 20px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+/* ── MAIN ── */
+.main { max-width: 860px; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
+
+/* ── HERO ── */
+.hero {
+  text-align: center;
+  padding: 2rem 0 2.5rem;
+}
+.hero-eyebrow {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-bottom: .75rem;
+}
+.hero h1 {
+  font-size: clamp(22px, 5vw, 32px);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: .75rem;
+}
+.hero h1 em { font-style: normal; color: var(--red); }
+.hero p {
+  color: var(--text2);
+  font-size: 13px;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* ── STEPS INDICATOR ── */
+.steps-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.step-dot {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text3);
+  font-weight: 500;
+}
+.step-dot.active { color: var(--text); }
+.step-dot .num {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.step-dot.active .num {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+}
+.step-dot.done .num {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+.step-arrow {
+  color: var(--text3);
+  font-size: 12px;
+  padding: 0 6px;
+}
+
+/* ── SECCIÓN LABEL ── */
+.section-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-bottom: .6rem;
+}
+
+/* ── PASO 1: SELECTOR DEPARTAMENTO ── */
+.step-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius2);
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  transition: border-color .2s;
+}
+.step-card.highlighted { border-color: var(--red); }
+
+.step-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.25rem;
+}
+.step-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.step-icon.red  { background: rgba(230,57,70,.12); }
+.step-icon.yellow { background: rgba(244,162,97,.12); }
+.step-icon.green { background: rgba(46,196,182,.12); }
+.step-icon.gray { background: rgba(139,147,168,.08); }
+
+.step-header h2 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+.step-header p {
+  font-size: 12px;
+  color: var(--text2);
+}
+
+/* SELECTOR */
+.select-wrapper {
+  position: relative;
+}
+.select-wrapper::after {
+  content: '▾';
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text2);
+  pointer-events: none;
+  font-size: 12px;
+}
+select#departamento {
+  width: 100%;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: .75rem 2.5rem .75rem 1rem;
+  color: var(--text);
+  font-family: 'Sora', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color .15s;
+}
+select#departamento:focus { border-color: var(--red); }
+select#departamento option { background: var(--bg3); }
+
+/* ── PASO 2: SEMÁFORO DE PARTIDOS ── */
+#paso2 { display: none; }
+#paso2.visible { display: block; }
+
+.partido-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.partido-row {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: .9rem 1.1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  transition: all .15s;
+}
+.partido-row:hover { border-color: var(--border2); background: var(--bg4); }
+.partido-row.expanded { border-color: var(--border2); }
+
+.alerta-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+.alerta-dot.bad    { background: var(--red); box-shadow: 0 0 6px rgba(230,57,70,.5); }
+.alerta-dot.warn   { background: var(--yellow); box-shadow: 0 0 6px rgba(244,162,97,.4); }
+.alerta-dot.ok     { background: var(--green); box-shadow: 0 0 6px rgba(46,196,182,.3); }
+
+.partido-info { flex: 1; min-width: 0; }
+.partido-nombre {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+.partido-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5px;
+}
+.chip {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.chip.red    { background: rgba(230,57,70,.15); color: var(--red); border: 1px solid rgba(230,57,70,.25); }
+.chip.yellow { background: rgba(244,162,97,.12); color: var(--yellow); border: 1px solid rgba(244,162,97,.2); }
+.chip.gray   { background: rgba(139,147,168,.08); color: var(--text2); border: 1px solid var(--border); }
+
+.partido-expand {
+  font-size: 11px;
+  color: var(--text3);
+  flex-shrink: 0;
+  margin-top: 2px;
+  transition: transform .2s;
+}
+.partido-row.expanded .partido-expand { transform: rotate(180deg); }
+
+.partido-detalle {
+  display: none;
+  margin-top: .75rem;
+  padding-top: .75rem;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text2);
+  line-height: 1.6;
+}
+.partido-row.expanded .partido-detalle { display: block; }
+.partido-detalle a {
+  color: var(--green);
+  font-size: 11px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: .5rem;
+}
+.partido-detalle a:hover { text-decoration: underline; }
+
+/* ── PASO 3: CEDULA ── */
+#paso3 { display: none; }
+#paso3.visible { display: block; }
+
+.cedula-box {
+  background: linear-gradient(135deg, rgba(46,196,182,.05) 0%, rgba(46,196,182,.02) 100%);
+  border: 1px solid rgba(46,196,182,.25);
+  border-radius: var(--radius2);
+  padding: 1.75rem;
+  text-align: center;
+}
+.cedula-icon { font-size: 40px; margin-bottom: .75rem; }
+.cedula-box h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: .5rem;
+  color: var(--text);
+}
+.cedula-box p {
+  font-size: 12px;
+  color: var(--text2);
+  max-width: 420px;
+  margin: 0 auto 1.25rem;
+  line-height: 1.6;
+}
+.cedula-region {
+  display: inline-block;
+  background: rgba(46,196,182,.1);
+  border: 1px solid rgba(46,196,182,.3);
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 14px;
+  border-radius: 20px;
+  margin-bottom: 1.25rem;
+  letter-spacing: .04em;
+}
+
+.btn-cedula {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--green);
+  color: var(--bg);
+  font-family: 'Sora', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  padding: .75rem 1.75rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: opacity .15s, transform .1s;
+  border: none;
+  cursor: pointer;
+}
+.btn-cedula:hover { opacity: .88; transform: translateY(-1px); }
+
+.cedula-note {
+  font-size: 11px;
+  color: var(--text3);
+  margin-top: .75rem;
+}
+
+/* ── PASO 4: VERIFICAR CANDIDATO ── */
+#paso4 { display: none; }
+#paso4.visible { display: block; }
+
+.buscador-box {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius2);
+  padding: 1.5rem;
+}
+.buscador-box label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  margin-bottom: .6rem;
+}
+.input-row {
+  display: flex;
+  gap: 8px;
+}
+.input-row input {
+  flex: 1;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: .7rem 1rem;
+  color: var(--text);
+  font-family: 'Sora', sans-serif;
+  font-size: 13px;
+  outline: none;
+  transition: border-color .15s;
+}
+.input-row input:focus { border-color: var(--red); }
+.input-row input::placeholder { color: var(--text3); }
+
+.btn-buscar {
+  background: var(--red);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: .7rem 1.25rem;
+  font-family: 'Sora', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity .15s;
+}
+.btn-buscar:hover { opacity: .85; }
+
+/* resultado links */
+#result-links { display: none; margin-top: 1.25rem; }
+#result-links.visible { display: block; }
+#result-links h4 {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text2);
+  margin-bottom: .75rem;
+}
+.result-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: .65rem 1rem;
+  margin-bottom: 6px;
+  gap: 10px;
+}
+.result-item .site { font-size: 12px; font-weight: 600; color: var(--text); min-width: 140px; }
+.result-item .desc { font-size: 11px; color: var(--text2); flex: 1; }
+.result-item a {
+  font-size: 11px;
+  color: var(--red);
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.result-item a:hover { text-decoration: underline; }
+
+/* ── LISTA NEGRA PREVIEW ── */
+.lista-negra-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: .75rem;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.lista-negra-header h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+.lista-negra-header span {
+  font-size: 11px;
+  color: var(--text3);
+}
+
+.negra-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+.negra-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-left: 3px solid transparent;
+  border-radius: var(--radius);
+  padding: .9rem 1rem;
+  transition: border-color .15s;
+}
+.negra-card:hover { border-color: var(--border2); }
+.negra-card.bad  { border-left-color: var(--red); }
+.negra-card.warn { border-left-color: var(--yellow); }
+
+.negra-card .nombre {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+.negra-card .partido-tag {
+  font-size: 10px;
+  color: var(--text3);
+  margin-bottom: .5rem;
+}
+.negra-card .cargo-tag {
+  display: inline-block;
+  font-size: 10px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--text2);
+  padding: 1px 7px;
+  border-radius: 4px;
+  margin-bottom: .5rem;
+}
+.negra-card .resumen {
+  font-size: 11px;
+  color: var(--text2);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── DISCLAIMER ── */
+.disclaimer {
+  background: rgba(244,162,97,.05);
+  border: 1px solid rgba(244,162,97,.15);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  font-size: 11px;
+  color: var(--text2);
+  line-height: 1.7;
+  margin-top: 2rem;
+}
+.disclaimer strong { color: var(--yellow); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 580px) {
+  .input-row { flex-direction: column; }
+  .result-item { flex-direction: column; align-items: flex-start; }
+  .result-item .site { min-width: auto; }
+  .negra-grid { grid-template-columns: 1fr; }
+  .steps-nav { gap: 2px; }
+  .step-arrow { padding: 0 2px; font-size: 10px; }
+}
+
+/* animación entrada */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate { animation: fadeUp .3s ease forwards; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <a href="index.html" class="back">← Matriz</a>
+  <div class="header-center">
+    <div class="header-title">VotoConsciente Perú 2026</div>
+    <div class="header-sub">Congreso Bicameral</div>
+  </div>
+  <span class="badge">Beta</span>
+</div>
+
+<div class="main">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-eyebrow">Senado · Diputados · 12 abr 2026</div>
+    <h1>Elige al <em>Congreso</em><br>con información real</h1>
+    <p>252 candidatos con sentencias firmes postulan al Congreso 2026. 55 congresistas en funciones tienen investigaciones fiscales activas. Aquí puedes verlos antes de votar.</p>
+  </div>
+
+  <!-- STEPS NAV -->
+  <div class="steps-nav" id="steps-nav">
+    <div class="step-dot active" id="dot1">
+      <div class="num">1</div> Tu región
+    </div>
+    <div class="step-arrow">›</div>
+    <div class="step-dot" id="dot2">
+      <div class="num">2</div> Semáforo
+    </div>
+    <div class="step-arrow">›</div>
+    <div class="step-dot" id="dot3">
+      <div class="num">3</div> Tu cédula
+    </div>
+    <div class="step-arrow">›</div>
+    <div class="step-dot" id="dot4">
+      <div class="num">4</div> Verificar
+    </div>
+  </div>
+
+  <!-- ── PASO 1: DEPARTAMENTO ── -->
+  <div class="step-card highlighted" id="paso1-card">
+    <div class="step-header">
+      <div class="step-icon red">🗺️</div>
+      <div>
+        <h2>¿En qué región votas?</h2>
+        <p>Los candidatos a diputados y senadores regionales varían por departamento</p>
+      </div>
+    </div>
+    <div class="select-wrapper">
+      <select id="departamento" onchange="seleccionarDepartamento()">
+        <option value="">— Selecciona tu departamento —</option>
+        <option value="Amazonas|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-AMAZONAS.pdf">Amazonas</option>
+        <option value="Ancash|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-ANCASH.pdf">Áncash</option>
+        <option value="Apurímac|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-APURIMAC.pdf">Apurímac</option>
+        <option value="Arequipa|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-AREQUIPA.pdf">Arequipa</option>
+        <option value="Ayacucho|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-AYACUCHO.pdf">Ayacucho</option>
+        <option value="Cajamarca|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-CAJAMARCA.pdf">Cajamarca</option>
+        <option value="Callao|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-CALLAO.pdf">Callao</option>
+        <option value="Cusco|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-CUSCO.pdf">Cusco</option>
+        <option value="Huancavelica|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-HUANCAVELICA.pdf">Huancavelica</option>
+        <option value="Huánuco|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-HUANUCO.pdf">Huánuco</option>
+        <option value="Ica|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-ICA.pdf">Ica</option>
+        <option value="Junín|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-JUNIN.pdf">Junín</option>
+        <option value="La Libertad|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-LA-LIBERTAD.pdf">La Libertad</option>
+        <option value="Lambayeque|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-LAMBAYEQUE.pdf">Lambayeque</option>
+        <option value="Lima Metropolitana|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-LIMA-METROPOLITANA.pdf">Lima Metropolitana</option>
+        <option value="Lima Provincias|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-LIMA-PROVINCIAS.pdf">Lima Provincias</option>
+        <option value="Loreto|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-LORETO.pdf">Loreto</option>
+        <option value="Madre de Dios|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-MADRE-DE-DIOS.pdf">Madre de Dios</option>
+        <option value="Moquegua|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-MOQUEGUA.pdf">Moquegua</option>
+        <option value="Pasco|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-PASCO.pdf">Pasco</option>
+        <option value="Piura|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-PIURA.pdf">Piura</option>
+        <option value="Puno|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-PUNO.pdf">Puno</option>
+        <option value="San Martín|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-SAN-MARTIN.pdf">San Martín</option>
+        <option value="Tacna|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-TACNA.pdf">Tacna</option>
+        <option value="Tumbes|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-TUMBES.pdf">Tumbes</option>
+        <option value="Ucayali|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/cedula-SIM-UCAYALI.pdf">Ucayali</option>
+        <option value="Extranjero|https://www.onpe.gob.pe/modElecciones/elecciones/EG2026/Cedulas/Cedula-SIM-PERUANOS-RESIDENTES-EN-EL-EXTRANJERO.pdf">Peruanos en el Extranjero</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- ── PASO 2: SEMÁFORO PARTIDOS ── -->
+  <div id="paso2" class="step-card">
+    <div class="step-header">
+      <div class="step-icon yellow">⚠️</div>
+      <div>
+        <h2>Semáforo por partido</h2>
+        <p>Antes de ver los candidatos, revisa el historial de cada organización política</p>
+      </div>
+    </div>
+
+    <div class="partido-grid" id="partido-grid">
+      <!-- generado por JS -->
+    </div>
+  </div>
+
+  <!-- ── PASO 3: CÉDULA ── -->
+  <div id="paso3" class="step-card">
+    <div class="step-header">
+      <div class="step-icon green">📋</div>
+      <div>
+        <h2>Tu cédula de sufragio</h2>
+        <p>Lista oficial de todos los candidatos de tu región — senadores, diputados y Parlamento Andino</p>
+      </div>
+    </div>
+    <div class="cedula-box">
+      <div class="cedula-icon">🗳️</div>
+      <div class="cedula-region" id="cedula-region-label">—</div>
+      <h3>Cédula oficial ONPE 2026</h3>
+      <p>El PDF oficial contiene la lista completa de candidatos con sus números de voto preferencial. Se abre en una pestaña nueva — puedes volver aquí cuando termines.</p>
+      <a href="#" id="btn-cedula" class="btn-cedula" target="_blank" rel="noopener">
+        📄 Ver mi cédula completa →
+      </a>
+      <div class="cedula-note">Fuente oficial: ONPE — Oficina Nacional de Procesos Electorales</div>
+    </div>
+  </div>
+
+  <!-- ── PASO 4: VERIFICAR CANDIDATO ── -->
+  <div id="paso4" class="step-card">
+    <div class="step-header">
+      <div class="step-icon gray">🔍</div>
+      <div>
+        <h2>Verifica a cualquier candidato</h2>
+        <p>Escribe el nombre de un candidato y te generamos links directos a fuentes oficiales</p>
+      </div>
+    </div>
+    <div class="buscador-box">
+      <label>Nombre del candidato</label>
+      <div class="input-row">
+        <input type="text" id="candidato-input" placeholder="Ej: Lady Camones, Fernando Rospigliosi…" />
+        <button class="btn-buscar" onclick="buscarCandidato()">Buscar →</button>
+      </div>
+      <div id="result-links">
+        <h4 id="result-titulo"></h4>
+        <div id="result-items"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── LISTA NEGRA PREVIEW ── -->
+  <div style="margin-top:2rem">
+    <div class="lista-negra-header">
+      <h3>🚨 Los más cuestionados — busca si aparecen en tu lista</h3>
+      <span>Fuente: El Comercio, Perú21, RPP · mar 2026</span>
+    </div>
+    <div class="negra-grid" id="negra-grid">
+      <!-- generado por JS -->
+    </div>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="disclaimer">
+    <strong>⚠ Aviso:</strong> Esta herramienta es orientativa y de uso ciudadano. Una investigación fiscal no es sentencia. Una sentencia anulada no es condena vigente. <strong>Verifica siempre en la fuente oficial antes de concluir.</strong> Los datos provienen de fuentes periodísticas verificadas (El Comercio, RPP, Perú21, Infobae) y del JNE/MP. Proyecto ciudadano independiente sin financiamiento político. <a href="https://github.com/niqmen/voto-consciente-2026" style="color:var(--green)">Ver código fuente →</a>
+  </div>
+
+</div><!-- /main -->
+
+<script>
+// ── DATOS: PARTIDOS ──
+const partidos = [
+  {
+    nombre: "Podemos Perú",
+    alerta: "bad",
+    chips: [{t:"38 sentenciados",c:"red"},{t:"Mochasueldo",c:"red"},{t:"Luna Gálvez investigado",c:"red"}],
+    nota: "38 candidatos con sentencias firmes en sus listas: proxenetismo, peculado, corrupción de funcionarios. 8 actuales congresistas en reelección, varios investigados por mochasueldos. José Luna Gálvez enfrenta pedido fiscal de 22 años y 8 meses de cárcel.",
+    fuente: "https://www.americatv.com.pe/noticias/actualidad/podemos-peru-lleva-sus-listas-38-candidatos-sentencias-n515833",
+    fuente_txt: "América TV — Cuarto Poder, feb 2026"
+  },
+  {
+    nombre: "Alianza para el Progreso (APP)",
+    alerta: "bad",
+    chips: [{t:"14 sentenciados Senado",c:"red"},{t:"Mochasueldo",c:"red"},{t:"7 investigados MP",c:"yellow"}],
+    nota: "14 candidatos al Senado con sentencias firmes. Magali Ruiz y Rocío Torres investigadas por mochasueldos. Historial: el partido llevó al Congreso 2021-2026 a Freddy Díaz (condenado por violación), Benicio Ríos (colusión) y Edwin Donayre (peculado).",
+    fuente: "https://elcomercio.pe/politica/elecciones/congresistas-mochasueldo-exministros-de-pedro-castillo-y-otros-quienes-son-los-candidatos-para-las-elecciones-del-2026-tlcnota-noticia/",
+    fuente_txt: "El Comercio, dic 2025"
+  },
+  {
+    nombre: "Fuerza Popular",
+    alerta: "warn",
+    chips: [{t:"15 sentenciados",c:"red"},{t:"11 investigados MP",c:"yellow"},{t:"Leyes procrimen",c:"yellow"}],
+    nota: "15 candidatos al Senado con sentencias. 11 con procesos fiscales activos (Fuerza Popular lidera ese conteo). Rospigliosi, Bustamante identificados entre los que votaron leyes 'procrimen' — normas que debilitan la persecución de la criminalidad organizada según el MP y Transparencia.",
+    fuente: "https://peru21.pe/investigacion/octogonos-de-candidatos-peru-sentencias-populismo-y-mineria-ilegal/",
+    fuente_txt: "Perú21 — Octógonos candidatos, mar 2026"
+  },
+  {
+    nombre: "Renovación Popular",
+    alerta: "warn",
+    chips: [{t:"10 sentenciados",c:"red"},{t:"6 investigados MP",c:"yellow"}],
+    nota: "10 candidatos al Senado con sentencias. 6 con investigaciones fiscales activas. López Aliaga (candidato presidencial) enfrenta 3 investigaciones graves: Panama Papers, endeudamiento MML y Vía Expresa Norte.",
+    fuente: "https://peru21.pe/investigacion/octogonos-de-candidatos-peru-sentencias-populismo-y-mineria-ilegal/",
+    fuente_txt: "Perú21 — Octógonos candidatos, mar 2026"
+  },
+  {
+    nombre: "Perú Libre",
+    alerta: "bad",
+    chips: [{t:"9 investigados MP",c:"yellow"},{t:"Cerrón prófugo",c:"red"},{t:"Org. criminal",c:"red"}],
+    nota: "9 candidatos con procesos fiscales. Vladimir Cerrón (figura del partido) es prófugo con sentencia firme y orden de captura Interpol. El partido ha sido investigado como organización criminal en el caso Los Dinámicos del Centro.",
+    fuente: "https://rpp.pe/peru/actualidad/elecciones-2026-55-congresistas-que-buscan-la-reeleccion-estan-bajo-investigacion-de-la-fiscalia-segun-plataforma-rtc-noticia-1673054",
+    fuente_txt: "RPP — Plataforma RTC, feb 2026"
+  },
+  {
+    nombre: "Cooperación Popular",
+    alerta: "bad",
+    chips: [{t:"Walter Acha (acusado violación)",c:"red"},{t:"Benítez-La Centralita",c:"red"}],
+    nota: "Lleva a Walter Acha (suspendido 120 días por acusación de violación) al Senado, y a Heriberto Benítez (implicado en caso 'La Centralita') como candidato a diputado por Lima.",
+    fuente: "https://elcomercio.pe/politica/congreso/mas-de-130-excongresistas-buscan-regresar-como-senadores-o-diputados-los-principales-rostros-y-los-cuestionados-elecciones-2026-congreso-bicameral-tlcnota-noticia/",
+    fuente_txt: "El Comercio, ene 2026"
+  },
+  {
+    nombre: "Un Camino Diferente",
+    alerta: "bad",
+    chips: [{t:"Prado Ravines — 35 años condena",c:"red"}],
+    nota: "Candidato al Senado Nacional: Raúl Prado Ravines, excomandante PNP condenado a 35 años por homicidio calificado (Escuadrón de la Muerte). La sentencia fue anulada en apelación — nuevo juicio pendiente. Estuvo prófugo.",
+    fuente: "https://elcomercio.pe/politica/elecciones/congresistas-mochasueldo-exministros-de-pedro-castillo-y-otros-quienes-son-los-candidatos-para-las-elecciones-del-2026-tlcnota-noticia/",
+    fuente_txt: "El Comercio, dic 2025"
+  },
+  {
+    nombre: "Juntos por el Perú",
+    alerta: "warn",
+    chips: [{t:"5 investigados MP",c:"yellow"},{t:"R. Sánchez — 6 carpetas",c:"yellow"}],
+    nota: "5 candidatos con investigaciones fiscales. Roberto Sánchez (candidato presidencial y a diputado) tiene 6 carpetas fiscales activas incluyendo rebelión por el golpe de dic 2022.",
+    fuente: "https://rpp.pe/peru/actualidad/elecciones-2026-55-congresistas-que-buscan-la-reeleccion-estan-bajo-investigacion-de-la-fiscalia-segun-plataforma-rtc-noticia-1673054",
+    fuente_txt: "RPP — Plataforma RTC, feb 2026"
+  },
+  {
+    nombre: "Fuerza y Libertad (Alianza)",
+    alerta: "warn",
+    chips: [{t:"PPK — investigado Odebrecht",c:"yellow"},{t:"Molinelli — 3 procesos",c:"yellow"}],
+    nota: "Postula a PPK (87 años, investigado Odebrecht) al Senado. Fiorella Molinelli (candidata presidencial) tiene 3 procesos fiscales activos.",
+    fuente: "https://www.infobae.com/peru/2025/11/12/elecciones-2026-quienes-son-los-aspirantes-al-senado-peruano-los-nombres-que-ya-se-han-anunciado/",
+    fuente_txt: "Infobae, nov 2025"
+  },
+  {
+    nombre: "Alianza Venceremos",
+    alerta: "warn",
+    chips: [{t:"Atencio — defensor Bermejo",c:"yellow"},{t:"Bazán — cambio discurso",c:"gray"}],
+    nota: "Ronald Atencio es el abogado defensor de Guillermo Bermejo, condenado por terrorismo. Sigrid Bazán declaró oponerse a la reelección parlamentaria — luego postuló a Diputados.",
+    fuente: "https://www.infobae.com/peru/2025/12/27/los-88-congresistas-que-buscan-reelegirse-en-el-nuevo-congreso-bicameral-rumbo-a-las-elecciones-2026/",
+    fuente_txt: "Infobae, dic 2025"
+  }
+];
+
+// ── DATOS: LISTA NEGRA ──
+const listaNegra = [
+  { nombre:"Lady Camones", partido:"APP", cargo:"Senadora", alerta:"bad", resumen:"Expresidenta del Congreso removida. Audio filtrado: César Acuña le ordena aprobar un proyecto que 'me favorece a mí'. Investigada por mochasueldos." },
+  { nombre:"Fernando Rospigliosi", partido:"Fuerza Popular", cargo:"Senador", alerta:"warn", resumen:"Presidente saliente del Congreso. Votó leyes 'procrimen' según MP y Transparencia. Enfrenta querella de Delia Espinoza." },
+  { nombre:"Raúl Prado Ravines", partido:"Un Camino Diferente", cargo:"Senador Nacional", alerta:"bad", resumen:"Excomandante PNP condenado a 35 años por homicidio (Escuadrón de la Muerte). Sentencia anulada en apelación — nuevo juicio pendiente." },
+  { nombre:"Walter Acha", partido:"Cooperación Popular", cargo:"Senador", alerta:"bad", resumen:"Suspendido 120 días del Congreso en 2021 por acusación de violación de una exempleada." },
+  { nombre:"Heriberto Benítez", partido:"Cooperación Popular", cargo:"Diputado Lima", alerta:"bad", resumen:"Implicado en caso 'La Centralita' — red de interceptaciones ilegales vinculada al sistema de justicia." },
+  { nombre:"Pedro Pablo Kuczynski (PPK)", partido:"Fuerza y Libertad", cargo:"Senador Nacional", alerta:"bad", resumen:"Expresidente que renunció en 2018 bajo denuncias Odebrecht. A sus 87 años busca el Senado con investigaciones activas." },
+  { nombre:"Magali Ruiz", partido:"APP", cargo:"Senadora", alerta:"bad", resumen:"Investigada por mochasueldos: presunto recorte ilegal de sueldos a trabajadores de su despacho parlamentario." },
+  { nombre:"Rocío Torres", partido:"APP", cargo:"Senadora", alerta:"bad", resumen:"Investigada por mochasueldos: presunto recorte ilegal de sueldos a trabajadores de su despacho parlamentario." },
+  { nombre:"Alejandro Soto", partido:"APP", cargo:"Senador", alerta:"warn", resumen:"Expresidente del Congreso. Postuló simultáneamente a la plancha presidencial de Acuña y al Senado." },
+  { nombre:"Clemente Flores", partido:"Perú Primero", cargo:"Senador/Diputado", alerta:"bad", resumen:"Denuncia constitucional por cohecho pasivo y tráfico de influencias — caso 'Los Temerarios del Crimen'." },
+  { nombre:"Ernesto Bustamante", partido:"Fuerza Popular", cargo:"Senador", alerta:"warn", resumen:"Identificado entre los que votaron leyes 'procrimen' según Perú21 y Transparencia." },
+  { nombre:"Sigrid Bazán", partido:"Venceremos", cargo:"Diputada", alerta:"warn", resumen:"Declaró oponerse a la reelección parlamentaria. Luego postuló a la Cámara de Diputados." }
+];
+
+// ── ESTADO GLOBAL ──
+let cedula_url = '';
+let cedula_region = '';
+
+// ── FUNCIONES ──
+function seleccionarDepartamento() {
+  const sel = document.getElementById('departamento');
+  const val = sel.value;
+  if (!val) return;
+
+  const parts = val.split('|');
+  cedula_region = parts[0];
+  cedula_url    = parts[1];
+
+  // Actualizar step dots
+  document.getElementById('dot1').classList.add('done');
+  document.getElementById('dot1').classList.remove('active');
+  document.getElementById('dot2').classList.add('active');
+  document.getElementById('dot3').classList.add('active');
+  document.getElementById('dot4').classList.add('active');
+
+  // Mostrar pasos
+  mostrarPasos();
+
+  // Scroll suave
+  setTimeout(() => {
+    document.getElementById('paso2').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 100);
+}
+
+function mostrarPasos() {
+  // Paso 2 — semáforo
+  const p2 = document.getElementById('paso2');
+  p2.classList.add('visible', 'animate');
+  renderPartidos();
+
+  // Paso 3 — cédula
+  const p3 = document.getElementById('paso3');
+  p3.classList.add('visible', 'animate');
+  document.getElementById('cedula-region-label').textContent = cedula_region;
+  document.getElementById('btn-cedula').href = cedula_url;
+
+  // Paso 4 — verificar
+  document.getElementById('paso4').classList.add('visible', 'animate');
+}
+
+function renderPartidos() {
+  const grid = document.getElementById('partido-grid');
+  grid.innerHTML = partidos.map((p, i) => `
+    <div class="partido-row" id="prow-${i}" onclick="togglePartido(${i})">
+      <div class="alerta-dot ${p.alerta}"></div>
+      <div class="partido-info">
+        <div class="partido-nombre">${p.nombre}</div>
+        <div class="partido-chips">
+          ${p.chips.map(c => `<span class="chip ${c.c}">${c.t}</span>`).join('')}
+        </div>
+        <div class="partido-detalle">
+          ${p.nota}
+          <br>
+          <a href="${p.fuente}" target="_blank" rel="noopener">📰 ${p.fuente_txt} →</a>
+        </div>
+      </div>
+      <div class="partido-expand">▾</div>
+    </div>
+  `).join('');
+}
+
+function togglePartido(i) {
+  const row = document.getElementById('prow-' + i);
+  row.classList.toggle('expanded');
+}
+
+function buscarCandidato() {
+  const nombre = document.getElementById('candidato-input').value.trim();
+  if (!nombre) return;
+
+  const enc = encodeURIComponent(nombre);
+  const encGoogle = encodeURIComponent(nombre + ' Peru investigacion fiscal corrupcion congresista');
+
+  const links = [
+    { sitio:'JNE — Voto Informado', desc:'Hoja de vida, bienes, estudios y antecedentes declarados', url:'https://votoinformado.jne.gob.pe', label:'Buscar →' },
+    { sitio:'Infogob JNE', desc:'Historial político, partidos, cargos y elecciones anteriores', url:`https://infogob.jne.gob.pe/Politico/BusquedaPolitico?nombre=${enc}`, label:'Ir →' },
+    { sitio:'Revisa Tu Candidato (RTC)', desc:'Investigaciones fiscales activas en el Ministerio Público', url:'https://www.revistatucandidato.pe', label:'Buscar →' },
+    { sitio:'Poder Judicial', desc:'Sentencias y expedientes judiciales activos', url:'https://cej.pj.gob.pe/cej/forms/busquedaform.html', label:'Buscar →' },
+    { sitio:'Ministerio Público', desc:'Portal oficial de la Fiscalía de la Nación', url:'https://www.mpfn.gob.pe/el_ministerio/buscador/', label:'Ir →' },
+    { sitio:'Prensa verificada', desc:'El Comercio, RPP, Ojo Público, IDL, La República', url:`https://www.google.com/search?q=${encGoogle}&tbm=nws`, label:'Ver noticias →' }
+  ];
+
+  document.getElementById('result-titulo').textContent = `Links de verificación para "${nombre}"`;
+  document.getElementById('result-items').innerHTML = links.map(l => `
+    <div class="result-item">
+      <span class="site">${l.sitio}</span>
+      <span class="desc">${l.desc}</span>
+      <a href="${l.url}" target="_blank" rel="noopener">${l.label}</a>
+    </div>
+  `).join('');
+
+  document.getElementById('result-links').classList.add('visible');
+}
+
+function renderListaNegra() {
+  const grid = document.getElementById('negra-grid');
+  grid.innerHTML = listaNegra.map(c => `
+    <div class="negra-card ${c.alerta}">
+      <div class="nombre">${c.nombre}</div>
+      <div class="partido-tag">${c.partido}</div>
+      <span class="cargo-tag">${c.cargo}</span>
+      <div class="resumen">${c.resumen}</div>
+    </div>
+  `).join('');
+}
+
+// Enter en buscador
+document.getElementById('candidato-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') buscarCandidato();
+});
+
+// Init
+renderListaNegra();
+</script>
+</body>
+</html>
