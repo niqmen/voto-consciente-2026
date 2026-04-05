@@ -469,26 +469,8 @@
     { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
   ]
 },
-  {
+   {
   "id": "p20",
-  "nombre": "Mesías Guevara",
-  "partido": "Partido Morado",
-  "foto": "",
-  "filtro": "ok",
-  "filtro_nota": "Sin sentencias penales ni investigaciones fiscales activas. ONPE y JNE confirman ausencia de antecedentes judiciales, policiales ni penales.",
-  "eliminado": false,
-  "puntajes": { "integ": 68, "econ": 58, "capac": 68, "inst": 65, "segur": 52, "soc": 62 },
-  "encuesta_pct": 1,
-  "encuesta_fuente": "Ipsos mar 2026",
-  "resumen_html": "<p>Ingeniero electrónico y político con trayectoria amplia: congresista 2011-2016, gobernador regional de Cajamarca 2019-2022, expresidente de Acción Popular 2014-2023. Migró al Partido Morado en 2024 tras discrepancias internas con la lampa.</p><p><strong>Estado legal:</strong> Sin sentencias penales, investigaciones fiscales activas ni antecedentes registrados. ONPE y JNE lo confirman en el proceso de fiscalización de hoja de vida.</p><p><strong>Gestión en Cajamarca:</strong> Mejoró el índice de competitividad regional, construyó infraestructura de salud y educación, impulsó agricultura con canales de riego. Sin escándalos de corrupción documentados en ese período.</p><p><strong>Propuesta:</strong> Centro con énfasis en MYPES, recuperación de exoneraciones tributarias irregulares, empleo formal y agricultura familiar. En debates fue confrontacional pero articuló propuestas más concretas que la mayoría.</p><p><strong>Límite:</strong> Candidatura marginal en encuestas. Su salida de Acción Popular generó cuestionamientos sobre lealtad institucional, aunque no hay proceso por esto.</p>",
-  "fuentes": [
-    { "texto": "Infobae — Perfil y hoja de vida oficial 2026", "url": "https://www.infobae.com/peru/2026/02/12/mesias-guevara-hoja-de-vida-y-perfil-del-candidato-del-partido-morado/" },
-    { "texto": "Wikipedia — Mesías Guevara", "url": "https://es.wikipedia.org/wiki/Mes%C3%ADas_Guevara" },
-    { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
-  ]
-},
-  {
-  "id": "p21",
   "nombre": "Álvaro Paz de la Barra",
   "partido": "Fe en el Perú",
   "foto": "",
@@ -507,7 +489,7 @@
   ]
 },
   {
-  "id": "p22",
+  "id": "p21",
   "nombre": "Herbert Caller",
   "partido": "Partido Patriótico del Perú",
   "foto": "",
@@ -526,7 +508,7 @@
   ]
 },
   {
-  "id": "p23",
+  "id": "p22",
   "nombre": "Enrique Valderrama",
   "partido": "Partido Aprista Peruano (APRA)",
   "foto": "",
@@ -545,7 +527,7 @@
   ]
 },
   {
-  "id": "p24",
+  "id": "p23",
   "nombre": "Charlie Carrasco",
   "partido": "Partido Demócrata Unido Perú",
   "foto": "",
@@ -563,7 +545,7 @@
   ]
 },
   {
-  "id": "p25",
+  "id": "p24",
   "nombre": "Roberto Chiabra",
   "partido": "Alianza Unidad Nacional (PPC + Unidad y Paz + Somos Libres)",
   "foto": "",
@@ -581,7 +563,7 @@
   ]
 },
   {
-  "id": "p26",
+  "id": "p25",
   "nombre": "Armando Massé",
   "partido": "Partido Democrático Federal",
   "foto": "",
@@ -598,7 +580,7 @@
   ]
 },
   {
-  "id": "p27",
+  "id": "p26",
   "nombre": "Rosario Fernández",
   "partido": "Un Camino Diferente",
   "foto": "",
@@ -615,7 +597,7 @@
   ]
 },
   {
-  "id": "p28",
+  "id": "p27",
   "nombre": "Antonio Ortiz",
   "partido": "Salvemos al Perú",
   "foto": "",
@@ -632,7 +614,7 @@
   ]
 },
   {
-  "id": "p29",
+  "id": "p28",
   "nombre": "Paul Davis Jaimes Blanco",
   "partido": "Progresemos",
   "foto": "",
@@ -649,7 +631,7 @@
   ]
 },
   {
-  "id": "p30",
+  "id": "p29",
   "nombre": "Walter Chirinos",
   "partido": "Partido Político PRIN",
   "foto": "",
@@ -667,7 +649,7 @@
   ]
 },
   {
-  "id": "p31",
+  "id": "p30",
   "nombre": "Carlos Espá",
   "partido": "SíCreo",
   "foto": "",
@@ -684,7 +666,7 @@
   ]
 },
   {
-  "id": "p32",
+  "id": "p31",
   "nombre": "Ronald Atencio",
   "partido": "Alianza Venceremos (Voces del Pueblo + Nuevo Perú)",
   "foto": "",
@@ -702,7 +684,7 @@
   ]
 },
   {
-  "id": "p33",
+  "id": "p32",
   "nombre": "Carlos Jaico",
   "partido": "Perú Moderno",
   "foto": "",
@@ -719,7 +701,7 @@
   ]
 },
   {
-  "id": "p34",
+  "id": "p33",
   "nombre": "Francisco Diez-Canseco",
   "partido": "Perú Acción",
   "foto": "",
@@ -736,7 +718,7 @@
   ]
 },
   {
-  "id": "p35",
+  "id": "p34",
   "nombre": "Álex González Castillo",
   "partido": "Partido Demócrata Verde",
   "foto": "",
