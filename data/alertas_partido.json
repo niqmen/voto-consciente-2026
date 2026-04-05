@@ -1,0 +1,58 @@
+[
+  {
+    "partido": "Podemos Perú",
+    "alerta": "bad",
+    "candidatos_con_sentencia": 38,
+    "nota": "38 candidatos con sentencias firmes (proxenetismo, peculado, corrupción). Liderado por José Luna Gálvez, investigado por 22 años de cárcel.",
+    "fuente": "https://www.americatv.com.pe/noticias/actualidad/podemos-peru-lleva-sus-listas-38-candidatos-sentencias-n515833"
+  },
+  {
+    "partido": "Alianza para el Progreso",
+    "alerta": "bad",
+    "candidatos_con_sentencia": 14,
+    "nota": "14 candidatos senadores con sentencias. Incluye candidatos investigados por mochasueldos (Magali Ruiz, Rocío Torres). Historial: llevó al Congreso a Freddy Díaz (violación) y Benicio Ríos (colusión).",
+    "fuente": "https://elcomercio.pe/politica/elecciones/congresistas-mochasueldo-exministros-de-pedro-castillo-y-otros-quienes-son-los-candidatos-para-las-elecciones-del-2026-tlcnota-noticia/"
+  },
+  {
+    "partido": "Fuerza Popular",
+    "alerta": "warn",
+    "candidatos_con_sentencia": 15,
+    "candidatos_investigados": 11,
+    "nota": "15 candidatos al Senado con sentencias. 11 con procesos fiscales activos. Incluye Martha Chávez, Fernando Rospigliosi (presidente saliente del Congreso), Patricia Juárez.",
+    "fuente": "https://peru21.pe/investigacion/octogonos-de-candidatos-peru-sentencias-populismo-y-mineria-ilegal/"
+  },
+  {
+    "partido": "Renovación Popular",
+    "alerta": "warn",
+    "candidatos_con_sentencia": 10,
+    "candidatos_investigados": 6,
+    "nota": "10 candidatos al Senado con sentencias. 6 con investigaciones fiscales activas.",
+    "fuente": "https://peru21.pe/investigacion/octogonos-de-candidatos-peru-sentencias-populismo-y-mineria-ilegal/"
+  },
+  {
+    "partido": "Perú Libre",
+    "alerta": "bad",
+    "candidatos_investigados": 9,
+    "nota": "9 candidatos al Congreso con procesos fiscales. Vladimir Cerrón (prófugo con sentencia firme) es la figura del partido.",
+    "fuente": "https://rpp.pe/peru/actualidad/elecciones-2026-55-congresistas-que-buscan-la-reeleccion-estan-bajo-investigacion-de-la-fiscalia-segun-plataforma-rtc-noticia-1673054"
+  },
+  {
+    "partido": "Juntos por el Perú",
+    "alerta": "warn",
+    "candidatos_investigados": 5,
+    "nota": "5 candidatos con investigaciones fiscales. Roberto Sánchez (candidato presidencial) tiene 6 carpetas fiscales activas incluyendo rebelión.",
+    "fuente": "https://rpp.pe/peru/actualidad/elecciones-2026-55-congresistas-que-buscan-la-reeleccion-estan-bajo-investigacion-de-la-fiscalia-segun-plataforma-rtc-noticia-1673054"
+  },
+  {
+    "partido": "Cooperación Popular",
+    "alerta": "bad",
+    "nota": "Incluye a Walter Acha, suspendido 120 días por acusación de violación; y Heriberto Benítez, implicado en caso 'La Centralita'.",
+    "fuente": "https://elcomercio.pe/politica/congreso/mas-de-130-excongresistas-buscan-regresar-como-senadores-o-diputados-los-principales-rostros-y-los-cuestionados-elecciones-2026-congreso-bicameral-tlcnota-noticia/"
+  },
+  {
+    "partido": "Un Camino Diferente",
+    "alerta": "bad",
+    "nota": "Lleva al Senado a Raúl Prado Ravines, excomandante PNP condenado a 35 años por homicidio calificado (sentencia anulada en apelación, nuevo juicio pendiente). Postula estando bajo proceso penal grave.",
+    "fuente": "https://elcomercio.pe/politica/elecciones/congresistas-mochasueldo-exministros-de-pedro-castillo-y-otros-quienes-son-los-candidatos-para-las-elecciones-del-2026-tlcnota-noticia/"
+  }
+]
