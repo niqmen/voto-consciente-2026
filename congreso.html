@@ -694,12 +694,17 @@ select#departamento option { background: var(--bg3); }
     <div class="cedula-box">
       <div class="cedula-icon">🗳️</div>
       <div class="cedula-region" id="cedula-region-label">—</div>
-      <h3>Cédula oficial ONPE 2026</h3>
-      <p>El PDF oficial contiene la lista completa de candidatos con sus números de voto preferencial. Se abre en una pestaña nueva — puedes volver aquí cuando termines.</p>
-      <a href="#" id="btn-cedula" class="btn-cedula" target="_blank" rel="noopener">
-        📄 Ver mi cédula completa →
-      </a>
-      <div class="cedula-note">Fuente oficial: ONPE — Oficina Nacional de Procesos Electorales</div>
+      <h3>Formato de cédula — ONPE 2026</h3>
+      <p>La ONPE publica un PDF de práctica con el formato real de tu cédula. Muestra los partidos y cómo marcar, pero <strong>sin los nombres de candidatos</strong>. Para ver la lista completa con nombres y números de voto preferencial usa el JNE.</p>
+      <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:.75rem">
+        <a href="#" id="btn-cedula" class="btn-cedula" target="_blank" rel="noopener" style="font-size:12px;padding:.6rem 1.2rem">
+          📄 Ver formato de cédula (ONPE) →
+        </a>
+        <a href="https://votoinformado.jne.gob.pe" target="_blank" rel="noopener" class="btn-cedula" style="background:var(--red);font-size:12px;padding:.6rem 1.2rem">
+          🏛 Lista de candidatos (JNE) →
+        </a>
+      </div>
+      <div class="cedula-note">En el JNE: filtra por partido y región para ver candidatos con nombres y N° preferencial</div>
     </div>
   </div>
 
@@ -920,26 +925,68 @@ function buscarCandidato() {
   const nombre = document.getElementById('candidato-input').value.trim();
   if (!nombre) return;
 
-  const enc = encodeURIComponent(nombre);
-  const encGoogle = encodeURIComponent(nombre + ' Peru investigacion fiscal corrupcion congresista');
+  const encNombre = encodeURIComponent(nombre);
+  const encGoogle = encodeURIComponent(nombre + ' Peru 2026');
+  const encOjo    = encodeURIComponent(nombre);
 
+  // Solo links verificados como activos al 05-abr-2026
   const links = [
-    { sitio:'JNE — Voto Informado', desc:'Hoja de vida, bienes, estudios y antecedentes declarados', url:'https://votoinformado.jne.gob.pe', label:'Buscar →' },
-    { sitio:'Infogob JNE', desc:'Historial político, partidos, cargos y elecciones anteriores', url:`https://infogob.jne.gob.pe/Politico/BusquedaPolitico?nombre=${enc}`, label:'Ir →' },
-    { sitio:'Revisa Tu Candidato (RTC)', desc:'Investigaciones fiscales activas en el Ministerio Público', url:'https://www.revistatucandidato.pe', label:'Buscar →' },
-    { sitio:'Poder Judicial', desc:'Sentencias y expedientes judiciales activos', url:'https://cej.pj.gob.pe/cej/forms/busquedaform.html', label:'Buscar →' },
-    { sitio:'Ministerio Público', desc:'Portal oficial de la Fiscalía de la Nación', url:'https://www.mpfn.gob.pe/el_ministerio/buscador/', label:'Ir →' },
-    { sitio:'Prensa verificada', desc:'El Comercio, RPP, Ojo Público, IDL, La República', url:`https://www.google.com/search?q=${encGoogle}&tbm=nws`, label:'Ver noticias →' }
+    {
+      sitio: 'JNE — Voto Informado',
+      desc:  'Hoja de vida oficial, bienes, ingresos y antecedentes declarados',
+      url:   'https://votoinformado.jne.gob.pe',
+      label: 'Ir al JNE →',
+      nota:  'Escribe el nombre en el buscador interno'
+    },
+    {
+      sitio: 'Plataforma Electoral JNE',
+      desc:  'Plan de gobierno y datos de candidatura inscrita',
+      url:   'https://plataformaelectoral.jne.gob.pe',
+      label: 'Ir →',
+      nota:  'Busca por nombre o partido'
+    },
+    {
+      sitio: 'Infogob JNE',
+      desc:  'Historial político: partidos, cargos y elecciones anteriores',
+      url:   'https://infogob.jne.gob.pe',
+      label: 'Ir a Infogob →',
+      nota:  'Usa el buscador de la página'
+    },
+    {
+      sitio: 'Declara JNE',
+      desc:  'Declaración jurada de bienes e ingresos 2024',
+      url:   'https://declara.jne.gob.pe',
+      label: 'Ver DDJJ →',
+      nota:  'Busca por nombre y año 2024'
+    },
+    {
+      sitio: 'Ojo Público',
+      desc:  'Periodismo de investigación — corrupción y poder',
+      url:   `https://ojo-publico.com/?s=${encOjo}`,
+      label: 'Buscar →',
+      nota:  ''
+    },
+    {
+      sitio: 'Google Noticias',
+      desc:  'El Comercio, RPP, La República, IDL-Reporteros, Andina',
+      url:   `https://www.google.com/search?q=${encGoogle}&tbm=nws`,
+      label: 'Ver noticias →',
+      nota:  ''
+    }
   ];
 
-  document.getElementById('result-titulo').textContent = `Links de verificación para "${nombre}"`;
-  document.getElementById('result-items').innerHTML = links.map(l => `
-    <div class="result-item">
-      <span class="site">${l.sitio}</span>
-      <span class="desc">${l.desc}</span>
-      <a href="${l.url}" target="_blank" rel="noopener">${l.label}</a>
-    </div>
-  `).join('');
+  document.getElementById('result-titulo').textContent = `Verifica a: "${nombre}"`;
+  document.getElementById('result-items').innerHTML =
+    links.map(l => `
+      <div class="result-item">
+        <span class="site">${l.sitio}</span>
+        <span class="desc">${l.desc}${l.nota ? ' <em style="color:var(--text3);font-size:10px">· ' + l.nota + '</em>' : ''}</span>
+        <a href="${l.url}" target="_blank" rel="noopener">${l.label}</a>
+      </div>
+    `).join('') +
+    `<div style="margin-top:.75rem;padding:.65rem 1rem;background:rgba(244,162,97,.06);border:1px solid rgba(244,162,97,.15);border-radius:8px;font-size:11px;color:var(--text2);line-height:1.6">
+      <strong style="color:var(--yellow)">⚠ ¿No aparece en prensa?</strong> Es normal para candidatos sin cargo público previo o que son números bajos de lista. No significa que esté libre de antecedentes — solo que no tiene presencia mediática. Verifica igual en JNE y Declara.
+    </div>`;
 
   document.getElementById('result-links').classList.add('visible');
 }
