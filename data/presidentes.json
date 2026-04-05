@@ -334,7 +334,7 @@
   "nombre": "MARIA SOLEDAD PEREZ TELLO DE RODRIGUEZ",
   "partido": "Primero la Gente",
   "foto": "",
-  "filtro": "ok",
+  "filtro": "warn",
   "filtro_nota": "Sin sentencias penales firmes ni investigaciones fiscales propias activas al momento de la candidatura — ella misma lo confirmó en el debate y ningún medio ha rebatido el dato con documentación. Sin embargo, su gestión como ministra de Justicia (PPK, 2017) tiene cuestionamientos serios: firmó el DU 003-2017 que permitió a Odebrecht disponer de activos, y destituyó a la procuradora Ampuero cuando esta se negó a aplicarlo. No hay proceso penal por esto pero es un antecedente de gestión relevante. Partido: investigación preliminar del MP por 6,000 firmas falsas en inscripción.",
   "eliminado": false,
   "puntajes": { "integ": 68, "econ": 62, "capac": 70, "inst": 72, "segur": 60, "soc": 65 },
