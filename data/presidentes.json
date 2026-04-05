@@ -360,10 +360,57 @@
   "puntajes": { "integ": 58, "econ": 70, "capac": 55, "inst": 65, "segur": 60, "soc": 50 },
   "encuesta_pct": 1,
   "encuesta_fuente": "Marginal (<1%)",
+  "antecedentes": [
+    {
+      "id": "ant_001",
+      "titulo": "Conflicto de interés al asumir el MINEM",
+      "fecha": "2020-07",
+      "calificacion": "leve",
+      "calificacion_label": "Cuestionamiento ético sin proceso penal",
+      "descripcion": "Al jurar como ministro del MINEM, era gerente general de Remediadora Ambiental SAC (subsidiaria de Volcan), representante legal de Compañía Minera Argento SRL (empresa familiar) y tenía dos solicitudes de concesiones mineras en trámite ante el INGEMMET, organismo dependiente del ministerio que acababa de asumir. Especialistas lo calificaron como caso de 'puerta giratoria'. Afirmó haber renunciado a todos los cargos al jurar. Sin proceso penal.",
+      "tipo": "etico_politico",
+      "fuente": "Convoca.pe / declaraciones de José de Echave",
+      "url": "https://convoca.pe/agenda-propia/exviceministro-de-echave-afirma-que-nexos-del-ministro-rafael-belaunde-con-mineras",
+      "proceso_penal": false
+    },
+    {
+      "id": "ant_002",
+      "titulo": "Atentado en Cerro Azul con inconsistencias no resueltas",
+      "fecha": "2025-12-02",
+      "calificacion": "leve",
+      "calificacion_label": "Duda reputacional sin conclusión penal",
+      "descripcion": "Reportó un atentado a balazos en Cerro Azul. No existe registro fílmico del hecho. Una selfie post-atentado con pequeñas manchas de sangre generó sospechas públicas. Hildebrandt en sus Trece señaló que la sangre en la camisa no era consistente con las heridas visibles. Fue citado por el Depincri de Cañete para aclarar pasajes del episodio. La hipótesis policial principal apunta a violencia del sector construcción vinculada a sus proyectos inmobiliarios en la zona.",
+      "tipo": "reputacional",
+      "fuente": "Hildebrandt en sus Trece / RPP / Euronews",
+      "url": "https://rpp.pe/politica/elecciones/rafael-belaunde-investigacion-asegura-que-ataque-ocurrido-en-cerro-azul-estaria-vinculado-al-sector-construccion-noticia-1671707",
+      "proceso_penal": false
+    },
+    {
+      "id": "ant_003",
+      "titulo": "Cuestionamiento por falta de experiencia e nepotismo al asumir ministerio",
+      "fecha": "2020-07",
+      "calificacion": "leve",
+      "calificacion_label": "Cuestionamiento político menor",
+      "descripcion": "Su nombramiento como ministro del MINEM fue cuestionado por su falta de experiencia en el sector público y por sus vínculos familiares con el premier Pedro Cateriano. Duró solo 22 días en el cargo.",
+      "tipo": "politico",
+      "fuente": "Wikipedia / medios de la época",
+      "url": "https://es.wikipedia.org/wiki/Rafael_Bela%C3%BAnde_Llosa",
+      "proceso_penal": false
+    }
+  ],
+  "antecedentes_resumen": {
+    "tiene_antecedentes_penales": false,
+    "tiene_investigacion_fiscal": false,
+    "calificacion_global": "leve",
+    "calificacion_label": "Cuestionamientos éticos y reputacionales sin proceso penal",
+    "color": "#F59E0B",
+    "icono": "⚠️"
+  },
   "resumen_html": "<p>Economista, nieto del dos veces presidente Fernando Belaúnde Terry. Fue ministro de Energía y Minas por solo 22 días (jul-ago 2020, gobierno Vizcarra) hasta que el Congreso negó el voto de confianza al gabinete Cateriano. Fundó Libertad Popular en 2022 con Pedro Cateriano.</p><p><strong>Conflicto de interés al asumir ministerio:</strong> Convoca.pe y el exviceministro José de Echave documentaron que al momento de jurar como ministro del MINEM, Belaunde era gerente general de Remediadora Ambiental SAC (subsidiaria de Volcan), representante legal de Compañía Minera Argento SRL (empresa familiar), y tenía concesiones mineras propias tramitadas ante el INGEMMET — organismo dependiente del ministerio que acababa de asumir. Calificado por especialistas como caso de 'puerta giratoria'. Belaunde afirmó haber renunciado a todos los cargos al asumir. No hay proceso penal por esto.</p><p><strong>Atentado cuestionado (dic 2025):</strong> Fue baleado en Cerro Azul. No hay registro fílmico del hecho. La selfie post-atentado con pequeñas manchas de sangre generó sospechas públicas. La investigación policial determinó como hipótesis principal la violencia del sector construcción por disputas en sus empresas inmobiliarias.</p><p><strong>Perfil y propuesta:</strong> Liberal, pro-minería formal, anti-Reinfo, anti-minería ilegal. Apoyó a Keiko Fujimori en segunda vuelta 2021. Propuestas técnicas bien articuladas en minería y seguridad. Candidatura marginal en encuestas.</p>",
   "fuentes": [
     { "texto": "Convoca.pe — Conflicto de interés y 'puerta giratoria' al asumir MINEM (jul 2020)", "url": "https://convoca.pe/agenda-propia/exviceministro-de-echave-afirma-que-nexos-del-ministro-rafael-belaunde-con-mineras" },
     { "texto": "RPP — Atentado en Cerro Azul: investigación apunta al sector construcción (ene 2026)", "url": "https://rpp.pe/politica/elecciones/rafael-belaunde-investigacion-asegura-que-ataque-ocurrido-en-cerro-azul-estaria-vinculado-al-sector-construccion-noticia-1671707" },
+    { "texto": "Hildebrandt en sus Trece — Inconsistencias en el atentado de Cerro Azul (dic 2025)", "url": "https://www.hildebrandtensustrece.com/reportaje/articulo/2763" },
     { "texto": "Wikipedia — Rafael Belaúnde Llosa", "url": "https://es.wikipedia.org/wiki/Rafael_Bela%C3%BAnde_Llosa" },
     { "texto": "JNE — Hoja de vida oficial 2026", "url": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes" }
   ]
