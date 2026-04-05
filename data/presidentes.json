@@ -551,10 +551,10 @@
 },
   {
   "id": "p29",
-  "nombre": "Paul Jaimes",
+  "nombre": "Paul Davis Jaimes Blanco",
   "partido": "Progresemos",
   "foto": "",
-  "filtro": "ok",
+  "filtro": "warn",
   "filtro_nota": "Sin sentencias penales ni investigaciones fiscales activas documentadas. Sin omisiones detectadas en DDJJ.",
   "eliminado": false,
   "puntajes": { "integ": 62, "econ": 48, "capac": 40, "inst": 50, "segur": 50, "soc": 50 },
