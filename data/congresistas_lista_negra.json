@@ -1,0 +1,106 @@
+[
+  {
+    "nombre": "Lady Camones",
+    "partido": "Alianza para el Progreso",
+    "cargo_buscado": "Senadora",
+    "alerta": "bad",
+    "nota": "Expresidenta del Congreso removida por escándalos. Audio filtrado en el que César Acuña le ordena aprobar un proyecto que 'le favorece a él'. Investigada por mochasueldos.",
+    "fuentes": ["https://larepublica.pe", "https://elcomercio.pe"]
+  },
+  {
+    "nombre": "Fernando Rospigliosi",
+    "partido": "Fuerza Popular",
+    "cargo_buscado": "Senador",
+    "alerta": "warn",
+    "nota": "Actual presidente saliente del Congreso. Impulsó leyes 'procrimen' calificadas así por el MP y Transparencia. Investigado por querella de Delia Espinoza. Votó a favor de normas que debilitan persecución de corrupción.",
+    "fuentes": ["https://peru21.pe/investigacion/octogonos-de-candidatos-peru-sentencias-populismo-y-mineria-ilegal/"]
+  },
+  {
+    "nombre": "Alejandro Soto",
+    "partido": "Alianza para el Progreso",
+    "cargo_buscado": "Senador",
+    "alerta": "warn",
+    "nota": "Expresidente del Congreso. Cuestionado por cercanía a César Acuña y uso de influencias. Postuló simultáneamente a plancha presidencial y al Senado como estrategia de supervivencia política.",
+    "fuentes": ["https://www.infobae.com/peru/2025/12/27/los-88-congresistas-que-buscan-reelegirse-en-el-nuevo-congreso-bicameral-rumbo-a-las-elecciones-2026/"]
+  },
+  {
+    "nombre": "Martha Chávez",
+    "partido": "Fuerza Popular",
+    "cargo_buscado": "Senadora",
+    "alerta": "warn",
+    "nota": "Excongresista de larga trayectoria fujimorista. Identificada como emisora de declaraciones populistas según análisis de Perú21. Representante legal de Fuerza Popular en casos electorales de Keiko.",
+    "fuentes": ["https://peru21.pe/investigacion/octogonos-de-candidatos-peru-sentencias-populismo-y-mineria-ilegal/"]
+  },
+  {
+    "nombre": "Magali Ruiz",
+    "partido": "Alianza para el Progreso",
+    "cargo_buscado": "Senadora",
+    "alerta": "bad",
+    "nota": "Congresista investigada por el caso mochasueldos: presunto recorte ilegal de sueldos a trabajadores de su despacho parlamentario.",
+    "fuentes": ["https://elcomercio.pe/politica/elecciones/congresistas-mochasueldo-exministros-de-pedro-castillo-y-otros-quienes-son-los-candidatos-para-las-elecciones-del-2026-tlcnota-noticia/"]
+  },
+  {
+    "nombre": "Rocío Torres",
+    "partido": "Alianza para el Progreso",
+    "cargo_buscado": "Senadora",
+    "alerta": "bad",
+    "nota": "Congresista investigada por el caso mochasueldos: presunto recorte ilegal de sueldos a trabajadores de su despacho parlamentario.",
+    "fuentes": ["https://elcomercio.pe/politica/elecciones/congresistas-mochasueldo-exministros-de-pedro-castillo-y-otros-quienes-son-los-candidatos-para-las-elecciones-del-2026-tlcnota-noticia/"]
+  },
+  {
+    "nombre": "Héctor Valer",
+    "partido": "por confirmar",
+    "cargo_buscado": "Senador/Diputado",
+    "alerta": "bad",
+    "nota": "Exprimer ministro que duró días en el cargo. Denunciado por violencia familiar y contrataciones cuestionadas.",
+    "fuentes": ["https://www.infobae.com/peru/2025/12/27/los-88-congresistas-que-buscan-reelegirse-en-el-nuevo-congreso-bicameral-rumbo-a-las-elecciones-2026/"]
+  },
+  {
+    "nombre": "Walter Acha",
+    "partido": "Cooperación Popular",
+    "cargo_buscado": "Senador",
+    "alerta": "bad",
+    "nota": "Exparlamentario suspendido 120 días por el Congreso tras acusación de una exempleada de violación durante viaje a Pucallpa.",
+    "fuentes": ["https://elcomercio.pe/politica/congreso/mas-de-130-excongresistas-buscan-regresar-como-senadores-o-diputados-los-principales-rostros-y-los-cuestionados-elecciones-2026-congreso-bicameral-tlcnota-noticia/"]
+  },
+  {
+    "nombre": "Raúl Prado Ravines",
+    "partido": "Un Camino Diferente",
+    "cargo_buscado": "Senador Nacional",
+    "alerta": "bad",
+    "nota": "Excomandante PNP. Condenado a 35 años por homicidio calificado vinculado al 'Escuadrón de la Muerte'. Sentencia anulada en apelación — nuevo juicio pendiente. Estuvo prófugo.",
+    "fuentes": ["https://elcomercio.pe/politica/elecciones/congresistas-mochasueldo-exministros-de-pedro-castillo-y-otros-quienes-son-los-candidatos-para-las-elecciones-del-2026-tlcnota-noticia/"]
+  },
+  {
+    "nombre": "Heriberto Benítez",
+    "partido": "Cooperación Popular",
+    "cargo_buscado": "Diputado Lima",
+    "alerta": "bad",
+    "nota": "Implicado en el caso 'La Centralita' — red de interceptaciones ilegales que involucra a figuras del sistema de justicia.",
+    "fuentes": ["https://elcomercio.pe/politica/congreso/mas-de-130-excongresistas-buscan-regresar-como-senadores-o-diputados-los-principales-rostros-y-los-cuestionados-elecciones-2026-congreso-bicameral-tlcnota-noticia/"]
+  },
+  {
+    "nombre": "Pedro Pablo Kuczynski (PPK)",
+    "partido": "Fuerza y Libertad (Alianza)",
+    "cargo_buscado": "Senador Nacional",
+    "alerta": "bad",
+    "nota": "Expresidente que renunció en 2018 bajo denuncias de corrupción Odebrecht. A sus 87 años busca el Senado aún con investigaciones activas vinculadas al caso Odebrecht.",
+    "fuentes": ["https://www.infobae.com/peru/2025/11/12/elecciones-2026-quienes-son-los-aspirantes-al-senado-peruano-los-nombres-que-ya-se-han-anunciado/"]
+  },
+  {
+    "nombre": "Ernesto Bustamante",
+    "partido": "Fuerza Popular",
+    "cargo_buscado": "Senador",
+    "alerta": "warn",
+    "nota": "Congresista identificado entre los que votaron a favor de leyes 'procrimen' según análisis de Perú21 y Transparencia.",
+    "fuentes": ["https://peru21.pe/investigacion/octogonos-de-candidatos-peru-sentencias-populismo-y-mineria-ilegal/"]
+  },
+  {
+    "nombre": "Sigrid Bazán",
+    "partido": "Alianza Venceremos",
+    "cargo_buscado": "Diputada",
+    "alerta": "warn",
+    "nota": "Declaró públicamente oponerse a la reelección y al sistema bicameral — luego postuló a la Cámara de Diputados. Cambio de discurso documentado por Infobae.",
+    "fuentes": ["https://www.infobae.com/peru/2025/12/27/los-88-congresistas-que-buscan-reelegirse-en-el-nuevo-congreso-bicameral-rumbo-a-las-elecciones-2026/"]
+  }
+]
